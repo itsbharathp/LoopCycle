@@ -1,0 +1,358 @@
+date,product_id,traffic_source,product_impressions,product_page_views,add_to_cart_users,orders,conversion_pct,derived_cart_abandonment_pct,data_source
+2026-06-01,1755555555555555,Video,544,52,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-01,1755555555555555,LIVE,273,31,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-01,1755555555555555,Shop tab,212,23,1,1,4.35,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-02,1755555555555555,Video,53,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-02,1755555555555555,LIVE,41,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-02,1755555555555555,Shop tab,36,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-03,1755555555555555,Video,1617,122,6,2,1.64,66.7,synthetic_tiktok_shop_analytics_style
+2026-06-03,1755555555555555,LIVE,546,86,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-03,1755555555555555,Shop tab,498,41,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-04,1755555555555555,Video,210,16,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-04,1755555555555555,LIVE,180,18,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-04,1755555555555555,Shop tab,77,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-05,1755555555555555,Video,81,6,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-05,1755555555555555,LIVE,43,7,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-05,1755555555555555,Shop tab,52,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-06,1755555555555555,Video,747,80,8,1,1.25,87.5,synthetic_tiktok_shop_analytics_style
+2026-06-06,1755555555555555,LIVE,564,60,1,1,1.67,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-06,1755555555555555,Shop tab,110,16,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-07,1755555555555555,Video,185,14,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-07,1755555555555555,LIVE,117,19,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-07,1755555555555555,Shop tab,44,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-08,1755555555555555,Video,194,14,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-08,1755555555555555,LIVE,209,19,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-08,1755555555555555,Shop tab,31,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-09,1755555555555555,Video,2541,187,9,3,1.6,66.7,synthetic_tiktok_shop_analytics_style
+2026-06-09,1755555555555555,LIVE,1393,158,10,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-09,1755555555555555,Shop tab,1154,83,2,1,1.2,50.0,synthetic_tiktok_shop_analytics_style
+2026-06-10,1755555555555555,Video,266,23,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-10,1755555555555555,LIVE,399,31,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-10,1755555555555555,Shop tab,135,10,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-11,1755555555555555,Video,380,29,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-11,1755555555555555,LIVE,282,23,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-11,1755555555555555,Shop tab,137,15,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-12,1755555555555555,Video,310,23,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-12,1755555555555555,LIVE,243,19,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-12,1755555555555555,Shop tab,151,11,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-13,1755555555555555,Video,844,75,2,2,2.67,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-13,1755555555555555,LIVE,493,51,5,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-13,1755555555555555,Shop tab,555,41,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-14,1755555555555555,Video,25,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-14,1755555555555555,LIVE,68,6,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-14,1755555555555555,Shop tab,27,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-15,1755555555555555,Video,292,33,1,1,3.03,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-15,1755555555555555,LIVE,247,31,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-15,1755555555555555,Shop tab,46,7,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-16,1755555555555555,Video,267,32,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-16,1755555555555555,LIVE,421,32,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-16,1755555555555555,Shop tab,223,23,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-17,1755555555555555,Video,112,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-17,1755555555555555,LIVE,58,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-17,1755555555555555,Shop tab,8,1,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-18,1755555555555555,Video,485,67,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-18,1755555555555555,LIVE,583,53,3,1,1.89,66.7,synthetic_tiktok_shop_analytics_style
+2026-06-18,1755555555555555,Shop tab,213,25,2,1,4.0,50.0,synthetic_tiktok_shop_analytics_style
+2026-06-19,1755555555555555,Video,348,38,1,1,2.63,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-19,1755555555555555,LIVE,204,30,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-19,1755555555555555,Shop tab,167,15,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-20,1755555555555555,Video,1041,76,3,1,1.32,66.7,synthetic_tiktok_shop_analytics_style
+2026-06-20,1755555555555555,LIVE,454,69,4,1,1.45,75.0,synthetic_tiktok_shop_analytics_style
+2026-06-20,1755555555555555,Shop tab,289,37,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-21,1755555555555555,Video,1076,93,9,1,1.08,88.9,synthetic_tiktok_shop_analytics_style
+2026-06-21,1755555555555555,LIVE,627,58,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-21,1755555555555555,Shop tab,298,38,1,1,2.63,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-22,1755555555555555,Video,286,36,4,1,2.78,75.0,synthetic_tiktok_shop_analytics_style
+2026-06-22,1755555555555555,LIVE,230,23,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-22,1755555555555555,Shop tab,138,14,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-23,1755555555555555,Video,210,16,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-23,1755555555555555,LIVE,79,13,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-23,1755555555555555,Shop tab,47,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-24,1755555555555555,Video,239,29,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-24,1755555555555555,LIVE,317,26,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-24,1755555555555555,Shop tab,204,18,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-25,1755555555555555,Video,97,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-25,1755555555555555,LIVE,111,8,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-25,1755555555555555,Shop tab,27,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-26,1755555555555555,Video,219,31,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-26,1755555555555555,LIVE,339,25,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-26,1755555555555555,Shop tab,176,14,1,1,7.14,0.0,synthetic_tiktok_shop_analytics_style
+2026-06-27,1755555555555555,Video,44,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-27,1755555555555555,LIVE,64,7,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-27,1755555555555555,Shop tab,27,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-28,1755555555555555,Video,848,97,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-06-28,1755555555555555,LIVE,711,63,3,1,1.59,66.7,synthetic_tiktok_shop_analytics_style
+2026-06-28,1755555555555555,Shop tab,266,32,2,1,3.12,50.0,synthetic_tiktok_shop_analytics_style
+2026-06-29,1755555555555555,Video,97,13,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-29,1755555555555555,LIVE,74,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-29,1755555555555555,Shop tab,33,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-30,1755555555555555,Video,418,36,4,1,2.78,75.0,synthetic_tiktok_shop_analytics_style
+2026-06-30,1755555555555555,LIVE,160,26,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-06-30,1755555555555555,Shop tab,120,13,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-01,1755555555555555,Video,427,35,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-01,1755555555555555,LIVE,230,27,1,1,3.7,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-01,1755555555555555,Shop tab,121,17,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-02,1755555555555555,Video,322,25,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-02,1755555555555555,LIVE,174,17,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-02,1755555555555555,Shop tab,108,12,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-03,1755555555555555,Video,419,34,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-03,1755555555555555,LIVE,344,34,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-03,1755555555555555,Shop tab,147,12,1,1,8.33,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-04,1755555555555555,Video,400,30,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-04,1755555555555555,LIVE,189,24,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-04,1755555555555555,Shop tab,151,14,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-05,1755555555555555,Video,76,6,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-05,1755555555555555,LIVE,80,7,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-05,1755555555555555,Shop tab,33,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-06,1755555555555555,Video,374,40,3,1,2.5,66.7,synthetic_tiktok_shop_analytics_style
+2026-07-06,1755555555555555,LIVE,231,32,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-06,1755555555555555,Shop tab,199,25,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-07,1755555555555555,Video,77,12,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-07,1755555555555555,LIVE,44,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-07,1755555555555555,Shop tab,26,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-08,1755555555555555,Video,81,6,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-08,1755555555555555,LIVE,71,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-08,1755555555555555,Shop tab,28,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-09,1755555555555555,Video,422,31,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-09,1755555555555555,LIVE,451,34,1,1,2.94,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-09,1755555555555555,Shop tab,163,17,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-10,1755555555555555,Video,1256,129,7,1,0.78,85.7,synthetic_tiktok_shop_analytics_style
+2026-07-10,1755555555555555,LIVE,814,121,7,2,1.65,71.4,synthetic_tiktok_shop_analytics_style
+2026-07-10,1755555555555555,Shop tab,752,56,3,1,1.79,66.7,synthetic_tiktok_shop_analytics_style
+2026-07-11,1755555555555555,Video,138,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-11,1755555555555555,LIVE,106,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-11,1755555555555555,Shop tab,25,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-12,1755555555555555,Video,380,33,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-12,1755555555555555,LIVE,321,25,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-12,1755555555555555,Shop tab,122,18,1,1,5.56,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-13,1755555555555555,Video,110,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-13,1755555555555555,LIVE,68,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-13,1755555555555555,Shop tab,10,1,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-14,1755555555555555,Video,185,20,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-14,1755555555555555,LIVE,174,14,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-14,1755555555555555,Shop tab,53,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-15,1755555555555555,Video,914,81,3,1,1.23,66.7,synthetic_tiktok_shop_analytics_style
+2026-07-15,1755555555555555,LIVE,498,67,3,1,1.49,66.7,synthetic_tiktok_shop_analytics_style
+2026-07-15,1755555555555555,Shop tab,406,34,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-16,1755555555555555,Video,654,50,1,1,2.0,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-16,1755555555555555,LIVE,242,30,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-16,1755555555555555,Shop tab,121,20,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-17,1755555555555555,Video,243,34,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-17,1755555555555555,LIVE,296,22,4,1,4.55,75.0,synthetic_tiktok_shop_analytics_style
+2026-07-17,1755555555555555,Shop tab,74,12,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-18,1755555555555555,Video,362,49,2,1,2.04,50.0,synthetic_tiktok_shop_analytics_style
+2026-07-18,1755555555555555,LIVE,242,24,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-18,1755555555555555,Shop tab,175,13,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-19,1755555555555555,Video,369,33,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-19,1755555555555555,LIVE,416,32,1,1,3.12,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-19,1755555555555555,Shop tab,123,19,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-20,1755555555555555,Video,66,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-20,1755555555555555,LIVE,46,7,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-20,1755555555555555,Shop tab,46,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-21,1755555555555555,Video,1226,103,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-21,1755555555555555,LIVE,593,64,6,3,4.69,50.0,synthetic_tiktok_shop_analytics_style
+2026-07-21,1755555555555555,Shop tab,471,46,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-22,1755555555555555,Video,331,42,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-22,1755555555555555,LIVE,243,35,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-22,1755555555555555,Shop tab,197,21,1,1,4.76,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-23,1755555555555555,Video,61,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-23,1755555555555555,LIVE,15,2,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-23,1755555555555555,Shop tab,40,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-24,1755555555555555,Video,360,34,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-24,1755555555555555,LIVE,196,32,1,1,3.12,0.0,synthetic_tiktok_shop_analytics_style
+2026-07-24,1755555555555555,Shop tab,148,12,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-25,1755555555555555,Video,237,32,2,1,3.12,50.0,synthetic_tiktok_shop_analytics_style
+2026-07-25,1755555555555555,LIVE,374,31,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-25,1755555555555555,Shop tab,291,21,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-26,1755555555555555,Video,358,29,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-26,1755555555555555,LIVE,227,24,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-26,1755555555555555,Shop tab,160,15,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-27,1755555555555555,Video,50,6,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-27,1755555555555555,LIVE,9,1,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-27,1755555555555555,Shop tab,29,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-28,1755555555555555,Video,2419,183,7,2,1.09,71.4,synthetic_tiktok_shop_analytics_style
+2026-07-28,1755555555555555,LIVE,1731,131,8,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-28,1755555555555555,Shop tab,725,68,2,1,1.47,50.0,synthetic_tiktok_shop_analytics_style
+2026-07-29,1755555555555555,Video,206,18,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-29,1755555555555555,LIVE,86,14,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-29,1755555555555555,Shop tab,70,6,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-30,1755555555555555,Video,257,23,3,1,4.35,66.7,synthetic_tiktok_shop_analytics_style
+2026-07-30,1755555555555555,LIVE,202,29,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-30,1755555555555555,Shop tab,288,22,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-31,1755555555555555,Video,120,11,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-07-31,1755555555555555,LIVE,50,6,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-07-31,1755555555555555,Shop tab,56,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-01,1755555555555555,Video,1401,159,9,1,0.63,88.9,synthetic_tiktok_shop_analytics_style
+2026-08-01,1755555555555555,LIVE,1217,123,6,2,1.63,66.7,synthetic_tiktok_shop_analytics_style
+2026-08-01,1755555555555555,Shop tab,563,68,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-02,1755555555555555,Video,348,36,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-02,1755555555555555,LIVE,274,25,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-02,1755555555555555,Shop tab,220,17,1,1,5.88,0.0,synthetic_tiktok_shop_analytics_style
+2026-08-03,1755555555555555,Video,574,80,6,1,1.25,83.3,synthetic_tiktok_shop_analytics_style
+2026-08-03,1755555555555555,LIVE,816,59,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-03,1755555555555555,Shop tab,253,33,1,1,3.03,0.0,synthetic_tiktok_shop_analytics_style
+2026-08-04,1755555555555555,Video,1107,95,7,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-04,1755555555555555,LIVE,1031,84,3,1,1.19,66.7,synthetic_tiktok_shop_analytics_style
+2026-08-04,1755555555555555,Shop tab,393,49,3,2,4.08,33.3,synthetic_tiktok_shop_analytics_style
+2026-08-05,1755555555555555,Video,79,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-05,1755555555555555,LIVE,72,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-05,1755555555555555,Shop tab,62,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-06,1755555555555555,Video,42,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-06,1755555555555555,LIVE,62,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-06,1755555555555555,Shop tab,38,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-07,1755555555555555,Video,197,23,2,1,4.35,50.0,synthetic_tiktok_shop_analytics_style
+2026-08-07,1755555555555555,LIVE,493,44,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-07,1755555555555555,Shop tab,174,16,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-08,1755555555555555,Video,438,48,3,2,4.17,33.3,synthetic_tiktok_shop_analytics_style
+2026-08-08,1755555555555555,LIVE,484,51,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-08,1755555555555555,Shop tab,162,23,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-09,1755555555555555,Video,20,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-09,1755555555555555,LIVE,46,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-09,1755555555555555,Shop tab,28,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-10,1755555555555555,Video,518,56,3,1,1.79,66.7,synthetic_tiktok_shop_analytics_style
+2026-08-10,1755555555555555,LIVE,442,50,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-10,1755555555555555,Shop tab,219,26,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-11,1755555555555555,Video,2188,169,12,3,1.78,75.0,synthetic_tiktok_shop_analytics_style
+2026-08-11,1755555555555555,LIVE,1164,138,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-11,1755555555555555,Shop tab,593,82,3,1,1.22,66.7,synthetic_tiktok_shop_analytics_style
+2026-08-12,1755555555555555,Video,502,59,2,1,1.69,50.0,synthetic_tiktok_shop_analytics_style
+2026-08-12,1755555555555555,LIVE,504,52,4,1,1.92,75.0,synthetic_tiktok_shop_analytics_style
+2026-08-12,1755555555555555,Shop tab,235,33,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-13,1755555555555555,Video,510,42,3,1,2.38,66.7,synthetic_tiktok_shop_analytics_style
+2026-08-13,1755555555555555,LIVE,231,28,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-13,1755555555555555,Shop tab,222,18,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-14,1755555555555555,Video,242,34,3,1,2.94,66.7,synthetic_tiktok_shop_analytics_style
+2026-08-14,1755555555555555,LIVE,331,26,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-14,1755555555555555,Shop tab,179,13,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-15,1755555555555555,Video,125,16,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-15,1755555555555555,LIVE,107,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-15,1755555555555555,Shop tab,102,10,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-16,1755555555555555,Video,274,36,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-16,1755555555555555,LIVE,355,38,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-16,1755555555555555,Shop tab,80,11,1,1,9.09,0.0,synthetic_tiktok_shop_analytics_style
+2026-08-17,1755555555555555,Video,215,20,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-17,1755555555555555,LIVE,181,16,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-17,1755555555555555,Shop tab,84,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-18,1755555555555555,Video,376,35,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-18,1755555555555555,LIVE,405,33,1,1,3.03,0.0,synthetic_tiktok_shop_analytics_style
+2026-08-18,1755555555555555,Shop tab,154,14,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-19,1755555555555555,Video,20,2,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-19,1755555555555555,LIVE,61,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-19,1755555555555555,Shop tab,8,1,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-20,1755555555555555,Video,71,9,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-20,1755555555555555,LIVE,22,2,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-20,1755555555555555,Shop tab,19,2,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-21,1755555555555555,Video,113,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-21,1755555555555555,LIVE,76,8,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-21,1755555555555555,Shop tab,6,1,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-22,1755555555555555,Video,87,9,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-22,1755555555555555,LIVE,18,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-22,1755555555555555,Shop tab,62,5,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-23,1755555555555555,Video,75,11,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-23,1755555555555555,LIVE,69,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-23,1755555555555555,Shop tab,43,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-24,1755555555555555,Video,140,11,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-24,1755555555555555,LIVE,94,7,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-24,1755555555555555,Shop tab,24,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-25,1755555555555555,Video,304,36,2,1,2.78,50.0,synthetic_tiktok_shop_analytics_style
+2026-08-25,1755555555555555,LIVE,438,33,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-25,1755555555555555,Shop tab,65,9,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-26,1755555555555555,Video,413,50,5,1,2.0,80.0,synthetic_tiktok_shop_analytics_style
+2026-08-26,1755555555555555,LIVE,366,47,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-26,1755555555555555,Shop tab,300,30,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-27,1755555555555555,Video,451,73,5,2,2.74,60.0,synthetic_tiktok_shop_analytics_style
+2026-08-27,1755555555555555,LIVE,378,52,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-27,1755555555555555,Shop tab,404,32,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-28,1755555555555555,Video,975,138,8,1,0.72,87.5,synthetic_tiktok_shop_analytics_style
+2026-08-28,1755555555555555,LIVE,1038,76,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-28,1755555555555555,Shop tab,428,60,2,2,3.33,0.0,synthetic_tiktok_shop_analytics_style
+2026-08-29,1755555555555555,Video,596,63,4,2,3.17,50.0,synthetic_tiktok_shop_analytics_style
+2026-08-29,1755555555555555,LIVE,404,52,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-29,1755555555555555,Shop tab,275,29,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-30,1755555555555555,Video,579,52,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-30,1755555555555555,LIVE,253,33,1,1,3.03,0.0,synthetic_tiktok_shop_analytics_style
+2026-08-30,1755555555555555,Shop tab,199,19,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-31,1755555555555555,Video,82,9,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-08-31,1755555555555555,LIVE,49,5,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-08-31,1755555555555555,Shop tab,26,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-01,1755555555555555,Video,1208,103,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-01,1755555555555555,LIVE,1047,92,3,2,2.17,33.3,synthetic_tiktok_shop_analytics_style
+2026-09-01,1755555555555555,Shop tab,494,48,5,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-02,1755555555555555,Video,880,121,5,2,1.65,60.0,synthetic_tiktok_shop_analytics_style
+2026-09-02,1755555555555555,LIVE,1086,104,5,1,0.96,80.0,synthetic_tiktok_shop_analytics_style
+2026-09-02,1755555555555555,Shop tab,592,56,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-03,1755555555555555,Video,139,11,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-03,1755555555555555,LIVE,24,4,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-03,1755555555555555,Shop tab,39,4,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-04,1755555555555555,Video,2203,172,8,3,1.74,62.5,synthetic_tiktok_shop_analytics_style
+2026-09-04,1755555555555555,LIVE,1449,152,10,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-04,1755555555555555,Shop tab,746,74,3,1,1.35,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-05,1755555555555555,Video,80,13,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-05,1755555555555555,LIVE,206,16,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-05,1755555555555555,Shop tab,68,10,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-06,1755555555555555,Video,285,36,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-06,1755555555555555,LIVE,299,32,3,1,3.12,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-06,1755555555555555,Shop tab,112,17,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-07,1755555555555555,Video,431,37,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-07,1755555555555555,LIVE,136,17,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-07,1755555555555555,Shop tab,82,12,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-08,1755555555555555,Video,408,63,2,1,1.59,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-08,1755555555555555,LIVE,519,64,6,1,1.56,83.3,synthetic_tiktok_shop_analytics_style
+2026-09-08,1755555555555555,Shop tab,193,26,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-09,1755555555555555,Video,688,76,5,2,2.63,60.0,synthetic_tiktok_shop_analytics_style
+2026-09-09,1755555555555555,LIVE,848,72,2,1,1.39,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-09,1755555555555555,Shop tab,396,41,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-10,1755555555555555,Video,909,79,6,2,2.53,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-10,1755555555555555,LIVE,794,70,5,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-10,1755555555555555,Shop tab,473,42,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-11,1755555555555555,Video,1583,171,7,3,1.75,57.1,synthetic_tiktok_shop_analytics_style
+2026-09-11,1755555555555555,LIVE,1233,144,6,1,0.69,83.3,synthetic_tiktok_shop_analytics_style
+2026-09-11,1755555555555555,Shop tab,481,63,8,1,1.59,87.5,synthetic_tiktok_shop_analytics_style
+2026-09-12,1755555555555555,Video,65,7,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-12,1755555555555555,LIVE,24,3,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-12,1755555555555555,Shop tab,57,5,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-13,1755555555555555,Video,2243,168,8,2,1.19,75.0,synthetic_tiktok_shop_analytics_style
+2026-09-13,1755555555555555,LIVE,1538,139,8,2,1.44,75.0,synthetic_tiktok_shop_analytics_style
+2026-09-13,1755555555555555,Shop tab,966,87,5,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-14,1755555555555555,Video,387,48,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-14,1755555555555555,LIVE,437,38,3,1,2.63,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-14,1755555555555555,Shop tab,240,26,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-15,1755555555555555,Video,1352,106,4,2,1.89,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-15,1755555555555555,LIVE,803,91,4,1,1.1,75.0,synthetic_tiktok_shop_analytics_style
+2026-09-15,1755555555555555,Shop tab,686,55,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-16,1755555555555555,Video,1027,162,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-16,1755555555555555,LIVE,742,119,6,3,2.52,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-16,1755555555555555,Shop tab,938,73,6,1,1.37,83.3,synthetic_tiktok_shop_analytics_style
+2026-09-17,1755555555555555,Video,578,81,4,2,2.47,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-17,1755555555555555,LIVE,346,53,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-17,1755555555555555,Shop tab,332,33,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-18,1755555555555555,Video,561,46,4,1,2.17,75.0,synthetic_tiktok_shop_analytics_style
+2026-09-18,1755555555555555,LIVE,364,33,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-18,1755555555555555,Shop tab,170,23,0,0,0.0,,synthetic_tiktok_shop_analytics_style
+2026-09-19,1755555555555555,Video,790,85,3,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-19,1755555555555555,LIVE,677,68,5,2,2.94,60.0,synthetic_tiktok_shop_analytics_style
+2026-09-19,1755555555555555,Shop tab,294,32,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-20,1755555555555555,Video,864,103,2,2,1.94,0.0,synthetic_tiktok_shop_analytics_style
+2026-09-20,1755555555555555,LIVE,966,93,7,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-20,1755555555555555,Shop tab,604,49,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-21,1755555555555555,Video,504,43,3,1,2.33,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-21,1755555555555555,LIVE,287,28,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-21,1755555555555555,Shop tab,211,19,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-22,1755555555555555,Video,1369,114,6,1,0.88,83.3,synthetic_tiktok_shop_analytics_style
+2026-09-22,1755555555555555,LIVE,630,70,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-22,1755555555555555,Shop tab,698,61,4,1,1.64,75.0,synthetic_tiktok_shop_analytics_style
+2026-09-23,1755555555555555,Video,486,43,2,1,2.33,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-23,1755555555555555,LIVE,395,48,2,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-23,1755555555555555,Shop tab,184,14,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-24,1755555555555555,Video,2575,218,10,2,0.92,80.0,synthetic_tiktok_shop_analytics_style
+2026-09-24,1755555555555555,LIVE,1844,156,9,3,1.92,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-24,1755555555555555,Shop tab,1085,90,4,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-25,1755555555555555,Video,1106,119,7,2,1.68,71.4,synthetic_tiktok_shop_analytics_style
+2026-09-25,1755555555555555,LIVE,1489,110,5,1,0.91,80.0,synthetic_tiktok_shop_analytics_style
+2026-09-25,1755555555555555,Shop tab,710,51,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-26,1755555555555555,Video,651,56,3,1,1.79,66.7,synthetic_tiktok_shop_analytics_style
+2026-09-26,1755555555555555,LIVE,181,29,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-26,1755555555555555,Shop tab,272,29,1,0,0.0,100.0,synthetic_tiktok_shop_analytics_style
+2026-09-27,1755555555555555,Video,591,87,4,2,2.3,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-27,1755555555555555,LIVE,1058,81,2,1,1.23,50.0,synthetic_tiktok_shop_analytics_style
+2026-09-27,1755555555555555,Shop tab,272,43,5,0,0.0,100.0,synthetic_tiktok_shop_analytics_style

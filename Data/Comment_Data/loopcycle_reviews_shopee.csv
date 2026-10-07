@@ -1,0 +1,128 @@
+order_sn,item_id,model_name,rating_star,comment,buyer_username,create_time,like_count,media_count,seller_reply,reply_time,synthetic_sentiment_label,synthetic_topic
+26060297320663C,22572128441,Sea-green,3,Had to chat three times before anyone replied.,j*****5,1780712820,1,0,Sorry about the slow reply. Our team has followed up with you.,1780907220,unrelated,seller_service
+26060251970217B,28402447364,Indigo,3,Courier left the parcel at the guard post without telling me.,a*****5,1780905480,2,0,Sorry about that. We've reported it to the courier.,1780995480,unrelated,courier_handling
+26060163422706B,22087200663,Indigo,5,Got so many compliments at the office already.,t*****6,1780982460,0,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1781004060,positive,appearance
+26060416066100C,22141543973,Sea-green,2,"No inner pocket or zip, things fall to the bottom.",e*****4,1781255340,4,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1781287740,negative,usability
+26060979081867C,26120189024,Sea-green,3,Seller didn't reply to my messages for days.,y*****1,1781436120,0,0,Sorry about the slow reply. Our team has followed up with you.,1781547720,unrelated,seller_service
+26060930782250B,27492382715,Indigo,5,"Sturdy and well made, the handles feel strong even with a laptop inside.",i*****8,1781487420,0,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1781509020,positive,quality
+26060942581829D,23666603309,Sea-green,4,"Took 3 days to arrive, much longer than promised. 😞",p*****6,1781671560,0,1,We apologise for the delay. We have raised it with the courier.,1781689560,unrelated,delivery_delay
+26061270238225C,26118289598,Sand,3,The box was crushed and the plastic mailer was torn when it arrived.,w*****8,1781836860,1,0,Sorry the parcel arrived damaged. Please send us a photo and we will send a replacement.,1781869260,unrelated,packaging_damage
+26061434354565G,22247218110,Indigo,3,"Delivery was delayed because of the courier, the bag arrived 3 days after I ordered.",y*****4,1781955240,0,0,We apologise for the delay. We have raised it with the courier.,1782074040,unrelated,delivery_delay
+26061441028577B,26428370676,Sea-green,4,Good value for a bag with such a good story behind it. 😍,l*****4,1782187800,0,0,,,positive,value
+26061467352242E,25013408914,Indigo,5,"Perfect for grocery runs, I use it every week. Thank you LoopCycle!",g*****4,1782217260,1,0,,,positive,usability
+26061267261609D,21763651046,Indigo,4,Folds small and fits in my backpack when I'm not using it.,m*****4,1782221760,4,0,Thank you for supporting our waste pickers! 💚,1782336960,positive,usability
+26061828437068B,24044513078,Sea-green,5,Exactly what I wanted for a sustainable everyday bag.,b*****1,1782278520,0,2,,,positive,usability
+26061738159308C,25609643829,Sea-green,5,"I love that it is made from 14 recycled bottles, it feels good to carry. Thank you LoopCycle!",r*****0,1782308760,4,3,Thank you for supporting our waste pickers! 💚,1782312360,positive,sustainability
+26062143613919E,26706659410,Sea-green,3,Customer service was slow to answer my question about the order. 😤,d*****8,1782363000,2,2,Sorry about the slow reply. Our team has followed up with you.,1782467400,unrelated,seller_service
+26062087203424D,23684036578,Indigo,2,"Fabric feels rough and stiff, not as soft as I thought. 😐",m*****6,1782371760,0,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1782573360,negative,quality
+26062094027133B,28906966309,Sea-green,3,"Good idea and the bag is fine, though I expected it to feel a bit thicker.",m*****0,1782526680,2,0,,,neutral,quality
+26062265147039C,21174355437,Sea-green,2,The colour faded after the first wash. 😐,e*****2,1782532020,1,0,We're sorry to hear this. Please message us with your order number so we can look into it.,1782719220,negative,appearance
+26061964950324D,25285590262,Sea-green,5,"I love that it is made from 14 recycled bottles, it feels good to carry.",y*****6,1782543540,1,0,Thanks for your review! Enjoy your Loop Tote.,1782633540,positive,sustainability
+26062445459922B,26209818962,Indigo,2,"Fabric feels rough and stiff, not as soft as I thought. 😡",t*****3,1782700560,0,0,,,negative,quality
+26062570330499B,29822612805,Sea-green,5,Colour is rich and has not faded after a few washes. Bought another one as a gift.,p*****3,1782810240,4,0,,,positive,appearance
+26062234876367B,26009778771,Indigo,5,The weave is tight and the fabric wipes clean easily. Will buy again. 😍,b*****9,1782998100,0,0,,,positive,quality
+26070192968300B,24274001927,Indigo,5,"I love that it is made from 14 recycled bottles, it feels good to carry. Will buy again.",a*****5,1783064340,1,0,,,positive,sustainability
+26070180436154C,24160893211,Sand,5,Exactly what I wanted for a sustainable everyday bag. Thank you LoopCycle! 🙏,b*****5,1783170420,4,0,,,positive,usability
+26063092305564C,29144675417,Indigo,5,Colour is rich and has not faded after a few washes. Thank you LoopCycle!,c*****1,1783516320,0,0,,,positive,appearance
+26070553088075B,22041005761,Sea-green,1,The colour faded after the first wash. 😞,e*****7,1783691040,0,0,We're sorry to hear this. Please message us with your order number so we can look into it.,1783799040,negative,appearance
+26070779808014B,23934786518,Sea-green,2,Wrong variation delivered. 😞,b*****8,1783739820,2,3,Apologies for the mix-up! Please chat us and we'll arrange the right colour.,1783945020,unrelated,wrong_item
+26071275634985F,22222878391,Sand,1,The bag doesn't hold its shape and flops over when it's not full. Would not buy again.,a*****5,1784431260,0,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1784452860,negative,quality
+26071559373950E,23259406065,Sea-green,5,Stitching is neat and the Sea-green looks premium. Thank you LoopCycle!,h*****2,1784515200,4,0,Thanks for your review! Enjoy your Loop Tote.,1784626800,positive,quality
+26072083587348C,21998305635,Indigo,4,"Perfect for grocery runs, I use it every week. Worth every rupiah. 🔥",r*****5,1785041580,1,0,,,positive,usability
+26072292916305D,25009002850,Sand,2,Too expensive for what you get. Not worth the price. 😞,b*****7,1785333180,2,0,,,negative,value
+26071720544158C,22642147147,Sea-green,3,Parcel was stuck at the sorting hub for almost a week.,r*****8,1785386880,0,0,,,unrelated,delivery_delay
+26072728984930E,22076813717,Sea-green,4,"Three stars: the story is great, the bag is just alright. 🤔",a*****7,1785563280,0,0,Thanks for the honest feedback! We'll keep improving.,1785678480,neutral,quality
+26072782819782B,25845297678,Sea-green,5,Got so many compliments at the office already. Worth every rupiah.,c*****8,1785569220,0,0,,,positive,appearance
+26072777592762D,28826694297,Indigo,5,Love this tote! The Indigo colour looks just like the photos.,m*****3,1785668940,4,0,,,positive,appearance
+26073068974389B,24727985901,Indigo,3,"The fabric is a bit stiff at first, maybe it will soften with use. 🙂",r*****4,1785857460,0,0,,,neutral,quality
+26080260804384E,28639369891,Sand,2,"No inner pocket or zip, things fall to the bottom.",b*****2,1785917220,0,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1786018020,negative,usability
+26072881136356C,20220537665,Sand,3,"Took 7 days to arrive, much longer than promised. 😞",a*****9,1785975300,2,0,,,unrelated,delivery_delay
+26080135766877D,25927760950,Indigo,2,"No inner pocket or zip, things fall to the bottom. Expected better.",w*****7,1786174920,0,0,,,negative,usability
+26073117237814B,28448537610,Indigo,4,"Delivery was delayed because of the courier, the bag arrived 4 days after I ordered.",p*****6,1786237380,0,0,We apologise for the delay. We have raised it with the courier.,1786413780,unrelated,delivery_delay
+26080289927909H,23186032047,Indigo,4,The voucher didn't apply at checkout so I paid full price. 😤,a*****1,1786252800,0,0,Sorry for the trouble. Please contact the platform support with a screenshot and we'll help too.,1786447200,unrelated,voucher_checkout
+26080366215713C,26816029451,Sea-green,4,Folds small and fits in my backpack when I'm not using it. Five stars.,m*****5,1786286520,0,0,,,positive,usability
+26080754373320B,26829550697,Indigo,3,"It's an okay bag. Does the job, nothing special. 🙂",r*****4,1786512240,1,0,,,neutral,quality
+26080663759391E,26148488151,Sand,5,"Lightweight but strong, and no weird plastic smell.",r*****0,1786597260,4,0,,,positive,quality
+26080331647133B,28130768847,Indigo,3,"Nice concept. The bag is functional, but the price is a little high for what it is.",c*****6,1786620360,2,0,,,neutral,value
+26080857634636G,21475934243,Sea-green,2,"Took 2 days to arrive, much longer than promised.",r*****1,1786712880,2,0,We apologise for the delay. We have raised it with the courier.,1786738080,unrelated,delivery_delay
+26080878373838B,22296156738,Indigo,5,The weave is tight and the fabric wipes clean easily. Great product for a great cause. 👍,y*****2,1786797000,0,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1786912200,positive,quality
+26080969327448D,28495195904,Sea-green,3,"The fabric is a bit stiff at first, maybe it will soften with use. 🤔",b*****0,1786942680,2,0,,,neutral,quality
+26081379965881E,22973321210,Indigo,5,Folds small and fits in my backpack when I'm not using it. 🔥,j*****4,1787029380,2,0,Thank you for supporting our waste pickers! 💚,1787119380,positive,usability
+26081035966468C,25654390231,Sea-green,5,"I love that it is made from 14 recycled bottles, it feels good to carry. Bought another one as a gift. 👍",l*****5,1787105340,2,0,,,positive,sustainability
+26081453705396D,23823092328,Sand,2,My first order was cancelled without notice and I had to reorder.,b*****4,1787112360,0,0,"Apologies for the cancellation, it was a stock sync issue that we've fixed.",1787299560,unrelated,order_cancelled
+26081417065338B,22638451749,Indigo,4,Stitching is neat and the Indigo looks premium. Highly recommended!,r*****1,1787154720,0,2,Thank you for supporting our waste pickers! 💚,1787183520,positive,quality
+26081812106360C,24704356466,Indigo,5,Love this tote! The Indigo colour looks just like the photos.,b*****8,1787187960,4,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1787195160,positive,appearance
+26081748290738B,20890707001,Sea-green,5,"Sturdy and well made, the handles feel strong even with a laptop inside.",m*****2,1787188800,0,0,Thank you so much for shopping with LoopCycle!,1787386800,positive,quality
+26081397160366B,27802370204,Sand,3,"The fabric is a bit stiff at first, maybe it will soften with use.",p*****4,1787207940,1,0,,,neutral,quality
+26081760648157C,26779011921,Indigo,5,Good value for a bag with such a good story behind it.,m*****5,1787388180,0,1,,,positive,value
+26081537923190C,21892901302,Sea-green,5,Got so many compliments at the office already. Recommended! 👍,c*****8,1787401800,4,0,,,positive,appearance
+26081959979859B,24475099101,Sea-green,3,"Good idea and the bag is fine, though I expected it to feel a bit thicker. 🙂",s*****1,1787480100,0,0,,,neutral,quality
+26081989578271E,28364458766,Sea-green,2,Seller didn't reply to my messages for days. 😞,n*****9,1787584140,1,2,Sorry about the slow reply. Our team has followed up with you.,1787616540,unrelated,seller_service
+26081864662550D,26047019364,Sea-green,2,There is a strong plastic smell that has not gone away after airing it for days.,h*****9,1787662620,4,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1787781420,negative,quality
+26081672419144E,29155945627,Sea-green,5,Colour is rich and has not faded after a few washes. Recommended seller.,i*****1,1787669280,0,0,Thank you for supporting our waste pickers! 💚,1787770080,positive,appearance
+26081941685103F,25927996590,Sand,5,Love this tote! The Sand colour looks just like the photos. Worth every rupiah.,l*****9,1787732520,2,0,,,positive,appearance
+26081911786259C,24008866004,Indigo,3,Parcel arrived wet because the packaging was too thin. 😤,j*****1,1787842980,2,0,Sorry the parcel arrived damaged. Please send us a photo and we will send a replacement.,1787961780,unrelated,packaging_damage
+26081889377153B,24454452018,Sea-green,2,The box was crushed and the plastic mailer was torn when it arrived. 😞,e*****1,1787929500,1,2,Sorry the parcel arrived damaged. Please send us a photo and we will send a replacement.,1788131100,unrelated,packaging_damage
+26082382396260B,21520554268,Indigo,4,The voucher didn't apply at checkout so I paid full price.,a*****2,1787967060,4,0,,,unrelated,voucher_checkout
+26082765104816D,28456995871,Indigo,4,"Sturdy and well made, the handles feel strong even with a laptop inside. Five stars. 🔥",t*****0,1788226980,4,0,Thank you for supporting our waste pickers! 💚,1788244980,positive,quality
+26082677356360B,22981945440,Indigo,5,Stitching is neat and the Indigo looks premium.,c*****3,1788238380,0,2,,,positive,quality
+26082793886299B,22199727718,Sand,5,"Sturdy and well made, the handles feel strong even with a laptop inside. Great product for a great cause.",e*****5,1788263220,0,2,,,positive,quality
+26082676630012C,21429708095,Indigo,5,Stitching is neat and the Indigo looks premium. Will buy again.,s*****9,1788355620,2,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1788380820,positive,quality
+26083168692664B,24760244236,Sand,1,Parcel was stuck at the sorting hub for almost a week.,a*****1,1788485760,2,0,We apologise for the delay. We have raised it with the courier.,1788514560,unrelated,delivery_delay
+26082614145510D,22363321565,Sand,5,"Surprisingly roomy. My laptop, lunch box and water bottle all fit. Highly recommended!",j*****5,1788508620,1,0,,,positive,size
+26090318734250B,28754864469,Sand,5,Folds small and fits in my backpack when I'm not using it. Recommended!,y*****3,1788582420,0,0,,,positive,usability
+26082877239856D,23880544872,Sea-green,5,"The QR tag inside is a nice touch, I scanned it and saw which hub my bottles came from. Recommended seller.",d*****0,1788679680,0,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1788884880,positive,sustainability
+26082922040526H,22257430172,Sand,4,"Sturdy and well made, the handles feel strong even with a laptop inside.",l*****0,1788692340,0,0,Thank you for supporting our waste pickers! 💚,1788721140,positive,quality
+26090263544958C,26964830732,Sand,5,Folds small and fits in my backpack when I'm not using it.,r*****3,1788776880,1,0,,,positive,usability
+26090429440487U,26518492856,Batik Parang,4,Courier left the parcel at the guard post without telling me. 😤,r*****6,1788796680,0,0,Sorry about that. We've reported it to the courier.,1788998280,unrelated,courier_handling
+26090450029881N,29292816965,Batik Kawung,4,"Worth the wait for the limited edition, the Batik Kawung motif is gorgeous.",r*****1,1788861180,4,0,Thank you for supporting our waste pickers! 💚,1789062780,positive,appearance
+26090133583115C,24619150911,Sand,5,"Sturdy and well made, the handles feel strong even with a laptop inside.",a*****3,1788912660,0,0,,,positive,quality
+26090476302041M,27652880011,Sea-green,2,"No inner pocket or zip, things fall to the bottom. Disappointed.",n*****5,1788955320,0,1,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1789138920,negative,usability
+26090486024363O,26470384262,Batik Kawung,4,"Worth the wait for the limited edition, the Batik Kawung motif is gorgeous. 👍",a*****4,1788960120,0,0,,,positive,appearance
+26090424169821F,24432635170,Batik Kawung,2,The stitching on one handle started coming loose after two weeks. Would not buy again.,r*****1,1788963120,2,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1788981120,negative,quality
+26090498012405Q,21330927559,Batik Parang,5,"I love that it is made from 14 recycled bottles, it feels good to carry.",i*****1,1789016040,2,0,Thank you so much for shopping with LoopCycle!,1789109640,positive,sustainability
+26090412214225N,21598423061,Batik Parang,5,The batik pattern is beautiful and each bag looks unique. 💚,a*****4,1789091580,0,3,We're so glad you like it. Every bag keeps 14 bottles in use!,1789285980,positive,appearance
+26090453526760P,20823746428,Batik Kawung,2,The box was crushed and the plastic mailer was torn when it arrived.,c*****8,1789095540,1,0,Sorry the parcel arrived damaged. Please send us a photo and we will send a replacement.,1789286340,unrelated,packaging_damage
+26090457080556V,22415274954,Batik Kawung,4,Seller didn't reply to my messages for days.,s*****6,1789111020,1,1,Sorry about the slow reply. Our team has followed up with you.,1789118220,unrelated,seller_service
+26090266603825D,29615421553,Sea-green,5,Colour is rich and has not faded after a few washes.,b*****5,1789179420,4,1,,,positive,appearance
+26090419916643G,21410501887,Batik Kawung,4,"Sturdy and well made, the handles feel strong even with a laptop inside.",l*****7,1789181520,0,0,,,positive,quality
+26090582745543D,24981718791,Batik Kawung,5,"Sturdy and well made, the handles feel strong even with a laptop inside. Will buy again.",g*****7,1789189980,0,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1789391580,positive,quality
+26090488110831H,20164091122,Batik Kawung,1,The Batik Kawung looks much darker than in the pictures. Not worth the price.,j*****0,1789201140,0,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1789312740,negative,appearance
+26090582173237C,28269261346,Batik Parang,5,The weave is tight and the fabric wipes clean easily. Will buy again.,a*****3,1789209300,4,0,Thanks for your review! Enjoy your Loop Tote.,1789389300,positive,quality
+26090722872757C,22501709955,Sea-green,1,Seller didn't reply to my messages for days.,s*****7,1789268340,0,0,Sorry about the slow reply. Our team has followed up with you.,1789358340,unrelated,seller_service
+26090470264731R,24670308328,Batik Kawung,1,Seller sent the wrong colour and I'm still waiting for a replacement.,i*****1,1789281540,0,0,Apologies for the mix-up! Please chat us and we'll arrange the right colour.,1789400340,unrelated,wrong_item
+26090931729906F,27431449080,Indigo,5,"Perfect for grocery runs, I use it every week. Bought another one as a gift.",h*****9,1789385280,0,0,Thanks for your review! Enjoy your Loop Tote.,1789399680,positive,usability
+26090925667751B,28047647611,Sand,5,"Sturdy and well made, the handles feel strong even with a laptop inside. 😍",f*****2,1789392600,0,2,Thanks for your review! Enjoy your Loop Tote.,1789583400,positive,quality
+26090892207451D,29281098456,Sea-green,4,"Sturdy and well made, the handles feel strong even with a laptop inside. Five stars.",e*****8,1789396140,0,0,Thank you for supporting our waste pickers! 💚,1789414140,positive,quality
+26091266616150B,27044390493,Indigo,5,Handles are comfortable on the shoulder. Five stars.,y*****1,1789443840,2,3,Thank you so much for shopping with LoopCycle!,1789562640,positive,comfort
+26091028209292D,22977970305,Sand,5,"Surprisingly roomy. My laptop, lunch box and water bottle all fit.",r*****0,1789456500,0,1,,,positive,size
+26091178636185B,28657493363,Sea-green,5,Exactly what I wanted for a sustainable everyday bag.,b*****2,1789460400,2,0,,,positive,usability
+26090424266909K,24393423530,Batik Kawung,2,"Nice concept. The bag is functional, but the price is a little high for what it is.",l*****7,1789475460,4,0,,,neutral,value
+26090469732517Q,21508530138,Batik Parang,2,The box was crushed and the plastic mailer was torn when it arrived. 😞,a*****7,1789475760,0,1,Sorry the parcel arrived damaged. Please send us a photo and we will send a replacement.,1789587360,unrelated,packaging_damage
+26091229343268C,29922742794,Sea-green,5,The weave is tight and the fabric wipes clean easily.,e*****3,1789571820,0,0,,,positive,quality
+26090943366468D,24054463533,Sea-green,5,Exactly what I wanted for a sustainable everyday bag. Five stars.,a*****8,1789617000,0,0,,,positive,usability
+26090837984847E,29009475278,Sea-green,5,"Surprisingly roomy. My laptop, lunch box and water bottle all fit. Thank you LoopCycle!",f*****8,1789620900,0,2,,,positive,size
+26090821073745C,25480012213,Sand,5,Exactly what I wanted for a sustainable everyday bag.,r*****4,1789650720,0,2,,,positive,usability
+26091279815483D,27898725465,Indigo,5,"Surprisingly roomy. My laptop, lunch box and water bottle all fit. Great product for a great cause. 👍",e*****7,1789658160,2,0,We're so glad you like it. Every bag keeps 14 bottles in use!,1789668960,positive,size
+26090616231001B,27421309669,Batik Parang,1,There is a strong plastic smell that has not gone away after airing it for days.,s*****7,1789697040,0,0,,,negative,quality
+26091459562178E,24658873447,Sand,5,"Sturdy and well made, the handles feel strong even with a laptop inside. Recommended seller. 🔥",y*****9,1789817820,0,0,,,positive,quality
+26091592684831E,27727623588,Indigo,2,The Indigo looks much darker than in the pictures. Hope the quality improves.,h*****3,1789873920,2,0,We're sorry to hear this. Please message us with your order number so we can look into it.,1789877520,negative,appearance
+26091733478093D,22053584034,Indigo,1,"Fabric feels rough and stiff, not as soft as I thought.",j*****5,1790005740,0,0,"Thank you for the feedback. We've passed it to our quality team and would like to make it right, so please contact us.",1790095740,negative,quality
+26091891226668C,29960312417,Sea-green,5,Bought the gift set for a colleague and the packaging and card were lovely. Recommended seller. 👍,h*****0,1790045100,4,0,Thank you for supporting our waste pickers! 💚,1790066700,positive,packaging
+26091566250966C,20697371079,Sea-green,5,Folds small and fits in my backpack when I'm not using it. Will buy again.,s*****5,1790056860,1,0,,,positive,usability
+26091128238298E,20188108768,Indigo,2,parcel was stuck at the sorting hub for almost a week. 😤,n*****7,1790061720,0,1,We apologise for the delay. We have raised it with the courier.,1790245320,unrelated,delivery_delay
+26091547512041D,23490477363,Sand,2,I ordered Sand but received a different colour.,a*****4,1790143020,2,0,Apologies for the mix-up! Please chat us and we'll arrange the right colour.,1790168220,unrelated,wrong_item
+26091736837720C,25698554948,Sand,5,"I love that it is made from 14 recycled bottles, it feels good to carry.",a*****0,1790169540,1,0,,,positive,sustainability
+26091672264076G,21554808873,Sea-green,5,Handles are comfortable on the shoulder.,r*****2,1790176140,4,3,,,positive,comfort
+26092082435646F,29978342102,Sea-green,4,Love this tote! The Sea-green colour looks just like the photos.,e*****9,1790244840,0,2,,,positive,appearance
+26092023987050B,29276652061,Sea-green,5,"I love that it is made from 14 recycled bottles, it feels good to carry. Worth every rupiah. 💚",c*****1,1790294640,4,0,,,positive,sustainability
+26091993147886E,27359616006,Sea-green,2,"Outer packaging was ripped open, thankfully the bag was inside. 😤",n*****5,1790332980,2,0,Sorry the parcel arrived damaged. Please send us a photo and we will send a replacement.,1790433780,unrelated,packaging_damage
+26091615337270D,29666264456,Sea-green,4,"Sturdy and well made, the handles feel strong even with a laptop inside. Highly recommended!",r*****4,1790382060,0,3,,,positive,quality
+26091516555694B,23076178443,Sea-green,5,Stitching is neat and the Sea-green looks premium. 💚,w*****2,1790416200,0,0,,,positive,quality
+26091949681906D,29835417925,Sea-green,4,"Three stars: the story is great, the bag is just alright.",e*****7,1790422320,0,0,Thanks for the honest feedback! We'll keep improving.,1790512320,neutral,quality
+26092470172448G,20566251782,Indigo,5,"Sturdy and well made, the handles feel strong even with a laptop inside. Recommended!",l*****9,1790474820,0,0,,,positive,quality
+26092344201722B,21546763694,Sea-green,2,The Sea-green looks much darker than in the pictures. Would not buy again. 😡,n*****7,1790480880,4,0,We're sorry to hear this. Please message us with your order number so we can look into it.,1790596080,negative,appearance
+26091855118577D,28344667306,Sand,5,"Sturdy and well made, the handles feel strong even with a laptop inside.",t*****6,1790511840,1,0,,,positive,quality
+26092446526277F,24097024522,Sea-green,5,"Perfect for grocery runs, I use it every week. Thank you LoopCycle!",l*****8,1790565780,0,0,,,positive,usability
+26091948880436C,23864020762,Indigo,5,Bought the gift set for a colleague and the packaging and card were lovely. Great product for a great cause.,i*****3,1790567100,2,0,,,positive,packaging
+26092492656094I,26016059413,Sea-green,5,"I love that it is made from 14 recycled bottles, it feels good to carry. Will buy again. 🔥",i*****4,1790567580,0,0,,,positive,sustainability

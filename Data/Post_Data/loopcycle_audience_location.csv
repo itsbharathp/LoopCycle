@@ -1,0 +1,196 @@
+audience_type,timeframe,level,country,city,value,share_pct_of_audience,data_source,province_state_derived,region_group_derived
+followers,this_month,city,ID,Bandung,4674,21.9,api_shaped_synthetic,West Java,Greater Bandung
+followers,this_month,city,ID,Jakarta,4249,19.91,api_shaped_synthetic,Jakarta,Greater Jakarta (Jabodetabek)
+followers,this_month,city,ID,Surabaya,1169,5.48,api_shaped_synthetic,East Java,Other Java
+followers,this_month,city,ID,Bekasi,807,3.78,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+followers,this_month,city,ID,Depok,680,3.19,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+followers,this_month,city,ID,Tangerang,637,2.99,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+followers,this_month,city,SG,Singapore,637,2.99,api_shaped_synthetic,Singapore,International - ASEAN
+followers,this_month,city,ID,Bogor,595,2.79,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+followers,this_month,city,ID,Cimahi,552,2.59,api_shaped_synthetic,West Java,Greater Bandung
+followers,this_month,city,ID,Yogyakarta,552,2.59,api_shaped_synthetic,Yogyakarta,Other Java
+followers,this_month,city,ID,Semarang,510,2.39,api_shaped_synthetic,Central Java,Other Java
+followers,this_month,city,ID,South Tangerang,467,2.19,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+followers,this_month,city,ID,Denpasar,382,1.79,api_shaped_synthetic,Bali,Outside Java
+followers,this_month,city,MY,Kuala Lumpur,382,1.79,api_shaped_synthetic,Kuala Lumpur,International - ASEAN
+followers,this_month,city,ID,Medan,340,1.59,api_shaped_synthetic,North Sumatra,Outside Java
+followers,this_month,city,ID,Malang,319,1.49,api_shaped_synthetic,East Java,Other Java
+followers,this_month,city,ID,Cirebon,297,1.39,api_shaped_synthetic,West Java,Other West Java (hub regions)
+followers,this_month,city,ID,Garut,276,1.29,api_shaped_synthetic,West Java,Other West Java (hub regions)
+followers,this_month,city,ID,Tasikmalaya,276,1.29,api_shaped_synthetic,West Java,Other West Java (hub regions)
+followers,this_month,city,ID,Sukabumi,234,1.1,api_shaped_synthetic,West Java,Other West Java (hub regions)
+followers,this_month,city,ID,Makassar,212,0.99,api_shaped_synthetic,South Sulawesi,Outside Java
+followers,this_month,city,ID,Palembang,170,0.8,api_shaped_synthetic,South Sumatra,Outside Java
+followers,this_month,city,MY,Petaling Jaya,170,0.8,api_shaped_synthetic,Selangor,International - ASEAN
+followers,this_month,city,ID,Balikpapan,149,0.7,api_shaped_synthetic,East Kalimantan,Outside Java
+followers,this_month,city,AU,Melbourne,149,0.7,api_shaped_synthetic,Victoria,International - Other
+followers,this_month,city,AU,Sydney,127,0.6,api_shaped_synthetic,New South Wales,International - Other
+followers,this_month,city,NL,Amsterdam,106,0.5,api_shaped_synthetic,North Holland,International - Other
+followers,this_month,city,GB,London,85,0.4,api_shaped_synthetic,England,International - Other
+followers,this_month,country,ID,,19144,89.71,api_shaped_synthetic,,
+followers,this_month,country,SG,,666,3.12,api_shaped_synthetic,,
+followers,this_month,country,MY,,589,2.76,api_shaped_synthetic,,
+followers,this_month,country,AU,,288,1.35,api_shaped_synthetic,,
+followers,this_month,country,US,,192,0.9,api_shaped_synthetic,,
+followers,this_month,country,NL,,115,0.54,api_shaped_synthetic,,
+followers,this_month,country,GB,,91,0.43,api_shaped_synthetic,,
+followers,this_month,country,JP,,85,0.4,api_shaped_synthetic,,
+followers,this_month,country,SA,,64,0.3,api_shaped_synthetic,,
+followers,this_month,country,DE,,43,0.2,api_shaped_synthetic,,
+followers,this_month,country,KR,,43,0.2,api_shaped_synthetic,,
+engaged,this_month,city,ID,Bandung,2657,24.15,api_shaped_synthetic,West Java,Greater Bandung
+engaged,this_month,city,ID,Jakarta,2346,21.32,api_shaped_synthetic,Jakarta,Greater Jakarta (Jabodetabek)
+engaged,this_month,city,ID,Surabaya,596,5.42,api_shaped_synthetic,East Java,Other Java
+engaged,this_month,city,ID,Bekasi,412,3.74,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+engaged,this_month,city,ID,Depok,339,3.08,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+engaged,this_month,city,ID,Tangerang,329,2.99,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+engaged,this_month,city,ID,Cimahi,319,2.9,api_shaped_synthetic,West Java,Greater Bandung
+engaged,this_month,city,ID,Bogor,291,2.64,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+engaged,this_month,city,ID,Yogyakarta,270,2.45,api_shaped_synthetic,Yogyakarta,Other Java
+engaged,this_month,city,ID,Semarang,254,2.31,api_shaped_synthetic,Central Java,Other Java
+engaged,this_month,city,ID,South Tangerang,242,2.2,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+engaged,this_month,city,SG,Singapore,196,1.78,api_shaped_synthetic,Singapore,International - ASEAN
+engaged,this_month,city,ID,Denpasar,188,1.71,api_shaped_synthetic,Bali,Outside Java
+engaged,this_month,city,ID,Medan,176,1.6,api_shaped_synthetic,North Sumatra,Outside Java
+engaged,this_month,city,ID,Cirebon,174,1.58,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_month,city,ID,Malang,164,1.49,api_shaped_synthetic,East Java,Other Java
+engaged,this_month,city,ID,Tasikmalaya,159,1.45,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_month,city,ID,Garut,155,1.41,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_month,city,ID,Sukabumi,137,1.25,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_month,city,MY,Kuala Lumpur,118,1.07,api_shaped_synthetic,Kuala Lumpur,International - ASEAN
+engaged,this_month,city,ID,Makassar,104,0.95,api_shaped_synthetic,South Sulawesi,Outside Java
+engaged,this_month,city,ID,Palembang,84,0.76,api_shaped_synthetic,South Sumatra,Outside Java
+engaged,this_month,city,ID,Balikpapan,73,0.66,api_shaped_synthetic,East Kalimantan,Outside Java
+engaged,this_month,city,MY,Petaling Jaya,53,0.48,api_shaped_synthetic,Selangor,International - ASEAN
+engaged,this_month,city,AU,Melbourne,46,0.42,api_shaped_synthetic,Victoria,International - Other
+engaged,this_month,city,AU,Sydney,39,0.35,api_shaped_synthetic,New South Wales,International - Other
+engaged,this_month,city,NL,Amsterdam,31,0.28,api_shaped_synthetic,North Holland,International - Other
+engaged,this_month,city,GB,London,26,0.24,api_shaped_synthetic,England,International - Other
+engaged,this_month,country,ID,,10280,93.44,api_shaped_synthetic,,
+engaged,this_month,country,SG,,213,1.94,api_shaped_synthetic,,
+engaged,this_month,country,MY,,178,1.62,api_shaped_synthetic,,
+engaged,this_month,country,AU,,88,0.8,api_shaped_synthetic,,
+engaged,this_month,country,US,,68,0.62,api_shaped_synthetic,,
+engaged,this_month,country,NL,,32,0.29,api_shaped_synthetic,,
+engaged,this_month,country,JP,,31,0.28,api_shaped_synthetic,,
+engaged,this_month,country,GB,,28,0.25,api_shaped_synthetic,,
+engaged,this_month,country,SA,,23,0.21,api_shaped_synthetic,,
+engaged,this_month,country,DE,,16,0.15,api_shaped_synthetic,,
+engaged,this_month,country,KR,,15,0.14,api_shaped_synthetic,,
+engaged,this_week,city,ID,Bandung,730,24.58,api_shaped_synthetic,West Java,Greater Bandung
+engaged,this_week,city,ID,Jakarta,622,20.94,api_shaped_synthetic,Jakarta,Greater Jakarta (Jabodetabek)
+engaged,this_week,city,ID,Surabaya,171,5.76,api_shaped_synthetic,East Java,Other Java
+engaged,this_week,city,ID,Bekasi,113,3.8,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+engaged,this_week,city,ID,Depok,94,3.16,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+engaged,this_week,city,ID,Cimahi,91,3.06,api_shaped_synthetic,West Java,Greater Bandung
+engaged,this_week,city,ID,Tangerang,86,2.9,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+engaged,this_week,city,ID,Bogor,78,2.63,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+engaged,this_week,city,ID,Semarang,71,2.39,api_shaped_synthetic,Central Java,Other Java
+engaged,this_week,city,ID,Yogyakarta,70,2.36,api_shaped_synthetic,Yogyakarta,Other Java
+engaged,this_week,city,ID,South Tangerang,61,2.05,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+engaged,this_week,city,SG,Singapore,53,1.78,api_shaped_synthetic,Singapore,International - ASEAN
+engaged,this_week,city,ID,Denpasar,50,1.68,api_shaped_synthetic,Bali,Outside Java
+engaged,this_week,city,ID,Cirebon,47,1.58,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_week,city,ID,Medan,46,1.55,api_shaped_synthetic,North Sumatra,Outside Java
+engaged,this_week,city,ID,Malang,41,1.38,api_shaped_synthetic,East Java,Other Java
+engaged,this_week,city,ID,Garut,40,1.35,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_week,city,ID,Tasikmalaya,40,1.35,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_week,city,ID,Sukabumi,34,1.14,api_shaped_synthetic,West Java,Other West Java (hub regions)
+engaged,this_week,city,MY,Kuala Lumpur,33,1.11,api_shaped_synthetic,Kuala Lumpur,International - ASEAN
+engaged,this_week,city,ID,Makassar,27,0.91,api_shaped_synthetic,South Sulawesi,Outside Java
+engaged,this_week,city,ID,Palembang,24,0.81,api_shaped_synthetic,South Sumatra,Outside Java
+engaged,this_week,city,ID,Balikpapan,20,0.67,api_shaped_synthetic,East Kalimantan,Outside Java
+engaged,this_week,city,MY,Petaling Jaya,13,0.44,api_shaped_synthetic,Selangor,International - ASEAN
+engaged,this_week,city,AU,Melbourne,13,0.44,api_shaped_synthetic,Victoria,International - Other
+engaged,this_week,city,AU,Sydney,10,0.34,api_shaped_synthetic,New South Wales,International - Other
+engaged,this_week,city,NL,Amsterdam,9,0.3,api_shaped_synthetic,North Holland,International - Other
+engaged,this_week,city,GB,London,7,0.24,api_shaped_synthetic,England,International - Other
+engaged,this_week,country,ID,,2765,93.1,api_shaped_synthetic,,
+engaged,this_week,country,SG,,58,1.95,api_shaped_synthetic,,
+engaged,this_week,country,MY,,48,1.62,api_shaped_synthetic,,
+engaged,this_week,country,AU,,25,0.84,api_shaped_synthetic,,
+engaged,this_week,country,US,,20,0.67,api_shaped_synthetic,,
+engaged,this_week,country,NL,,10,0.34,api_shaped_synthetic,,
+engaged,this_week,country,JP,,9,0.3,api_shaped_synthetic,,
+engaged,this_week,country,GB,,7,0.24,api_shaped_synthetic,,
+engaged,this_week,country,SA,,7,0.24,api_shaped_synthetic,,
+engaged,this_week,country,DE,,4,0.13,api_shaped_synthetic,,
+engaged,this_week,country,KR,,4,0.13,api_shaped_synthetic,,
+reached,this_month,city,ID,Jakarta,27801,21.48,api_shaped_synthetic,Jakarta,Greater Jakarta (Jabodetabek)
+reached,this_month,city,ID,Bandung,19136,14.78,api_shaped_synthetic,West Java,Greater Bandung
+reached,this_month,city,ID,Surabaya,7914,6.11,api_shaped_synthetic,East Java,Other Java
+reached,this_month,city,ID,Bekasi,4948,3.82,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+reached,this_month,city,SG,Singapore,4928,3.81,api_shaped_synthetic,Singapore,International - ASEAN
+reached,this_month,city,ID,Depok,4047,3.13,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+reached,this_month,city,ID,Tangerang,3878,3.0,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+reached,this_month,city,ID,Bogor,3580,2.77,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+reached,this_month,city,ID,Yogyakarta,3274,2.53,api_shaped_synthetic,Yogyakarta,Other Java
+reached,this_month,city,ID,Semarang,2980,2.3,api_shaped_synthetic,Central Java,Other Java
+reached,this_month,city,MY,Kuala Lumpur,2934,2.27,api_shaped_synthetic,Kuala Lumpur,International - ASEAN
+reached,this_month,city,ID,South Tangerang,2832,2.19,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+reached,this_month,city,ID,Cimahi,2439,1.88,api_shaped_synthetic,West Java,Greater Bandung
+reached,this_month,city,ID,Denpasar,2244,1.73,api_shaped_synthetic,Bali,Outside Java
+reached,this_month,city,ID,Medan,2021,1.56,api_shaped_synthetic,North Sumatra,Outside Java
+reached,this_month,city,ID,Malang,1943,1.5,api_shaped_synthetic,East Java,Other Java
+reached,this_month,city,ID,Cirebon,1735,1.34,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_month,city,ID,Garut,1697,1.31,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_month,city,ID,Tasikmalaya,1665,1.29,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_month,city,ID,Sukabumi,1406,1.09,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_month,city,MY,Petaling Jaya,1308,1.01,api_shaped_synthetic,Selangor,International - ASEAN
+reached,this_month,city,ID,Makassar,1287,0.99,api_shaped_synthetic,South Sulawesi,Outside Java
+reached,this_month,city,AU,Melbourne,1157,0.89,api_shaped_synthetic,Victoria,International - Other
+reached,this_month,city,ID,Palembang,992,0.77,api_shaped_synthetic,South Sumatra,Outside Java
+reached,this_month,city,AU,Sydney,959,0.74,api_shaped_synthetic,New South Wales,International - Other
+reached,this_month,city,ID,Balikpapan,866,0.67,api_shaped_synthetic,East Kalimantan,Outside Java
+reached,this_month,city,NL,Amsterdam,794,0.61,api_shaped_synthetic,North Holland,International - Other
+reached,this_month,city,GB,London,667,0.52,api_shaped_synthetic,England,International - Other
+reached,this_month,country,ID,,102990,79.56,api_shaped_synthetic,,
+reached,this_month,country,SG,,5278,4.08,api_shaped_synthetic,,
+reached,this_month,country,MY,,4570,3.53,api_shaped_synthetic,,
+reached,this_month,country,AU,,2322,1.79,api_shaped_synthetic,,
+reached,this_month,country,US,,1136,0.88,api_shaped_synthetic,,
+reached,this_month,country,NL,,830,0.64,api_shaped_synthetic,,
+reached,this_month,country,GB,,722,0.56,api_shaped_synthetic,,
+reached,this_month,country,JP,,516,0.4,api_shaped_synthetic,,
+reached,this_month,country,SA,,391,0.3,api_shaped_synthetic,,
+reached,this_month,country,DE,,264,0.2,api_shaped_synthetic,,
+reached,this_month,country,KR,,252,0.19,api_shaped_synthetic,,
+reached,this_week,city,ID,Jakarta,9875,22.44,api_shaped_synthetic,Jakarta,Greater Jakarta (Jabodetabek)
+reached,this_week,city,ID,Bandung,6010,13.66,api_shaped_synthetic,West Java,Greater Bandung
+reached,this_week,city,ID,Surabaya,2507,5.7,api_shaped_synthetic,East Java,Other Java
+reached,this_week,city,ID,Bekasi,1721,3.91,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+reached,this_week,city,SG,Singapore,1645,3.74,api_shaped_synthetic,Singapore,International - ASEAN
+reached,this_week,city,ID,Depok,1454,3.3,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+reached,this_week,city,ID,Tangerang,1365,3.1,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+reached,this_week,city,ID,Bogor,1297,2.95,api_shaped_synthetic,West Java,Greater Jakarta (Jabodetabek)
+reached,this_week,city,ID,Yogyakarta,1185,2.69,api_shaped_synthetic,Yogyakarta,Other Java
+reached,this_week,city,ID,Semarang,1047,2.38,api_shaped_synthetic,Central Java,Other Java
+reached,this_week,city,ID,South Tangerang,979,2.22,api_shaped_synthetic,Banten,Greater Jakarta (Jabodetabek)
+reached,this_week,city,MY,Kuala Lumpur,943,2.14,api_shaped_synthetic,Kuala Lumpur,International - ASEAN
+reached,this_week,city,ID,Cimahi,836,1.9,api_shaped_synthetic,West Java,Greater Bandung
+reached,this_week,city,ID,Denpasar,726,1.65,api_shaped_synthetic,Bali,Outside Java
+reached,this_week,city,ID,Malang,701,1.59,api_shaped_synthetic,East Java,Other Java
+reached,this_week,city,ID,Medan,699,1.59,api_shaped_synthetic,North Sumatra,Outside Java
+reached,this_week,city,ID,Cirebon,596,1.35,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_week,city,ID,Garut,582,1.32,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_week,city,ID,Tasikmalaya,534,1.21,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_week,city,ID,Sukabumi,475,1.08,api_shaped_synthetic,West Java,Other West Java (hub regions)
+reached,this_week,city,MY,Petaling Jaya,446,1.01,api_shaped_synthetic,Selangor,International - ASEAN
+reached,this_week,city,ID,Makassar,436,0.99,api_shaped_synthetic,South Sulawesi,Outside Java
+reached,this_week,city,AU,Melbourne,413,0.94,api_shaped_synthetic,Victoria,International - Other
+reached,this_week,city,ID,Palembang,361,0.82,api_shaped_synthetic,South Sumatra,Outside Java
+reached,this_week,city,AU,Sydney,325,0.74,api_shaped_synthetic,New South Wales,International - Other
+reached,this_week,city,ID,Balikpapan,295,0.67,api_shaped_synthetic,East Kalimantan,Outside Java
+reached,this_week,city,NL,Amsterdam,283,0.64,api_shaped_synthetic,North Holland,International - Other
+reached,this_week,city,GB,London,222,0.5,api_shaped_synthetic,England,International - Other
+reached,this_week,country,ID,,35424,80.49,api_shaped_synthetic,,
+reached,this_week,country,SG,,1780,4.04,api_shaped_synthetic,,
+reached,this_week,country,MY,,1462,3.32,api_shaped_synthetic,,
+reached,this_week,country,AU,,795,1.81,api_shaped_synthetic,,
+reached,this_week,country,US,,407,0.92,api_shaped_synthetic,,
+reached,this_week,country,NL,,311,0.71,api_shaped_synthetic,,
+reached,this_week,country,GB,,235,0.53,api_shaped_synthetic,,
+reached,this_week,country,JP,,172,0.39,api_shaped_synthetic,,
+reached,this_week,country,SA,,135,0.31,api_shaped_synthetic,,
+reached,this_week,country,KR,,88,0.2,api_shaped_synthetic,,
+reached,this_week,country,DE,,84,0.19,api_shaped_synthetic,,

@@ -1,0 +1,1921 @@
+post_id,level,country,province_state,city,region_group,value,share_pct_of_reach,data_source
+17902428608945110,city,ID,West Java,Bandung,Greater Bandung,1880,19.17,modeled_estimate
+17902428608945110,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2359,24.06,modeled_estimate
+17902428608945110,city,ID,East Java,Surabaya,Other Java,542,5.53,modeled_estimate
+17902428608945110,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),396,4.04,modeled_estimate
+17902428608945110,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),217,2.21,modeled_estimate
+17902428608945110,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),270,2.75,modeled_estimate
+17902428608945110,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),258,2.63,modeled_estimate
+17902428608945110,city,ID,West Java,Cimahi,Greater Bandung,233,2.38,modeled_estimate
+17902428608945110,city,ID,Yogyakarta,Yogyakarta,Other Java,258,2.63,modeled_estimate
+17902428608945110,city,ID,Central Java,Semarang,Other Java,212,2.16,modeled_estimate
+17902428608945110,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),222,2.26,modeled_estimate
+17902428608945110,city,ID,Bali,Denpasar,Outside Java,158,1.61,modeled_estimate
+17902428608945110,city,ID,North Sumatra,Medan,Outside Java,119,1.21,modeled_estimate
+17902428608945110,city,ID,East Java,Malang,Other Java,138,1.41,modeled_estimate
+17902428608945110,city,ID,West Java,Cirebon,Other West Java (hub regions),222,2.26,modeled_estimate
+17902428608945110,city,ID,West Java,Garut,Other West Java (hub regions),213,2.17,modeled_estimate
+17902428608945110,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),198,2.02,modeled_estimate
+17902428608945110,city,ID,West Java,Sukabumi,Other West Java (hub regions),168,1.71,modeled_estimate
+17902428608945110,city,ID,South Sulawesi,Makassar,Outside Java,86,0.88,modeled_estimate
+17902428608945110,city,ID,South Sumatra,Palembang,Outside Java,59,0.6,modeled_estimate
+17902428608945110,city,ID,East Kalimantan,Balikpapan,Outside Java,53,0.54,modeled_estimate
+17902428608945110,city,SG,Singapore,Singapore,International - ASEAN,280,2.86,modeled_estimate
+17902428608945110,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,166,1.69,modeled_estimate
+17902428608945110,city,MY,Selangor,Petaling Jaya,International - ASEAN,69,0.7,modeled_estimate
+17902428608945110,city,AU,Victoria,Melbourne,International - Other,63,0.64,modeled_estimate
+17902428608945110,city,AU,New South Wales,Sydney,International - Other,49,0.5,modeled_estimate
+17902428608945110,city,NL,North Holland,Amsterdam,International - Other,49,0.5,modeled_estimate
+17902428608945110,city,GB,England,London,International - Other,40,0.41,modeled_estimate
+17902428608945110,province_state,ID,West Java,,,3785,38.6,modeled_estimate
+17902428608945110,province_state,ID,Jakarta,,,2359,24.06,modeled_estimate
+17902428608945110,province_state,ID,East Java,,,680,6.94,modeled_estimate
+17902428608945110,province_state,ID,Banten,,,492,5.02,modeled_estimate
+17902428608945110,province_state,ID,Yogyakarta,,,258,2.63,modeled_estimate
+17902428608945110,province_state,ID,Central Java,,,212,2.16,modeled_estimate
+17902428608945110,province_state,ID,Bali,,,158,1.61,modeled_estimate
+17902428608945110,province_state,ID,North Sumatra,,,119,1.21,modeled_estimate
+17902428608945110,province_state,ID,South Sulawesi,,,86,0.88,modeled_estimate
+17902428608945110,province_state,ID,South Sumatra,,,59,0.6,modeled_estimate
+17902428608945110,province_state,ID,East Kalimantan,,,53,0.54,modeled_estimate
+17902428608945110,province_state,SG,Singapore,,,280,2.86,modeled_estimate
+17902428608945110,province_state,MY,Kuala Lumpur,,,166,1.69,modeled_estimate
+17902428608945110,province_state,MY,Selangor,,,69,0.7,modeled_estimate
+17902428608945110,province_state,AU,Victoria,,,63,0.64,modeled_estimate
+17902428608945110,province_state,AU,New South Wales,,,49,0.5,modeled_estimate
+17902428608945110,province_state,NL,North Holland,,,49,0.5,modeled_estimate
+17902428608945110,province_state,GB,England,,,40,0.41,modeled_estimate
+17902428608945110,region_group,,,,Greater Bandung,2113,21.55,modeled_estimate
+17902428608945110,region_group,,,,Greater Jakarta (Jabodetabek),3722,37.96,modeled_estimate
+17902428608945110,region_group,,,,Other Java,1150,11.73,modeled_estimate
+17902428608945110,region_group,,,,Outside Java,475,4.84,modeled_estimate
+17902428608945110,region_group,,,,Other West Java (hub regions),801,8.17,modeled_estimate
+17902428608945110,region_group,,,,International - ASEAN,515,5.25,modeled_estimate
+17902428608945110,region_group,,,,International - Other,201,2.05,modeled_estimate
+17902428608945110,country,ID,,,,8829,90.05,modeled_estimate
+17902428608945110,country,SG,,,,300,3.06,modeled_estimate
+17902428608945110,country,MY,,,,245,2.5,modeled_estimate
+17902428608945110,country,AU,,,,118,1.2,modeled_estimate
+17902428608945110,country,NL,,,,51,0.52,modeled_estimate
+17902428608945110,country,GB,,,,42,0.43,modeled_estimate
+17902428608945110,country,US,,,,103,1.05,modeled_estimate
+17902428608945110,country,JP,,,,51,0.52,modeled_estimate
+17902428608945110,country,SA,,,,20,0.2,modeled_estimate
+17902428608945110,country,DE,,,,22,0.22,modeled_estimate
+17902428608945110,country,KR,,,,19,0.19,modeled_estimate
+17901977490176261,city,ID,West Java,Bandung,Greater Bandung,1425,18.03,modeled_estimate
+17901977490176261,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),1610,20.37,modeled_estimate
+17901977490176261,city,ID,East Java,Surabaya,Other Java,513,6.49,modeled_estimate
+17901977490176261,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),300,3.8,modeled_estimate
+17901977490176261,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),252,3.19,modeled_estimate
+17901977490176261,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),302,3.82,modeled_estimate
+17901977490176261,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),263,3.33,modeled_estimate
+17901977490176261,city,ID,West Java,Cimahi,Greater Bandung,180,2.28,modeled_estimate
+17901977490176261,city,ID,Yogyakarta,Yogyakarta,Other Java,204,2.58,modeled_estimate
+17901977490176261,city,ID,Central Java,Semarang,Other Java,167,2.11,modeled_estimate
+17901977490176261,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),154,1.95,modeled_estimate
+17901977490176261,city,ID,Bali,Denpasar,Outside Java,153,1.94,modeled_estimate
+17901977490176261,city,ID,North Sumatra,Medan,Outside Java,150,1.9,modeled_estimate
+17901977490176261,city,ID,East Java,Malang,Other Java,114,1.44,modeled_estimate
+17901977490176261,city,ID,West Java,Cirebon,Other West Java (hub regions),79,1.0,modeled_estimate
+17901977490176261,city,ID,West Java,Garut,Other West Java (hub regions),78,0.99,modeled_estimate
+17901977490176261,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),76,0.96,modeled_estimate
+17901977490176261,city,ID,West Java,Sukabumi,Other West Java (hub regions),71,0.9,modeled_estimate
+17901977490176261,city,ID,South Sulawesi,Makassar,Outside Java,91,1.15,modeled_estimate
+17901977490176261,city,ID,South Sumatra,Palembang,Outside Java,69,0.87,modeled_estimate
+17901977490176261,city,ID,East Kalimantan,Balikpapan,Outside Java,52,0.66,modeled_estimate
+17901977490176261,city,SG,Singapore,Singapore,International - ASEAN,238,3.01,modeled_estimate
+17901977490176261,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,136,1.72,modeled_estimate
+17901977490176261,city,MY,Selangor,Petaling Jaya,International - ASEAN,60,0.76,modeled_estimate
+17901977490176261,city,AU,Victoria,Melbourne,International - Other,50,0.63,modeled_estimate
+17901977490176261,city,AU,New South Wales,Sydney,International - Other,45,0.57,modeled_estimate
+17901977490176261,city,NL,North Holland,Amsterdam,International - Other,47,0.59,modeled_estimate
+17901977490176261,city,GB,England,London,International - Other,36,0.46,modeled_estimate
+17901977490176261,province_state,ID,West Java,,,2724,34.46,modeled_estimate
+17901977490176261,province_state,ID,Jakarta,,,1610,20.37,modeled_estimate
+17901977490176261,province_state,ID,East Java,,,627,7.93,modeled_estimate
+17901977490176261,province_state,ID,Banten,,,456,5.77,modeled_estimate
+17901977490176261,province_state,ID,Yogyakarta,,,204,2.58,modeled_estimate
+17901977490176261,province_state,ID,Central Java,,,167,2.11,modeled_estimate
+17901977490176261,province_state,ID,Bali,,,153,1.94,modeled_estimate
+17901977490176261,province_state,ID,North Sumatra,,,150,1.9,modeled_estimate
+17901977490176261,province_state,ID,South Sulawesi,,,91,1.15,modeled_estimate
+17901977490176261,province_state,ID,South Sumatra,,,69,0.87,modeled_estimate
+17901977490176261,province_state,ID,East Kalimantan,,,52,0.66,modeled_estimate
+17901977490176261,province_state,SG,Singapore,,,238,3.01,modeled_estimate
+17901977490176261,province_state,MY,Kuala Lumpur,,,136,1.72,modeled_estimate
+17901977490176261,province_state,MY,Selangor,,,60,0.76,modeled_estimate
+17901977490176261,province_state,AU,Victoria,,,50,0.63,modeled_estimate
+17901977490176261,province_state,AU,New South Wales,,,45,0.57,modeled_estimate
+17901977490176261,province_state,NL,North Holland,,,47,0.59,modeled_estimate
+17901977490176261,province_state,GB,England,,,36,0.46,modeled_estimate
+17901977490176261,region_group,,,,Greater Bandung,1605,20.3,modeled_estimate
+17901977490176261,region_group,,,,Greater Jakarta (Jabodetabek),2881,36.45,modeled_estimate
+17901977490176261,region_group,,,,Other Java,998,12.62,modeled_estimate
+17901977490176261,region_group,,,,Outside Java,515,6.51,modeled_estimate
+17901977490176261,region_group,,,,Other West Java (hub regions),304,3.85,modeled_estimate
+17901977490176261,region_group,,,,International - ASEAN,434,5.49,modeled_estimate
+17901977490176261,region_group,,,,International - Other,178,2.25,modeled_estimate
+17901977490176261,country,ID,,,,6790,85.9,modeled_estimate
+17901977490176261,country,SG,,,,258,3.26,modeled_estimate
+17901977490176261,country,MY,,,,215,2.72,modeled_estimate
+17901977490176261,country,AU,,,,103,1.3,modeled_estimate
+17901977490176261,country,NL,,,,51,0.65,modeled_estimate
+17901977490176261,country,GB,,,,38,0.48,modeled_estimate
+17901977490176261,country,US,,,,61,0.77,modeled_estimate
+17901977490176261,country,JP,,,,34,0.43,modeled_estimate
+17901977490176261,country,SA,,,,29,0.37,modeled_estimate
+17901977490176261,country,DE,,,,22,0.28,modeled_estimate
+17901977490176261,country,KR,,,,16,0.2,modeled_estimate
+17908880999865633,city,ID,West Java,Bandung,Greater Bandung,1585,16.77,modeled_estimate
+17908880999865633,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2346,24.82,modeled_estimate
+17908880999865633,city,ID,East Java,Surabaya,Other Java,530,5.61,modeled_estimate
+17908880999865633,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),391,4.14,modeled_estimate
+17908880999865633,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),304,3.22,modeled_estimate
+17908880999865633,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),278,2.94,modeled_estimate
+17908880999865633,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),277,2.93,modeled_estimate
+17908880999865633,city,ID,West Java,Cimahi,Greater Bandung,174,1.84,modeled_estimate
+17908880999865633,city,ID,Yogyakarta,Yogyakarta,Other Java,258,2.73,modeled_estimate
+17908880999865633,city,ID,Central Java,Semarang,Other Java,212,2.24,modeled_estimate
+17908880999865633,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),215,2.27,modeled_estimate
+17908880999865633,city,ID,Bali,Denpasar,Outside Java,162,1.71,modeled_estimate
+17908880999865633,city,ID,North Sumatra,Medan,Outside Java,157,1.66,modeled_estimate
+17908880999865633,city,ID,East Java,Malang,Other Java,142,1.5,modeled_estimate
+17908880999865633,city,ID,West Java,Cirebon,Other West Java (hub regions),94,0.99,modeled_estimate
+17908880999865633,city,ID,West Java,Garut,Other West Java (hub regions),79,0.84,modeled_estimate
+17908880999865633,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),87,0.92,modeled_estimate
+17908880999865633,city,ID,West Java,Sukabumi,Other West Java (hub regions),67,0.71,modeled_estimate
+17908880999865633,city,ID,South Sulawesi,Makassar,Outside Java,100,1.06,modeled_estimate
+17908880999865633,city,ID,South Sumatra,Palembang,Outside Java,79,0.84,modeled_estimate
+17908880999865633,city,ID,East Kalimantan,Balikpapan,Outside Java,74,0.78,modeled_estimate
+17908880999865633,city,SG,Singapore,Singapore,International - ASEAN,291,3.08,modeled_estimate
+17908880999865633,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,164,1.74,modeled_estimate
+17908880999865633,city,MY,Selangor,Petaling Jaya,International - ASEAN,65,0.69,modeled_estimate
+17908880999865633,city,AU,Victoria,Melbourne,International - Other,72,0.76,modeled_estimate
+17908880999865633,city,AU,New South Wales,Sydney,International - Other,50,0.53,modeled_estimate
+17908880999865633,city,NL,North Holland,Amsterdam,International - Other,50,0.53,modeled_estimate
+17908880999865633,city,GB,England,London,International - Other,46,0.49,modeled_estimate
+17908880999865633,province_state,ID,West Java,,,3058,32.35,modeled_estimate
+17908880999865633,province_state,ID,Jakarta,,,2346,24.82,modeled_estimate
+17908880999865633,province_state,ID,East Java,,,672,7.11,modeled_estimate
+17908880999865633,province_state,ID,Banten,,,493,5.22,modeled_estimate
+17908880999865633,province_state,ID,Yogyakarta,,,258,2.73,modeled_estimate
+17908880999865633,province_state,ID,Central Java,,,212,2.24,modeled_estimate
+17908880999865633,province_state,ID,Bali,,,162,1.71,modeled_estimate
+17908880999865633,province_state,ID,North Sumatra,,,157,1.66,modeled_estimate
+17908880999865633,province_state,ID,South Sulawesi,,,100,1.06,modeled_estimate
+17908880999865633,province_state,ID,South Sumatra,,,79,0.84,modeled_estimate
+17908880999865633,province_state,ID,East Kalimantan,,,74,0.78,modeled_estimate
+17908880999865633,province_state,SG,Singapore,,,291,3.08,modeled_estimate
+17908880999865633,province_state,MY,Kuala Lumpur,,,164,1.74,modeled_estimate
+17908880999865633,province_state,MY,Selangor,,,65,0.69,modeled_estimate
+17908880999865633,province_state,AU,Victoria,,,72,0.76,modeled_estimate
+17908880999865633,province_state,AU,New South Wales,,,50,0.53,modeled_estimate
+17908880999865633,province_state,NL,North Holland,,,50,0.53,modeled_estimate
+17908880999865633,province_state,GB,England,,,46,0.49,modeled_estimate
+17908880999865633,region_group,,,,Greater Bandung,1759,18.61,modeled_estimate
+17908880999865633,region_group,,,,Greater Jakarta (Jabodetabek),3811,40.32,modeled_estimate
+17908880999865633,region_group,,,,Other Java,1142,12.08,modeled_estimate
+17908880999865633,region_group,,,,Outside Java,572,6.05,modeled_estimate
+17908880999865633,region_group,,,,Other West Java (hub regions),327,3.46,modeled_estimate
+17908880999865633,region_group,,,,International - ASEAN,520,5.5,modeled_estimate
+17908880999865633,region_group,,,,International - Other,218,2.31,modeled_estimate
+17908880999865633,country,ID,,,,8110,85.8,modeled_estimate
+17908880999865633,country,SG,,,,310,3.28,modeled_estimate
+17908880999865633,country,MY,,,,239,2.53,modeled_estimate
+17908880999865633,country,AU,,,,129,1.36,modeled_estimate
+17908880999865633,country,NL,,,,53,0.56,modeled_estimate
+17908880999865633,country,GB,,,,49,0.52,modeled_estimate
+17908880999865633,country,US,,,,85,0.9,modeled_estimate
+17908880999865633,country,JP,,,,46,0.49,modeled_estimate
+17908880999865633,country,SA,,,,26,0.28,modeled_estimate
+17908880999865633,country,DE,,,,18,0.19,modeled_estimate
+17908880999865633,country,KR,,,,16,0.17,modeled_estimate
+17902500451939084,city,ID,West Java,Bandung,Greater Bandung,751,39.07,modeled_estimate
+17902500451939084,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),284,14.78,modeled_estimate
+17902500451939084,city,ID,East Java,Surabaya,Other Java,62,3.23,modeled_estimate
+17902500451939084,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),48,2.5,modeled_estimate
+17902500451939084,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),45,2.34,modeled_estimate
+17902500451939084,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),40,2.08,modeled_estimate
+17902500451939084,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),37,1.93,modeled_estimate
+17902500451939084,city,ID,West Java,Cimahi,Greater Bandung,70,3.64,modeled_estimate
+17902500451939084,city,ID,Yogyakarta,Yogyakarta,Other Java,30,1.56,modeled_estimate
+17902500451939084,city,ID,Central Java,Semarang,Other Java,32,1.66,modeled_estimate
+17902500451939084,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),31,1.61,modeled_estimate
+17902500451939084,city,ID,Bali,Denpasar,Outside Java,22,1.14,modeled_estimate
+17902500451939084,city,ID,North Sumatra,Medan,Outside Java,19,0.99,modeled_estimate
+17902500451939084,city,ID,East Java,Malang,Other Java,18,0.94,modeled_estimate
+17902500451939084,city,ID,West Java,Cirebon,Other West Java (hub regions),28,1.46,modeled_estimate
+17902500451939084,city,ID,West Java,Garut,Other West Java (hub regions),33,1.72,modeled_estimate
+17902500451939084,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),31,1.61,modeled_estimate
+17902500451939084,city,ID,West Java,Sukabumi,Other West Java (hub regions),24,1.25,modeled_estimate
+17902500451939084,city,ID,South Sulawesi,Makassar,Outside Java,12,0.62,modeled_estimate
+17902500451939084,city,ID,South Sumatra,Palembang,Outside Java,9,0.47,modeled_estimate
+17902500451939084,city,ID,East Kalimantan,Balikpapan,Outside Java,9,0.47,modeled_estimate
+17902500451939084,city,SG,Singapore,Singapore,International - ASEAN,37,1.93,modeled_estimate
+17902500451939084,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,21,1.09,modeled_estimate
+17902500451939084,city,MY,Selangor,Petaling Jaya,International - ASEAN,9,0.47,modeled_estimate
+17902500451939084,city,AU,Victoria,Melbourne,International - Other,9,0.47,modeled_estimate
+17902500451939084,city,AU,New South Wales,Sydney,International - Other,7,0.36,modeled_estimate
+17902500451939084,city,NL,North Holland,Amsterdam,International - Other,6,0.31,modeled_estimate
+17902500451939084,city,GB,England,London,International - Other,4,0.21,modeled_estimate
+17902500451939084,province_state,ID,West Java,,,1067,55.52,modeled_estimate
+17902500451939084,province_state,ID,Jakarta,,,284,14.78,modeled_estimate
+17902500451939084,province_state,ID,East Java,,,80,4.16,modeled_estimate
+17902500451939084,province_state,ID,Banten,,,71,3.69,modeled_estimate
+17902500451939084,province_state,ID,Yogyakarta,,,30,1.56,modeled_estimate
+17902500451939084,province_state,ID,Central Java,,,32,1.66,modeled_estimate
+17902500451939084,province_state,ID,Bali,,,22,1.14,modeled_estimate
+17902500451939084,province_state,ID,North Sumatra,,,19,0.99,modeled_estimate
+17902500451939084,province_state,ID,South Sulawesi,,,12,0.62,modeled_estimate
+17902500451939084,province_state,ID,South Sumatra,,,9,0.47,modeled_estimate
+17902500451939084,province_state,ID,East Kalimantan,,,9,0.47,modeled_estimate
+17902500451939084,province_state,SG,Singapore,,,37,1.93,modeled_estimate
+17902500451939084,province_state,MY,Kuala Lumpur,,,21,1.09,modeled_estimate
+17902500451939084,province_state,MY,Selangor,,,9,0.47,modeled_estimate
+17902500451939084,province_state,AU,Victoria,,,9,0.47,modeled_estimate
+17902500451939084,province_state,AU,New South Wales,,,7,0.36,modeled_estimate
+17902500451939084,province_state,NL,North Holland,,,6,0.31,modeled_estimate
+17902500451939084,province_state,GB,England,,,4,0.21,modeled_estimate
+17902500451939084,region_group,,,,Greater Bandung,821,42.72,modeled_estimate
+17902500451939084,region_group,,,,Greater Jakarta (Jabodetabek),485,25.23,modeled_estimate
+17902500451939084,region_group,,,,Other Java,142,7.39,modeled_estimate
+17902500451939084,region_group,,,,Outside Java,71,3.69,modeled_estimate
+17902500451939084,region_group,,,,Other West Java (hub regions),116,6.04,modeled_estimate
+17902500451939084,region_group,,,,International - ASEAN,67,3.49,modeled_estimate
+17902500451939084,region_group,,,,International - Other,26,1.35,modeled_estimate
+17902500451939084,country,ID,,,,1761,91.62,modeled_estimate
+17902500451939084,country,SG,,,,41,2.13,modeled_estimate
+17902500451939084,country,MY,,,,32,1.66,modeled_estimate
+17902500451939084,country,AU,,,,17,0.88,modeled_estimate
+17902500451939084,country,NL,,,,6,0.31,modeled_estimate
+17902500451939084,country,GB,,,,4,0.21,modeled_estimate
+17902500451939084,country,US,,,,23,1.2,modeled_estimate
+17902500451939084,country,JP,,,,9,0.47,modeled_estimate
+17902500451939084,country,SA,,,,7,0.36,modeled_estimate
+17902500451939084,country,DE,,,,4,0.21,modeled_estimate
+17902500451939084,country,KR,,,,5,0.26,modeled_estimate
+17903369297646473,city,ID,West Java,Bandung,Greater Bandung,988,22.44,modeled_estimate
+17903369297646473,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),855,19.42,modeled_estimate
+17903369297646473,city,ID,East Java,Surabaya,Other Java,260,5.91,modeled_estimate
+17903369297646473,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),175,3.98,modeled_estimate
+17903369297646473,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),144,3.27,modeled_estimate
+17903369297646473,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),116,2.64,modeled_estimate
+17903369297646473,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),101,2.29,modeled_estimate
+17903369297646473,city,ID,West Java,Cimahi,Greater Bandung,111,2.52,modeled_estimate
+17903369297646473,city,ID,Yogyakarta,Yogyakarta,Other Java,101,2.29,modeled_estimate
+17903369297646473,city,ID,Central Java,Semarang,Other Java,100,2.27,modeled_estimate
+17903369297646473,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),98,2.23,modeled_estimate
+17903369297646473,city,ID,Bali,Denpasar,Outside Java,71,1.61,modeled_estimate
+17903369297646473,city,ID,North Sumatra,Medan,Outside Java,60,1.36,modeled_estimate
+17903369297646473,city,ID,East Java,Malang,Other Java,60,1.36,modeled_estimate
+17903369297646473,city,ID,West Java,Cirebon,Other West Java (hub regions),104,2.36,modeled_estimate
+17903369297646473,city,ID,West Java,Garut,Other West Java (hub regions),92,2.09,modeled_estimate
+17903369297646473,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),117,2.66,modeled_estimate
+17903369297646473,city,ID,West Java,Sukabumi,Other West Java (hub regions),73,1.66,modeled_estimate
+17903369297646473,city,ID,South Sulawesi,Makassar,Outside Java,35,0.8,modeled_estimate
+17903369297646473,city,ID,South Sumatra,Palembang,Outside Java,26,0.59,modeled_estimate
+17903369297646473,city,ID,East Kalimantan,Balikpapan,Outside Java,25,0.57,modeled_estimate
+17903369297646473,city,SG,Singapore,Singapore,International - ASEAN,130,2.95,modeled_estimate
+17903369297646473,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,69,1.57,modeled_estimate
+17903369297646473,city,MY,Selangor,Petaling Jaya,International - ASEAN,31,0.7,modeled_estimate
+17903369297646473,city,AU,Victoria,Melbourne,International - Other,36,0.82,modeled_estimate
+17903369297646473,city,AU,New South Wales,Sydney,International - Other,27,0.61,modeled_estimate
+17903369297646473,city,NL,North Holland,Amsterdam,International - Other,21,0.48,modeled_estimate
+17903369297646473,city,GB,England,London,International - Other,18,0.41,modeled_estimate
+17903369297646473,province_state,ID,West Java,,,1905,43.28,modeled_estimate
+17903369297646473,province_state,ID,Jakarta,,,855,19.42,modeled_estimate
+17903369297646473,province_state,ID,East Java,,,320,7.27,modeled_estimate
+17903369297646473,province_state,ID,Banten,,,214,4.86,modeled_estimate
+17903369297646473,province_state,ID,Yogyakarta,,,101,2.29,modeled_estimate
+17903369297646473,province_state,ID,Central Java,,,100,2.27,modeled_estimate
+17903369297646473,province_state,ID,Bali,,,71,1.61,modeled_estimate
+17903369297646473,province_state,ID,North Sumatra,,,60,1.36,modeled_estimate
+17903369297646473,province_state,ID,South Sulawesi,,,35,0.8,modeled_estimate
+17903369297646473,province_state,ID,South Sumatra,,,26,0.59,modeled_estimate
+17903369297646473,province_state,ID,East Kalimantan,,,25,0.57,modeled_estimate
+17903369297646473,province_state,SG,Singapore,,,130,2.95,modeled_estimate
+17903369297646473,province_state,MY,Kuala Lumpur,,,69,1.57,modeled_estimate
+17903369297646473,province_state,MY,Selangor,,,31,0.7,modeled_estimate
+17903369297646473,province_state,AU,Victoria,,,36,0.82,modeled_estimate
+17903369297646473,province_state,AU,New South Wales,,,27,0.61,modeled_estimate
+17903369297646473,province_state,NL,North Holland,,,21,0.48,modeled_estimate
+17903369297646473,province_state,GB,England,,,18,0.41,modeled_estimate
+17903369297646473,region_group,,,,Greater Bandung,1099,24.97,modeled_estimate
+17903369297646473,region_group,,,,Greater Jakarta (Jabodetabek),1489,33.83,modeled_estimate
+17903369297646473,region_group,,,,Other Java,521,11.84,modeled_estimate
+17903369297646473,region_group,,,,Outside Java,217,4.93,modeled_estimate
+17903369297646473,region_group,,,,Other West Java (hub regions),386,8.77,modeled_estimate
+17903369297646473,region_group,,,,International - ASEAN,230,5.22,modeled_estimate
+17903369297646473,region_group,,,,International - Other,102,2.32,modeled_estimate
+17903369297646473,country,ID,,,,3965,90.07,modeled_estimate
+17903369297646473,country,SG,,,,143,3.25,modeled_estimate
+17903369297646473,country,MY,,,,108,2.45,modeled_estimate
+17903369297646473,country,AU,,,,69,1.57,modeled_estimate
+17903369297646473,country,NL,,,,23,0.52,modeled_estimate
+17903369297646473,country,GB,,,,20,0.45,modeled_estimate
+17903369297646473,country,US,,,,36,0.82,modeled_estimate
+17903369297646473,country,JP,,,,24,0.55,modeled_estimate
+17903369297646473,country,SA,,,,18,0.41,modeled_estimate
+17903369297646473,country,DE,,,,7,0.16,modeled_estimate
+17903369297646473,country,KR,,,,11,0.25,modeled_estimate
+17906998254854499,city,ID,West Java,Bandung,Greater Bandung,475,13.29,modeled_estimate
+17906998254854499,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),884,24.73,modeled_estimate
+17906998254854499,city,ID,East Java,Surabaya,Other Java,210,5.87,modeled_estimate
+17906998254854499,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),139,3.89,modeled_estimate
+17906998254854499,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),123,3.44,modeled_estimate
+17906998254854499,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),120,3.36,modeled_estimate
+17906998254854499,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),115,3.22,modeled_estimate
+17906998254854499,city,ID,West Java,Cimahi,Greater Bandung,72,2.01,modeled_estimate
+17906998254854499,city,ID,Yogyakarta,Yogyakarta,Other Java,100,2.8,modeled_estimate
+17906998254854499,city,ID,Central Java,Semarang,Other Java,100,2.8,modeled_estimate
+17906998254854499,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),90,2.52,modeled_estimate
+17906998254854499,city,ID,Bali,Denpasar,Outside Java,73,2.04,modeled_estimate
+17906998254854499,city,ID,North Sumatra,Medan,Outside Java,64,1.79,modeled_estimate
+17906998254854499,city,ID,East Java,Malang,Other Java,58,1.62,modeled_estimate
+17906998254854499,city,ID,West Java,Cirebon,Other West Java (hub regions),36,1.01,modeled_estimate
+17906998254854499,city,ID,West Java,Garut,Other West Java (hub regions),39,1.09,modeled_estimate
+17906998254854499,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),30,0.84,modeled_estimate
+17906998254854499,city,ID,West Java,Sukabumi,Other West Java (hub regions),35,0.98,modeled_estimate
+17906998254854499,city,ID,South Sulawesi,Makassar,Outside Java,42,1.17,modeled_estimate
+17906998254854499,city,ID,South Sumatra,Palembang,Outside Java,36,1.01,modeled_estimate
+17906998254854499,city,ID,East Kalimantan,Balikpapan,Outside Java,31,0.87,modeled_estimate
+17906998254854499,city,SG,Singapore,Singapore,International - ASEAN,93,2.6,modeled_estimate
+17906998254854499,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,51,1.43,modeled_estimate
+17906998254854499,city,MY,Selangor,Petaling Jaya,International - ASEAN,25,0.7,modeled_estimate
+17906998254854499,city,AU,Victoria,Melbourne,International - Other,23,0.64,modeled_estimate
+17906998254854499,city,AU,New South Wales,Sydney,International - Other,15,0.42,modeled_estimate
+17906998254854499,city,NL,North Holland,Amsterdam,International - Other,20,0.56,modeled_estimate
+17906998254854499,city,GB,England,London,International - Other,12,0.34,modeled_estimate
+17906998254854499,province_state,ID,West Java,,,1064,29.76,modeled_estimate
+17906998254854499,province_state,ID,Jakarta,,,884,24.73,modeled_estimate
+17906998254854499,province_state,ID,East Java,,,268,7.5,modeled_estimate
+17906998254854499,province_state,ID,Banten,,,210,5.87,modeled_estimate
+17906998254854499,province_state,ID,Yogyakarta,,,100,2.8,modeled_estimate
+17906998254854499,province_state,ID,Central Java,,,100,2.8,modeled_estimate
+17906998254854499,province_state,ID,Bali,,,73,2.04,modeled_estimate
+17906998254854499,province_state,ID,North Sumatra,,,64,1.79,modeled_estimate
+17906998254854499,province_state,ID,South Sulawesi,,,42,1.17,modeled_estimate
+17906998254854499,province_state,ID,South Sumatra,,,36,1.01,modeled_estimate
+17906998254854499,province_state,ID,East Kalimantan,,,31,0.87,modeled_estimate
+17906998254854499,province_state,SG,Singapore,,,93,2.6,modeled_estimate
+17906998254854499,province_state,MY,Kuala Lumpur,,,51,1.43,modeled_estimate
+17906998254854499,province_state,MY,Selangor,,,25,0.7,modeled_estimate
+17906998254854499,province_state,AU,Victoria,,,23,0.64,modeled_estimate
+17906998254854499,province_state,AU,New South Wales,,,15,0.42,modeled_estimate
+17906998254854499,province_state,NL,North Holland,,,20,0.56,modeled_estimate
+17906998254854499,province_state,GB,England,,,12,0.34,modeled_estimate
+17906998254854499,region_group,,,,Greater Bandung,547,15.3,modeled_estimate
+17906998254854499,region_group,,,,Greater Jakarta (Jabodetabek),1471,41.15,modeled_estimate
+17906998254854499,region_group,,,,Other Java,468,13.09,modeled_estimate
+17906998254854499,region_group,,,,Outside Java,246,6.88,modeled_estimate
+17906998254854499,region_group,,,,Other West Java (hub regions),140,3.92,modeled_estimate
+17906998254854499,region_group,,,,International - ASEAN,169,4.73,modeled_estimate
+17906998254854499,region_group,,,,International - Other,70,1.96,modeled_estimate
+17906998254854499,country,ID,,,,3076,86.04,modeled_estimate
+17906998254854499,country,SG,,,,98,2.74,modeled_estimate
+17906998254854499,country,MY,,,,81,2.27,modeled_estimate
+17906998254854499,country,AU,,,,40,1.12,modeled_estimate
+17906998254854499,country,NL,,,,22,0.62,modeled_estimate
+17906998254854499,country,GB,,,,13,0.36,modeled_estimate
+17906998254854499,country,US,,,,42,1.17,modeled_estimate
+17906998254854499,country,JP,,,,16,0.45,modeled_estimate
+17906998254854499,country,SA,,,,6,0.17,modeled_estimate
+17906998254854499,country,DE,,,,6,0.17,modeled_estimate
+17906998254854499,country,KR,,,,6,0.17,modeled_estimate
+17909503295997091,city,ID,West Java,Bandung,Greater Bandung,262,19.08,modeled_estimate
+17909503295997091,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),303,22.07,modeled_estimate
+17909503295997091,city,ID,East Java,Surabaya,Other Java,67,4.88,modeled_estimate
+17909503295997091,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),56,4.08,modeled_estimate
+17909503295997091,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),50,3.64,modeled_estimate
+17909503295997091,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),46,3.35,modeled_estimate
+17909503295997091,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),40,2.91,modeled_estimate
+17909503295997091,city,ID,West Java,Cimahi,Greater Bandung,31,2.26,modeled_estimate
+17909503295997091,city,ID,Yogyakarta,Yogyakarta,Other Java,33,2.4,modeled_estimate
+17909503295997091,city,ID,Central Java,Semarang,Other Java,34,2.48,modeled_estimate
+17909503295997091,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),31,2.26,modeled_estimate
+17909503295997091,city,ID,Bali,Denpasar,Outside Java,27,1.97,modeled_estimate
+17909503295997091,city,ID,North Sumatra,Medan,Outside Java,21,1.53,modeled_estimate
+17909503295997091,city,ID,East Java,Malang,Other Java,22,1.6,modeled_estimate
+17909503295997091,city,ID,West Java,Cirebon,Other West Java (hub regions),16,1.17,modeled_estimate
+17909503295997091,city,ID,West Java,Garut,Other West Java (hub regions),13,0.95,modeled_estimate
+17909503295997091,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),13,0.95,modeled_estimate
+17909503295997091,city,ID,West Java,Sukabumi,Other West Java (hub regions),11,0.8,modeled_estimate
+17909503295997091,city,ID,South Sulawesi,Makassar,Outside Java,17,1.24,modeled_estimate
+17909503295997091,city,ID,South Sumatra,Palembang,Outside Java,11,0.8,modeled_estimate
+17909503295997091,city,ID,East Kalimantan,Balikpapan,Outside Java,12,0.87,modeled_estimate
+17909503295997091,city,SG,Singapore,Singapore,International - ASEAN,37,2.69,modeled_estimate
+17909503295997091,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,23,1.68,modeled_estimate
+17909503295997091,city,MY,Selangor,Petaling Jaya,International - ASEAN,10,0.73,modeled_estimate
+17909503295997091,city,AU,Victoria,Melbourne,International - Other,10,0.73,modeled_estimate
+17909503295997091,city,AU,New South Wales,Sydney,International - Other,9,0.66,modeled_estimate
+17909503295997091,city,NL,North Holland,Amsterdam,International - Other,7,0.51,modeled_estimate
+17909503295997091,city,GB,England,London,International - Other,6,0.44,modeled_estimate
+17909503295997091,province_state,ID,West Java,,,492,35.83,modeled_estimate
+17909503295997091,province_state,ID,Jakarta,,,303,22.07,modeled_estimate
+17909503295997091,province_state,ID,East Java,,,89,6.48,modeled_estimate
+17909503295997091,province_state,ID,Banten,,,77,5.61,modeled_estimate
+17909503295997091,province_state,ID,Yogyakarta,,,33,2.4,modeled_estimate
+17909503295997091,province_state,ID,Central Java,,,34,2.48,modeled_estimate
+17909503295997091,province_state,ID,Bali,,,27,1.97,modeled_estimate
+17909503295997091,province_state,ID,North Sumatra,,,21,1.53,modeled_estimate
+17909503295997091,province_state,ID,South Sulawesi,,,17,1.24,modeled_estimate
+17909503295997091,province_state,ID,South Sumatra,,,11,0.8,modeled_estimate
+17909503295997091,province_state,ID,East Kalimantan,,,12,0.87,modeled_estimate
+17909503295997091,province_state,SG,Singapore,,,37,2.69,modeled_estimate
+17909503295997091,province_state,MY,Kuala Lumpur,,,23,1.68,modeled_estimate
+17909503295997091,province_state,MY,Selangor,,,10,0.73,modeled_estimate
+17909503295997091,province_state,AU,Victoria,,,10,0.73,modeled_estimate
+17909503295997091,province_state,AU,New South Wales,,,9,0.66,modeled_estimate
+17909503295997091,province_state,NL,North Holland,,,7,0.51,modeled_estimate
+17909503295997091,province_state,GB,England,,,6,0.44,modeled_estimate
+17909503295997091,region_group,,,,Greater Bandung,293,21.34,modeled_estimate
+17909503295997091,region_group,,,,Greater Jakarta (Jabodetabek),526,38.31,modeled_estimate
+17909503295997091,region_group,,,,Other Java,156,11.36,modeled_estimate
+17909503295997091,region_group,,,,Outside Java,88,6.41,modeled_estimate
+17909503295997091,region_group,,,,Other West Java (hub regions),53,3.86,modeled_estimate
+17909503295997091,region_group,,,,International - ASEAN,70,5.1,modeled_estimate
+17909503295997091,region_group,,,,International - Other,32,2.33,modeled_estimate
+17909503295997091,country,ID,,,,1188,86.53,modeled_estimate
+17909503295997091,country,SG,,,,39,2.84,modeled_estimate
+17909503295997091,country,MY,,,,36,2.62,modeled_estimate
+17909503295997091,country,AU,,,,21,1.53,modeled_estimate
+17909503295997091,country,NL,,,,7,0.51,modeled_estimate
+17909503295997091,country,GB,,,,6,0.44,modeled_estimate
+17909503295997091,country,US,,,,17,1.24,modeled_estimate
+17909503295997091,country,JP,,,,7,0.51,modeled_estimate
+17909503295997091,country,SA,,,,5,0.36,modeled_estimate
+17909503295997091,country,DE,,,,4,0.29,modeled_estimate
+17909503295997091,country,KR,,,,3,0.22,modeled_estimate
+17905224068300707,city,ID,West Java,Bandung,Greater Bandung,354,30.6,modeled_estimate
+17905224068300707,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),170,14.69,modeled_estimate
+17905224068300707,city,ID,East Java,Surabaya,Other Java,42,3.63,modeled_estimate
+17905224068300707,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),33,2.85,modeled_estimate
+17905224068300707,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),27,2.33,modeled_estimate
+17905224068300707,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),27,2.33,modeled_estimate
+17905224068300707,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),23,1.99,modeled_estimate
+17905224068300707,city,ID,West Java,Cimahi,Greater Bandung,42,3.63,modeled_estimate
+17905224068300707,city,ID,Yogyakarta,Yogyakarta,Other Java,17,1.47,modeled_estimate
+17905224068300707,city,ID,Central Java,Semarang,Other Java,18,1.56,modeled_estimate
+17905224068300707,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),18,1.56,modeled_estimate
+17905224068300707,city,ID,Bali,Denpasar,Outside Java,11,0.95,modeled_estimate
+17905224068300707,city,ID,North Sumatra,Medan,Outside Java,11,0.95,modeled_estimate
+17905224068300707,city,ID,East Java,Malang,Other Java,10,0.86,modeled_estimate
+17905224068300707,city,ID,West Java,Cirebon,Other West Java (hub regions),41,3.54,modeled_estimate
+17905224068300707,city,ID,West Java,Garut,Other West Java (hub regions),43,3.72,modeled_estimate
+17905224068300707,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),41,3.54,modeled_estimate
+17905224068300707,city,ID,West Java,Sukabumi,Other West Java (hub regions),38,3.28,modeled_estimate
+17905224068300707,city,ID,South Sulawesi,Makassar,Outside Java,9,0.78,modeled_estimate
+17905224068300707,city,ID,South Sumatra,Palembang,Outside Java,5,0.43,modeled_estimate
+17905224068300707,city,ID,East Kalimantan,Balikpapan,Outside Java,5,0.43,modeled_estimate
+17905224068300707,city,SG,Singapore,Singapore,International - ASEAN,4,0.35,modeled_estimate
+17905224068300707,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,3,0.26,modeled_estimate
+17905224068300707,city,MY,Selangor,Petaling Jaya,International - ASEAN,1,0.09,modeled_estimate
+17905224068300707,city,AU,Victoria,Melbourne,International - Other,1,0.09,modeled_estimate
+17905224068300707,city,AU,New South Wales,Sydney,International - Other,1,0.09,modeled_estimate
+17905224068300707,city,NL,North Holland,Amsterdam,International - Other,1,0.09,modeled_estimate
+17905224068300707,city,GB,England,London,International - Other,1,0.09,modeled_estimate
+17905224068300707,province_state,ID,West Java,,,642,55.49,modeled_estimate
+17905224068300707,province_state,ID,Jakarta,,,170,14.69,modeled_estimate
+17905224068300707,province_state,ID,East Java,,,52,4.49,modeled_estimate
+17905224068300707,province_state,ID,Banten,,,45,3.89,modeled_estimate
+17905224068300707,province_state,ID,Yogyakarta,,,17,1.47,modeled_estimate
+17905224068300707,province_state,ID,Central Java,,,18,1.56,modeled_estimate
+17905224068300707,province_state,ID,Bali,,,11,0.95,modeled_estimate
+17905224068300707,province_state,ID,North Sumatra,,,11,0.95,modeled_estimate
+17905224068300707,province_state,ID,South Sulawesi,,,9,0.78,modeled_estimate
+17905224068300707,province_state,ID,South Sumatra,,,5,0.43,modeled_estimate
+17905224068300707,province_state,ID,East Kalimantan,,,5,0.43,modeled_estimate
+17905224068300707,province_state,SG,Singapore,,,4,0.35,modeled_estimate
+17905224068300707,province_state,MY,Kuala Lumpur,,,3,0.26,modeled_estimate
+17905224068300707,province_state,MY,Selangor,,,1,0.09,modeled_estimate
+17905224068300707,province_state,AU,Victoria,,,1,0.09,modeled_estimate
+17905224068300707,province_state,AU,New South Wales,,,1,0.09,modeled_estimate
+17905224068300707,province_state,NL,North Holland,,,1,0.09,modeled_estimate
+17905224068300707,province_state,GB,England,,,1,0.09,modeled_estimate
+17905224068300707,region_group,,,,Greater Bandung,396,34.23,modeled_estimate
+17905224068300707,region_group,,,,Greater Jakarta (Jabodetabek),298,25.76,modeled_estimate
+17905224068300707,region_group,,,,Other Java,87,7.52,modeled_estimate
+17905224068300707,region_group,,,,Outside Java,41,3.54,modeled_estimate
+17905224068300707,region_group,,,,Other West Java (hub regions),163,14.09,modeled_estimate
+17905224068300707,region_group,,,,International - ASEAN,8,0.69,modeled_estimate
+17905224068300707,region_group,,,,International - Other,4,0.35,modeled_estimate
+17905224068300707,country,ID,,,,1053,91.01,modeled_estimate
+17905224068300707,country,SG,,,,4,0.35,modeled_estimate
+17905224068300707,country,MY,,,,4,0.35,modeled_estimate
+17905224068300707,country,AU,,,,2,0.17,modeled_estimate
+17905224068300707,country,NL,,,,1,0.09,modeled_estimate
+17905224068300707,country,GB,,,,1,0.09,modeled_estimate
+17905224068300707,country,US,,,,9,0.78,modeled_estimate
+17905224068300707,country,JP,,,,6,0.52,modeled_estimate
+17905224068300707,country,SA,,,,3,0.26,modeled_estimate
+17905224068300707,country,DE,,,,2,0.17,modeled_estimate
+17905224068300707,country,KR,,,,1,0.09,modeled_estimate
+17905447142028772,city,ID,West Java,Bandung,Greater Bandung,1895,17.95,modeled_estimate
+17905447142028772,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2075,19.66,modeled_estimate
+17905447142028772,city,ID,East Java,Surabaya,Other Java,666,6.31,modeled_estimate
+17905447142028772,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),423,4.01,modeled_estimate
+17905447142028772,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),419,3.97,modeled_estimate
+17905447142028772,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),307,2.91,modeled_estimate
+17905447142028772,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),317,3.0,modeled_estimate
+17905447142028772,city,ID,West Java,Cimahi,Greater Bandung,223,2.11,modeled_estimate
+17905447142028772,city,ID,Yogyakarta,Yogyakarta,Other Java,237,2.25,modeled_estimate
+17905447142028772,city,ID,Central Java,Semarang,Other Java,249,2.36,modeled_estimate
+17905447142028772,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),248,2.35,modeled_estimate
+17905447142028772,city,ID,Bali,Denpasar,Outside Java,160,1.52,modeled_estimate
+17905447142028772,city,ID,North Sumatra,Medan,Outside Java,145,1.37,modeled_estimate
+17905447142028772,city,ID,East Java,Malang,Other Java,157,1.49,modeled_estimate
+17905447142028772,city,ID,West Java,Cirebon,Other West Java (hub regions),189,1.79,modeled_estimate
+17905447142028772,city,ID,West Java,Garut,Other West Java (hub regions),190,1.8,modeled_estimate
+17905447142028772,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),163,1.54,modeled_estimate
+17905447142028772,city,ID,West Java,Sukabumi,Other West Java (hub regions),154,1.46,modeled_estimate
+17905447142028772,city,ID,South Sulawesi,Makassar,Outside Java,109,1.03,modeled_estimate
+17905447142028772,city,ID,South Sumatra,Palembang,Outside Java,75,0.71,modeled_estimate
+17905447142028772,city,ID,East Kalimantan,Balikpapan,Outside Java,65,0.62,modeled_estimate
+17905447142028772,city,SG,Singapore,Singapore,International - ASEAN,350,3.32,modeled_estimate
+17905447142028772,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,207,1.96,modeled_estimate
+17905447142028772,city,MY,Selangor,Petaling Jaya,International - ASEAN,99,0.94,modeled_estimate
+17905447142028772,city,AU,Victoria,Melbourne,International - Other,69,0.65,modeled_estimate
+17905447142028772,city,AU,New South Wales,Sydney,International - Other,71,0.67,modeled_estimate
+17905447142028772,city,NL,North Holland,Amsterdam,International - Other,61,0.58,modeled_estimate
+17905447142028772,city,GB,England,London,International - Other,44,0.42,modeled_estimate
+17905447142028772,province_state,ID,West Java,,,3973,37.64,modeled_estimate
+17905447142028772,province_state,ID,Jakarta,,,2075,19.66,modeled_estimate
+17905447142028772,province_state,ID,East Java,,,823,7.8,modeled_estimate
+17905447142028772,province_state,ID,Banten,,,555,5.26,modeled_estimate
+17905447142028772,province_state,ID,Yogyakarta,,,237,2.25,modeled_estimate
+17905447142028772,province_state,ID,Central Java,,,249,2.36,modeled_estimate
+17905447142028772,province_state,ID,Bali,,,160,1.52,modeled_estimate
+17905447142028772,province_state,ID,North Sumatra,,,145,1.37,modeled_estimate
+17905447142028772,province_state,ID,South Sulawesi,,,109,1.03,modeled_estimate
+17905447142028772,province_state,ID,South Sumatra,,,75,0.71,modeled_estimate
+17905447142028772,province_state,ID,East Kalimantan,,,65,0.62,modeled_estimate
+17905447142028772,province_state,SG,Singapore,,,350,3.32,modeled_estimate
+17905447142028772,province_state,MY,Kuala Lumpur,,,207,1.96,modeled_estimate
+17905447142028772,province_state,MY,Selangor,,,99,0.94,modeled_estimate
+17905447142028772,province_state,AU,Victoria,,,69,0.65,modeled_estimate
+17905447142028772,province_state,AU,New South Wales,,,71,0.67,modeled_estimate
+17905447142028772,province_state,NL,North Holland,,,61,0.58,modeled_estimate
+17905447142028772,province_state,GB,England,,,44,0.42,modeled_estimate
+17905447142028772,region_group,,,,Greater Bandung,2118,20.06,modeled_estimate
+17905447142028772,region_group,,,,Greater Jakarta (Jabodetabek),3789,35.89,modeled_estimate
+17905447142028772,region_group,,,,Other Java,1309,12.4,modeled_estimate
+17905447142028772,region_group,,,,Outside Java,554,5.25,modeled_estimate
+17905447142028772,region_group,,,,Other West Java (hub regions),696,6.59,modeled_estimate
+17905447142028772,region_group,,,,International - ASEAN,656,6.21,modeled_estimate
+17905447142028772,region_group,,,,International - Other,245,2.32,modeled_estimate
+17905447142028772,country,ID,,,,8899,84.3,modeled_estimate
+17905447142028772,country,SG,,,,365,3.46,modeled_estimate
+17905447142028772,country,MY,,,,322,3.05,modeled_estimate
+17905447142028772,country,AU,,,,147,1.39,modeled_estimate
+17905447142028772,country,NL,,,,66,0.63,modeled_estimate
+17905447142028772,country,GB,,,,47,0.45,modeled_estimate
+17905447142028772,country,US,,,,99,0.94,modeled_estimate
+17905447142028772,country,JP,,,,26,0.25,modeled_estimate
+17905447142028772,country,SA,,,,25,0.24,modeled_estimate
+17905447142028772,country,DE,,,,19,0.18,modeled_estimate
+17905447142028772,country,KR,,,,22,0.21,modeled_estimate
+17902783331106906,city,ID,West Java,Bandung,Greater Bandung,1963,17.7,modeled_estimate
+17902783331106906,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),1701,15.33,modeled_estimate
+17902783331106906,city,ID,East Java,Surabaya,Other Java,554,4.99,modeled_estimate
+17902783331106906,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),353,3.18,modeled_estimate
+17902783331106906,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),344,3.1,modeled_estimate
+17902783331106906,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),285,2.57,modeled_estimate
+17902783331106906,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),316,2.85,modeled_estimate
+17902783331106906,city,ID,West Java,Cimahi,Greater Bandung,284,2.56,modeled_estimate
+17902783331106906,city,ID,Yogyakarta,Yogyakarta,Other Java,250,2.25,modeled_estimate
+17902783331106906,city,ID,Central Java,Semarang,Other Java,220,1.98,modeled_estimate
+17902783331106906,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),241,2.17,modeled_estimate
+17902783331106906,city,ID,Bali,Denpasar,Outside Java,163,1.47,modeled_estimate
+17902783331106906,city,ID,North Sumatra,Medan,Outside Java,133,1.2,modeled_estimate
+17902783331106906,city,ID,East Java,Malang,Other Java,143,1.29,modeled_estimate
+17902783331106906,city,ID,West Java,Cirebon,Other West Java (hub regions),250,2.25,modeled_estimate
+17902783331106906,city,ID,West Java,Garut,Other West Java (hub regions),254,2.29,modeled_estimate
+17902783331106906,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),1458,13.14,modeled_estimate
+17902783331106906,city,ID,West Java,Sukabumi,Other West Java (hub regions),229,2.06,modeled_estimate
+17902783331106906,city,ID,South Sulawesi,Makassar,Outside Java,89,0.8,modeled_estimate
+17902783331106906,city,ID,South Sumatra,Palembang,Outside Java,68,0.61,modeled_estimate
+17902783331106906,city,ID,East Kalimantan,Balikpapan,Outside Java,67,0.6,modeled_estimate
+17902783331106906,city,SG,Singapore,Singapore,International - ASEAN,271,2.44,modeled_estimate
+17902783331106906,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,186,1.68,modeled_estimate
+17902783331106906,city,MY,Selangor,Petaling Jaya,International - ASEAN,68,0.61,modeled_estimate
+17902783331106906,city,AU,Victoria,Melbourne,International - Other,73,0.66,modeled_estimate
+17902783331106906,city,AU,New South Wales,Sydney,International - Other,67,0.6,modeled_estimate
+17902783331106906,city,NL,North Holland,Amsterdam,International - Other,57,0.51,modeled_estimate
+17902783331106906,city,GB,England,London,International - Other,43,0.39,modeled_estimate
+17902783331106906,province_state,ID,West Java,,,5451,49.14,modeled_estimate
+17902783331106906,province_state,ID,Jakarta,,,1701,15.33,modeled_estimate
+17902783331106906,province_state,ID,East Java,,,697,6.28,modeled_estimate
+17902783331106906,province_state,ID,Banten,,,526,4.74,modeled_estimate
+17902783331106906,province_state,ID,Yogyakarta,,,250,2.25,modeled_estimate
+17902783331106906,province_state,ID,Central Java,,,220,1.98,modeled_estimate
+17902783331106906,province_state,ID,Bali,,,163,1.47,modeled_estimate
+17902783331106906,province_state,ID,North Sumatra,,,133,1.2,modeled_estimate
+17902783331106906,province_state,ID,South Sulawesi,,,89,0.8,modeled_estimate
+17902783331106906,province_state,ID,South Sumatra,,,68,0.61,modeled_estimate
+17902783331106906,province_state,ID,East Kalimantan,,,67,0.6,modeled_estimate
+17902783331106906,province_state,SG,Singapore,,,271,2.44,modeled_estimate
+17902783331106906,province_state,MY,Kuala Lumpur,,,186,1.68,modeled_estimate
+17902783331106906,province_state,MY,Selangor,,,68,0.61,modeled_estimate
+17902783331106906,province_state,AU,Victoria,,,73,0.66,modeled_estimate
+17902783331106906,province_state,AU,New South Wales,,,67,0.6,modeled_estimate
+17902783331106906,province_state,NL,North Holland,,,57,0.51,modeled_estimate
+17902783331106906,province_state,GB,England,,,43,0.39,modeled_estimate
+17902783331106906,region_group,,,,Greater Bandung,2247,20.26,modeled_estimate
+17902783331106906,region_group,,,,Greater Jakarta (Jabodetabek),3240,29.21,modeled_estimate
+17902783331106906,region_group,,,,Other Java,1167,10.52,modeled_estimate
+17902783331106906,region_group,,,,Outside Java,520,4.69,modeled_estimate
+17902783331106906,region_group,,,,Other West Java (hub regions),2191,19.75,modeled_estimate
+17902783331106906,region_group,,,,International - ASEAN,525,4.73,modeled_estimate
+17902783331106906,region_group,,,,International - Other,240,2.16,modeled_estimate
+17902783331106906,country,ID,,,,10212,92.06,modeled_estimate
+17902783331106906,country,SG,,,,290,2.61,modeled_estimate
+17902783331106906,country,MY,,,,266,2.4,modeled_estimate
+17902783331106906,country,AU,,,,152,1.37,modeled_estimate
+17902783331106906,country,NL,,,,61,0.55,modeled_estimate
+17902783331106906,country,GB,,,,47,0.42,modeled_estimate
+17902783331106906,country,US,,,,96,0.87,modeled_estimate
+17902783331106906,country,JP,,,,48,0.43,modeled_estimate
+17902783331106906,country,SA,,,,36,0.32,modeled_estimate
+17902783331106906,country,DE,,,,30,0.27,modeled_estimate
+17902783331106906,country,KR,,,,25,0.23,modeled_estimate
+17905854025471212,city,ID,West Java,Bandung,Greater Bandung,567,17.29,modeled_estimate
+17905854025471212,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),843,25.71,modeled_estimate
+17905854025471212,city,ID,East Java,Surabaya,Other Java,175,5.34,modeled_estimate
+17905854025471212,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),129,3.93,modeled_estimate
+17905854025471212,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),101,3.08,modeled_estimate
+17905854025471212,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),96,2.93,modeled_estimate
+17905854025471212,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),97,2.96,modeled_estimate
+17905854025471212,city,ID,West Java,Cimahi,Greater Bandung,73,2.23,modeled_estimate
+17905854025471212,city,ID,Yogyakarta,Yogyakarta,Other Java,74,2.26,modeled_estimate
+17905854025471212,city,ID,Central Java,Semarang,Other Java,68,2.07,modeled_estimate
+17905854025471212,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),80,2.44,modeled_estimate
+17905854025471212,city,ID,Bali,Denpasar,Outside Java,61,1.86,modeled_estimate
+17905854025471212,city,ID,North Sumatra,Medan,Outside Java,48,1.46,modeled_estimate
+17905854025471212,city,ID,East Java,Malang,Other Java,42,1.28,modeled_estimate
+17905854025471212,city,ID,West Java,Cirebon,Other West Java (hub regions),33,1.01,modeled_estimate
+17905854025471212,city,ID,West Java,Garut,Other West Java (hub regions),27,0.82,modeled_estimate
+17905854025471212,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),32,0.98,modeled_estimate
+17905854025471212,city,ID,West Java,Sukabumi,Other West Java (hub regions),24,0.73,modeled_estimate
+17905854025471212,city,ID,South Sulawesi,Makassar,Outside Java,31,0.95,modeled_estimate
+17905854025471212,city,ID,South Sumatra,Palembang,Outside Java,25,0.76,modeled_estimate
+17905854025471212,city,ID,East Kalimantan,Balikpapan,Outside Java,22,0.67,modeled_estimate
+17905854025471212,city,SG,Singapore,Singapore,International - ASEAN,99,3.02,modeled_estimate
+17905854025471212,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,54,1.65,modeled_estimate
+17905854025471212,city,MY,Selangor,Petaling Jaya,International - ASEAN,27,0.82,modeled_estimate
+17905854025471212,city,AU,Victoria,Melbourne,International - Other,24,0.73,modeled_estimate
+17905854025471212,city,AU,New South Wales,Sydney,International - Other,21,0.64,modeled_estimate
+17905854025471212,city,NL,North Holland,Amsterdam,International - Other,18,0.55,modeled_estimate
+17905854025471212,city,GB,England,London,International - Other,13,0.4,modeled_estimate
+17905854025471212,province_state,ID,West Java,,,1083,33.03,modeled_estimate
+17905854025471212,province_state,ID,Jakarta,,,843,25.71,modeled_estimate
+17905854025471212,province_state,ID,East Java,,,217,6.62,modeled_estimate
+17905854025471212,province_state,ID,Banten,,,176,5.37,modeled_estimate
+17905854025471212,province_state,ID,Yogyakarta,,,74,2.26,modeled_estimate
+17905854025471212,province_state,ID,Central Java,,,68,2.07,modeled_estimate
+17905854025471212,province_state,ID,Bali,,,61,1.86,modeled_estimate
+17905854025471212,province_state,ID,North Sumatra,,,48,1.46,modeled_estimate
+17905854025471212,province_state,ID,South Sulawesi,,,31,0.95,modeled_estimate
+17905854025471212,province_state,ID,South Sumatra,,,25,0.76,modeled_estimate
+17905854025471212,province_state,ID,East Kalimantan,,,22,0.67,modeled_estimate
+17905854025471212,province_state,SG,Singapore,,,99,3.02,modeled_estimate
+17905854025471212,province_state,MY,Kuala Lumpur,,,54,1.65,modeled_estimate
+17905854025471212,province_state,MY,Selangor,,,27,0.82,modeled_estimate
+17905854025471212,province_state,AU,Victoria,,,24,0.73,modeled_estimate
+17905854025471212,province_state,AU,New South Wales,,,21,0.64,modeled_estimate
+17905854025471212,province_state,NL,North Holland,,,18,0.55,modeled_estimate
+17905854025471212,province_state,GB,England,,,13,0.4,modeled_estimate
+17905854025471212,region_group,,,,Greater Bandung,640,19.52,modeled_estimate
+17905854025471212,region_group,,,,Greater Jakarta (Jabodetabek),1346,41.05,modeled_estimate
+17905854025471212,region_group,,,,Other Java,359,10.95,modeled_estimate
+17905854025471212,region_group,,,,Outside Java,187,5.7,modeled_estimate
+17905854025471212,region_group,,,,Other West Java (hub regions),116,3.54,modeled_estimate
+17905854025471212,region_group,,,,International - ASEAN,180,5.49,modeled_estimate
+17905854025471212,region_group,,,,International - Other,76,2.32,modeled_estimate
+17905854025471212,country,ID,,,,2871,87.56,modeled_estimate
+17905854025471212,country,SG,,,,103,3.14,modeled_estimate
+17905854025471212,country,MY,,,,87,2.65,modeled_estimate
+17905854025471212,country,AU,,,,48,1.46,modeled_estimate
+17905854025471212,country,NL,,,,20,0.61,modeled_estimate
+17905854025471212,country,GB,,,,14,0.43,modeled_estimate
+17905854025471212,country,US,,,,26,0.79,modeled_estimate
+17905854025471212,country,JP,,,,10,0.3,modeled_estimate
+17905854025471212,country,SA,,,,7,0.21,modeled_estimate
+17905854025471212,country,DE,,,,5,0.15,modeled_estimate
+17905854025471212,country,KR,,,,6,0.18,modeled_estimate
+17908838279664940,city,ID,West Java,Bandung,Greater Bandung,628,14.21,modeled_estimate
+17908838279664940,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),1040,23.53,modeled_estimate
+17908838279664940,city,ID,East Java,Surabaya,Other Java,218,4.93,modeled_estimate
+17908838279664940,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),196,4.44,modeled_estimate
+17908838279664940,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),180,4.07,modeled_estimate
+17908838279664940,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),165,3.73,modeled_estimate
+17908838279664940,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),144,3.26,modeled_estimate
+17908838279664940,city,ID,West Java,Cimahi,Greater Bandung,68,1.54,modeled_estimate
+17908838279664940,city,ID,Yogyakarta,Yogyakarta,Other Java,93,2.1,modeled_estimate
+17908838279664940,city,ID,Central Java,Semarang,Other Java,86,1.95,modeled_estimate
+17908838279664940,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),116,2.63,modeled_estimate
+17908838279664940,city,ID,Bali,Denpasar,Outside Java,45,1.02,modeled_estimate
+17908838279664940,city,ID,North Sumatra,Medan,Outside Java,40,0.91,modeled_estimate
+17908838279664940,city,ID,East Java,Malang,Other Java,50,1.13,modeled_estimate
+17908838279664940,city,ID,West Java,Cirebon,Other West Java (hub regions),23,0.52,modeled_estimate
+17908838279664940,city,ID,West Java,Garut,Other West Java (hub regions),23,0.52,modeled_estimate
+17908838279664940,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),22,0.5,modeled_estimate
+17908838279664940,city,ID,West Java,Sukabumi,Other West Java (hub regions),20,0.45,modeled_estimate
+17908838279664940,city,ID,South Sulawesi,Makassar,Outside Java,28,0.63,modeled_estimate
+17908838279664940,city,ID,South Sumatra,Palembang,Outside Java,21,0.48,modeled_estimate
+17908838279664940,city,ID,East Kalimantan,Balikpapan,Outside Java,16,0.36,modeled_estimate
+17908838279664940,city,SG,Singapore,Singapore,International - ASEAN,265,6.0,modeled_estimate
+17908838279664940,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,162,3.67,modeled_estimate
+17908838279664940,city,MY,Selangor,Petaling Jaya,International - ASEAN,73,1.65,modeled_estimate
+17908838279664940,city,AU,Victoria,Melbourne,International - Other,45,1.02,modeled_estimate
+17908838279664940,city,AU,New South Wales,Sydney,International - Other,40,0.91,modeled_estimate
+17908838279664940,city,NL,North Holland,Amsterdam,International - Other,31,0.7,modeled_estimate
+17908838279664940,city,GB,England,London,International - Other,25,0.57,modeled_estimate
+17908838279664940,province_state,ID,West Java,,,1304,29.51,modeled_estimate
+17908838279664940,province_state,ID,Jakarta,,,1040,23.53,modeled_estimate
+17908838279664940,province_state,ID,East Java,,,268,6.06,modeled_estimate
+17908838279664940,province_state,ID,Banten,,,281,6.36,modeled_estimate
+17908838279664940,province_state,ID,Yogyakarta,,,93,2.1,modeled_estimate
+17908838279664940,province_state,ID,Central Java,,,86,1.95,modeled_estimate
+17908838279664940,province_state,ID,Bali,,,45,1.02,modeled_estimate
+17908838279664940,province_state,ID,North Sumatra,,,40,0.91,modeled_estimate
+17908838279664940,province_state,ID,South Sulawesi,,,28,0.63,modeled_estimate
+17908838279664940,province_state,ID,South Sumatra,,,21,0.48,modeled_estimate
+17908838279664940,province_state,ID,East Kalimantan,,,16,0.36,modeled_estimate
+17908838279664940,province_state,SG,Singapore,,,265,6.0,modeled_estimate
+17908838279664940,province_state,MY,Kuala Lumpur,,,162,3.67,modeled_estimate
+17908838279664940,province_state,MY,Selangor,,,73,1.65,modeled_estimate
+17908838279664940,province_state,AU,Victoria,,,45,1.02,modeled_estimate
+17908838279664940,province_state,AU,New South Wales,,,40,0.91,modeled_estimate
+17908838279664940,province_state,NL,North Holland,,,31,0.7,modeled_estimate
+17908838279664940,province_state,GB,England,,,25,0.57,modeled_estimate
+17908838279664940,region_group,,,,Greater Bandung,696,15.75,modeled_estimate
+17908838279664940,region_group,,,,Greater Jakarta (Jabodetabek),1841,41.66,modeled_estimate
+17908838279664940,region_group,,,,Other Java,447,10.12,modeled_estimate
+17908838279664940,region_group,,,,Outside Java,150,3.39,modeled_estimate
+17908838279664940,region_group,,,,Other West Java (hub regions),88,1.99,modeled_estimate
+17908838279664940,region_group,,,,International - ASEAN,500,11.31,modeled_estimate
+17908838279664940,region_group,,,,International - Other,141,3.19,modeled_estimate
+17908838279664940,country,ID,,,,3459,78.28,modeled_estimate
+17908838279664940,country,SG,,,,284,6.43,modeled_estimate
+17908838279664940,country,MY,,,,249,5.63,modeled_estimate
+17908838279664940,country,AU,,,,90,2.04,modeled_estimate
+17908838279664940,country,NL,,,,33,0.75,modeled_estimate
+17908838279664940,country,GB,,,,26,0.59,modeled_estimate
+17908838279664940,country,US,,,,27,0.61,modeled_estimate
+17908838279664940,country,JP,,,,15,0.34,modeled_estimate
+17908838279664940,country,SA,,,,16,0.36,modeled_estimate
+17908838279664940,country,DE,,,,6,0.14,modeled_estimate
+17908838279664940,country,KR,,,,12,0.27,modeled_estimate
+17906745675922616,city,ID,West Java,Bandung,Greater Bandung,1390,33.76,modeled_estimate
+17906745675922616,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),696,16.91,modeled_estimate
+17906745675922616,city,ID,East Java,Surabaya,Other Java,193,4.69,modeled_estimate
+17906745675922616,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),133,3.23,modeled_estimate
+17906745675922616,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),102,2.48,modeled_estimate
+17906745675922616,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),108,2.62,modeled_estimate
+17906745675922616,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),109,2.65,modeled_estimate
+17906745675922616,city,ID,West Java,Cimahi,Greater Bandung,115,2.79,modeled_estimate
+17906745675922616,city,ID,Yogyakarta,Yogyakarta,Other Java,63,1.53,modeled_estimate
+17906745675922616,city,ID,Central Java,Semarang,Other Java,53,1.29,modeled_estimate
+17906745675922616,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),78,1.89,modeled_estimate
+17906745675922616,city,ID,Bali,Denpasar,Outside Java,47,1.14,modeled_estimate
+17906745675922616,city,ID,North Sumatra,Medan,Outside Java,42,1.02,modeled_estimate
+17906745675922616,city,ID,East Java,Malang,Other Java,37,0.9,modeled_estimate
+17906745675922616,city,ID,West Java,Cirebon,Other West Java (hub regions),67,1.63,modeled_estimate
+17906745675922616,city,ID,West Java,Garut,Other West Java (hub regions),64,1.55,modeled_estimate
+17906745675922616,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),69,1.68,modeled_estimate
+17906745675922616,city,ID,West Java,Sukabumi,Other West Java (hub regions),53,1.29,modeled_estimate
+17906745675922616,city,ID,South Sulawesi,Makassar,Outside Java,26,0.63,modeled_estimate
+17906745675922616,city,ID,South Sumatra,Palembang,Outside Java,21,0.51,modeled_estimate
+17906745675922616,city,ID,East Kalimantan,Balikpapan,Outside Java,19,0.46,modeled_estimate
+17906745675922616,city,SG,Singapore,Singapore,International - ASEAN,99,2.4,modeled_estimate
+17906745675922616,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,53,1.29,modeled_estimate
+17906745675922616,city,MY,Selangor,Petaling Jaya,International - ASEAN,27,0.66,modeled_estimate
+17906745675922616,city,AU,Victoria,Melbourne,International - Other,23,0.56,modeled_estimate
+17906745675922616,city,AU,New South Wales,Sydney,International - Other,17,0.41,modeled_estimate
+17906745675922616,city,NL,North Holland,Amsterdam,International - Other,15,0.36,modeled_estimate
+17906745675922616,city,GB,England,London,International - Other,11,0.27,modeled_estimate
+17906745675922616,province_state,ID,West Java,,,2102,51.06,modeled_estimate
+17906745675922616,province_state,ID,Jakarta,,,696,16.91,modeled_estimate
+17906745675922616,province_state,ID,East Java,,,230,5.59,modeled_estimate
+17906745675922616,province_state,ID,Banten,,,186,4.52,modeled_estimate
+17906745675922616,province_state,ID,Yogyakarta,,,63,1.53,modeled_estimate
+17906745675922616,province_state,ID,Central Java,,,53,1.29,modeled_estimate
+17906745675922616,province_state,ID,Bali,,,47,1.14,modeled_estimate
+17906745675922616,province_state,ID,North Sumatra,,,42,1.02,modeled_estimate
+17906745675922616,province_state,ID,South Sulawesi,,,26,0.63,modeled_estimate
+17906745675922616,province_state,ID,South Sumatra,,,21,0.51,modeled_estimate
+17906745675922616,province_state,ID,East Kalimantan,,,19,0.46,modeled_estimate
+17906745675922616,province_state,SG,Singapore,,,99,2.4,modeled_estimate
+17906745675922616,province_state,MY,Kuala Lumpur,,,53,1.29,modeled_estimate
+17906745675922616,province_state,MY,Selangor,,,27,0.66,modeled_estimate
+17906745675922616,province_state,AU,Victoria,,,23,0.56,modeled_estimate
+17906745675922616,province_state,AU,New South Wales,,,17,0.41,modeled_estimate
+17906745675922616,province_state,NL,North Holland,,,15,0.36,modeled_estimate
+17906745675922616,province_state,GB,England,,,11,0.27,modeled_estimate
+17906745675922616,region_group,,,,Greater Bandung,1505,36.56,modeled_estimate
+17906745675922616,region_group,,,,Greater Jakarta (Jabodetabek),1226,29.78,modeled_estimate
+17906745675922616,region_group,,,,Other Java,346,8.4,modeled_estimate
+17906745675922616,region_group,,,,Outside Java,155,3.76,modeled_estimate
+17906745675922616,region_group,,,,Other West Java (hub regions),253,6.15,modeled_estimate
+17906745675922616,region_group,,,,International - ASEAN,179,4.35,modeled_estimate
+17906745675922616,region_group,,,,International - Other,66,1.6,modeled_estimate
+17906745675922616,country,ID,,,,3777,91.74,modeled_estimate
+17906745675922616,country,SG,,,,108,2.62,modeled_estimate
+17906745675922616,country,MY,,,,84,2.04,modeled_estimate
+17906745675922616,country,AU,,,,43,1.04,modeled_estimate
+17906745675922616,country,NL,,,,16,0.39,modeled_estimate
+17906745675922616,country,GB,,,,12,0.29,modeled_estimate
+17906745675922616,country,US,,,,32,0.78,modeled_estimate
+17906745675922616,country,JP,,,,12,0.29,modeled_estimate
+17906745675922616,country,SA,,,,13,0.32,modeled_estimate
+17906745675922616,country,DE,,,,5,0.12,modeled_estimate
+17906745675922616,country,KR,,,,6,0.15,modeled_estimate
+17909597409818323,city,ID,West Java,Bandung,Greater Bandung,1029,17.49,modeled_estimate
+17909597409818323,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),1277,21.7,modeled_estimate
+17909597409818323,city,ID,East Java,Surabaya,Other Java,357,6.07,modeled_estimate
+17909597409818323,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),225,3.82,modeled_estimate
+17909597409818323,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),202,3.43,modeled_estimate
+17909597409818323,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),177,3.01,modeled_estimate
+17909597409818323,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),155,2.63,modeled_estimate
+17909597409818323,city,ID,West Java,Cimahi,Greater Bandung,142,2.41,modeled_estimate
+17909597409818323,city,ID,Yogyakarta,Yogyakarta,Other Java,121,2.06,modeled_estimate
+17909597409818323,city,ID,Central Java,Semarang,Other Java,152,2.58,modeled_estimate
+17909597409818323,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),118,2.01,modeled_estimate
+17909597409818323,city,ID,Bali,Denpasar,Outside Java,94,1.6,modeled_estimate
+17909597409818323,city,ID,North Sumatra,Medan,Outside Java,100,1.7,modeled_estimate
+17909597409818323,city,ID,East Java,Malang,Other Java,73,1.24,modeled_estimate
+17909597409818323,city,ID,West Java,Cirebon,Other West Java (hub regions),100,1.7,modeled_estimate
+17909597409818323,city,ID,West Java,Garut,Other West Java (hub regions),110,1.87,modeled_estimate
+17909597409818323,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),106,1.8,modeled_estimate
+17909597409818323,city,ID,West Java,Sukabumi,Other West Java (hub regions),80,1.36,modeled_estimate
+17909597409818323,city,ID,South Sulawesi,Makassar,Outside Java,59,1.0,modeled_estimate
+17909597409818323,city,ID,South Sumatra,Palembang,Outside Java,42,0.71,modeled_estimate
+17909597409818323,city,ID,East Kalimantan,Balikpapan,Outside Java,38,0.65,modeled_estimate
+17909597409818323,city,SG,Singapore,Singapore,International - ASEAN,204,3.47,modeled_estimate
+17909597409818323,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,109,1.85,modeled_estimate
+17909597409818323,city,MY,Selangor,Petaling Jaya,International - ASEAN,54,0.92,modeled_estimate
+17909597409818323,city,AU,Victoria,Melbourne,International - Other,41,0.7,modeled_estimate
+17909597409818323,city,AU,New South Wales,Sydney,International - Other,34,0.58,modeled_estimate
+17909597409818323,city,NL,North Holland,Amsterdam,International - Other,35,0.59,modeled_estimate
+17909597409818323,city,GB,England,London,International - Other,24,0.41,modeled_estimate
+17909597409818323,province_state,ID,West Java,,,2149,36.52,modeled_estimate
+17909597409818323,province_state,ID,Jakarta,,,1277,21.7,modeled_estimate
+17909597409818323,province_state,ID,East Java,,,430,7.31,modeled_estimate
+17909597409818323,province_state,ID,Banten,,,295,5.01,modeled_estimate
+17909597409818323,province_state,ID,Yogyakarta,,,121,2.06,modeled_estimate
+17909597409818323,province_state,ID,Central Java,,,152,2.58,modeled_estimate
+17909597409818323,province_state,ID,Bali,,,94,1.6,modeled_estimate
+17909597409818323,province_state,ID,North Sumatra,,,100,1.7,modeled_estimate
+17909597409818323,province_state,ID,South Sulawesi,,,59,1.0,modeled_estimate
+17909597409818323,province_state,ID,South Sumatra,,,42,0.71,modeled_estimate
+17909597409818323,province_state,ID,East Kalimantan,,,38,0.65,modeled_estimate
+17909597409818323,province_state,SG,Singapore,,,204,3.47,modeled_estimate
+17909597409818323,province_state,MY,Kuala Lumpur,,,109,1.85,modeled_estimate
+17909597409818323,province_state,MY,Selangor,,,54,0.92,modeled_estimate
+17909597409818323,province_state,AU,Victoria,,,41,0.7,modeled_estimate
+17909597409818323,province_state,AU,New South Wales,,,34,0.58,modeled_estimate
+17909597409818323,province_state,NL,North Holland,,,35,0.59,modeled_estimate
+17909597409818323,province_state,GB,England,,,24,0.41,modeled_estimate
+17909597409818323,region_group,,,,Greater Bandung,1171,19.9,modeled_estimate
+17909597409818323,region_group,,,,Greater Jakarta (Jabodetabek),2154,36.6,modeled_estimate
+17909597409818323,region_group,,,,Other Java,703,11.95,modeled_estimate
+17909597409818323,region_group,,,,Outside Java,333,5.66,modeled_estimate
+17909597409818323,region_group,,,,Other West Java (hub regions),396,6.73,modeled_estimate
+17909597409818323,region_group,,,,International - ASEAN,367,6.24,modeled_estimate
+17909597409818323,region_group,,,,International - Other,134,2.28,modeled_estimate
+17909597409818323,country,ID,,,,5055,85.9,modeled_estimate
+17909597409818323,country,SG,,,,223,3.79,modeled_estimate
+17909597409818323,country,MY,,,,178,3.02,modeled_estimate
+17909597409818323,country,AU,,,,78,1.33,modeled_estimate
+17909597409818323,country,NL,,,,37,0.63,modeled_estimate
+17909597409818323,country,GB,,,,25,0.42,modeled_estimate
+17909597409818323,country,US,,,,58,0.99,modeled_estimate
+17909597409818323,country,JP,,,,23,0.39,modeled_estimate
+17909597409818323,country,SA,,,,22,0.37,modeled_estimate
+17909597409818323,country,DE,,,,11,0.19,modeled_estimate
+17909597409818323,country,KR,,,,9,0.15,modeled_estimate
+17901296159799218,city,ID,West Java,Bandung,Greater Bandung,1281,17.28,modeled_estimate
+17901296159799218,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),1686,22.74,modeled_estimate
+17901296159799218,city,ID,East Java,Surabaya,Other Java,412,5.56,modeled_estimate
+17901296159799218,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),223,3.01,modeled_estimate
+17901296159799218,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),240,3.24,modeled_estimate
+17901296159799218,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),231,3.12,modeled_estimate
+17901296159799218,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),206,2.78,modeled_estimate
+17901296159799218,city,ID,West Java,Cimahi,Greater Bandung,123,1.66,modeled_estimate
+17901296159799218,city,ID,Yogyakarta,Yogyakarta,Other Java,199,2.68,modeled_estimate
+17901296159799218,city,ID,Central Java,Semarang,Other Java,158,2.13,modeled_estimate
+17901296159799218,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),154,2.08,modeled_estimate
+17901296159799218,city,ID,Bali,Denpasar,Outside Java,107,1.44,modeled_estimate
+17901296159799218,city,ID,North Sumatra,Medan,Outside Java,112,1.51,modeled_estimate
+17901296159799218,city,ID,East Java,Malang,Other Java,113,1.52,modeled_estimate
+17901296159799218,city,ID,West Java,Cirebon,Other West Java (hub regions),123,1.66,modeled_estimate
+17901296159799218,city,ID,West Java,Garut,Other West Java (hub regions),115,1.55,modeled_estimate
+17901296159799218,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),118,1.59,modeled_estimate
+17901296159799218,city,ID,West Java,Sukabumi,Other West Java (hub regions),96,1.3,modeled_estimate
+17901296159799218,city,ID,South Sulawesi,Makassar,Outside Java,63,0.85,modeled_estimate
+17901296159799218,city,ID,South Sumatra,Palembang,Outside Java,51,0.69,modeled_estimate
+17901296159799218,city,ID,East Kalimantan,Balikpapan,Outside Java,49,0.66,modeled_estimate
+17901296159799218,city,SG,Singapore,Singapore,International - ASEAN,267,3.6,modeled_estimate
+17901296159799218,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,170,2.29,modeled_estimate
+17901296159799218,city,MY,Selangor,Petaling Jaya,International - ASEAN,59,0.8,modeled_estimate
+17901296159799218,city,AU,Victoria,Melbourne,International - Other,53,0.71,modeled_estimate
+17901296159799218,city,AU,New South Wales,Sydney,International - Other,48,0.65,modeled_estimate
+17901296159799218,city,NL,North Holland,Amsterdam,International - Other,46,0.62,modeled_estimate
+17901296159799218,city,GB,England,London,International - Other,34,0.46,modeled_estimate
+17901296159799218,province_state,ID,West Java,,,2525,34.06,modeled_estimate
+17901296159799218,province_state,ID,Jakarta,,,1686,22.74,modeled_estimate
+17901296159799218,province_state,ID,East Java,,,525,7.08,modeled_estimate
+17901296159799218,province_state,ID,Banten,,,385,5.19,modeled_estimate
+17901296159799218,province_state,ID,Yogyakarta,,,199,2.68,modeled_estimate
+17901296159799218,province_state,ID,Central Java,,,158,2.13,modeled_estimate
+17901296159799218,province_state,ID,Bali,,,107,1.44,modeled_estimate
+17901296159799218,province_state,ID,North Sumatra,,,112,1.51,modeled_estimate
+17901296159799218,province_state,ID,South Sulawesi,,,63,0.85,modeled_estimate
+17901296159799218,province_state,ID,South Sumatra,,,51,0.69,modeled_estimate
+17901296159799218,province_state,ID,East Kalimantan,,,49,0.66,modeled_estimate
+17901296159799218,province_state,SG,Singapore,,,267,3.6,modeled_estimate
+17901296159799218,province_state,MY,Kuala Lumpur,,,170,2.29,modeled_estimate
+17901296159799218,province_state,MY,Selangor,,,59,0.8,modeled_estimate
+17901296159799218,province_state,AU,Victoria,,,53,0.71,modeled_estimate
+17901296159799218,province_state,AU,New South Wales,,,48,0.65,modeled_estimate
+17901296159799218,province_state,NL,North Holland,,,46,0.62,modeled_estimate
+17901296159799218,province_state,GB,England,,,34,0.46,modeled_estimate
+17901296159799218,region_group,,,,Greater Bandung,1404,18.94,modeled_estimate
+17901296159799218,region_group,,,,Greater Jakarta (Jabodetabek),2740,36.96,modeled_estimate
+17901296159799218,region_group,,,,Other Java,882,11.9,modeled_estimate
+17901296159799218,region_group,,,,Outside Java,382,5.15,modeled_estimate
+17901296159799218,region_group,,,,Other West Java (hub regions),452,6.1,modeled_estimate
+17901296159799218,region_group,,,,International - ASEAN,496,6.69,modeled_estimate
+17901296159799218,region_group,,,,International - Other,181,2.44,modeled_estimate
+17901296159799218,country,ID,,,,6359,85.78,modeled_estimate
+17901296159799218,country,SG,,,,284,3.83,modeled_estimate
+17901296159799218,country,MY,,,,247,3.33,modeled_estimate
+17901296159799218,country,AU,,,,109,1.47,modeled_estimate
+17901296159799218,country,NL,,,,50,0.67,modeled_estimate
+17901296159799218,country,GB,,,,36,0.49,modeled_estimate
+17901296159799218,country,US,,,,86,1.16,modeled_estimate
+17901296159799218,country,JP,,,,38,0.51,modeled_estimate
+17901296159799218,country,SA,,,,19,0.26,modeled_estimate
+17901296159799218,country,DE,,,,18,0.24,modeled_estimate
+17901296159799218,country,KR,,,,16,0.22,modeled_estimate
+17902562330559770,city,ID,West Java,Bandung,Greater Bandung,2782,13.64,modeled_estimate
+17902562330559770,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),4998,24.51,modeled_estimate
+17902562330559770,city,ID,East Java,Surabaya,Other Java,1037,5.09,modeled_estimate
+17902562330559770,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),855,4.19,modeled_estimate
+17902562330559770,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),612,3.0,modeled_estimate
+17902562330559770,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),605,2.97,modeled_estimate
+17902562330559770,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),542,2.66,modeled_estimate
+17902562330559770,city,ID,West Java,Cimahi,Greater Bandung,426,2.09,modeled_estimate
+17902562330559770,city,ID,Yogyakarta,Yogyakarta,Other Java,843,4.13,modeled_estimate
+17902562330559770,city,ID,Central Java,Semarang,Other Java,713,3.5,modeled_estimate
+17902562330559770,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),466,2.29,modeled_estimate
+17902562330559770,city,ID,Bali,Denpasar,Outside Java,391,1.92,modeled_estimate
+17902562330559770,city,ID,North Sumatra,Medan,Outside Java,302,1.48,modeled_estimate
+17902562330559770,city,ID,East Java,Malang,Other Java,313,1.53,modeled_estimate
+17902562330559770,city,ID,West Java,Cirebon,Other West Java (hub regions),177,0.87,modeled_estimate
+17902562330559770,city,ID,West Java,Garut,Other West Java (hub regions),176,0.86,modeled_estimate
+17902562330559770,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),180,0.88,modeled_estimate
+17902562330559770,city,ID,West Java,Sukabumi,Other West Java (hub regions),199,0.98,modeled_estimate
+17902562330559770,city,ID,South Sulawesi,Makassar,Outside Java,205,1.01,modeled_estimate
+17902562330559770,city,ID,South Sumatra,Palembang,Outside Java,152,0.75,modeled_estimate
+17902562330559770,city,ID,East Kalimantan,Balikpapan,Outside Java,134,0.66,modeled_estimate
+17902562330559770,city,SG,Singapore,Singapore,International - ASEAN,633,3.1,modeled_estimate
+17902562330559770,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,340,1.67,modeled_estimate
+17902562330559770,city,MY,Selangor,Petaling Jaya,International - ASEAN,185,0.91,modeled_estimate
+17902562330559770,city,AU,Victoria,Melbourne,International - Other,156,0.77,modeled_estimate
+17902562330559770,city,AU,New South Wales,Sydney,International - Other,129,0.63,modeled_estimate
+17902562330559770,city,NL,North Holland,Amsterdam,International - Other,109,0.53,modeled_estimate
+17902562330559770,city,GB,England,London,International - Other,93,0.46,modeled_estimate
+17902562330559770,province_state,ID,West Java,,,5949,29.17,modeled_estimate
+17902562330559770,province_state,ID,Jakarta,,,4998,24.51,modeled_estimate
+17902562330559770,province_state,ID,East Java,,,1350,6.62,modeled_estimate
+17902562330559770,province_state,ID,Banten,,,1071,5.25,modeled_estimate
+17902562330559770,province_state,ID,Yogyakarta,,,843,4.13,modeled_estimate
+17902562330559770,province_state,ID,Central Java,,,713,3.5,modeled_estimate
+17902562330559770,province_state,ID,Bali,,,391,1.92,modeled_estimate
+17902562330559770,province_state,ID,North Sumatra,,,302,1.48,modeled_estimate
+17902562330559770,province_state,ID,South Sulawesi,,,205,1.01,modeled_estimate
+17902562330559770,province_state,ID,South Sumatra,,,152,0.75,modeled_estimate
+17902562330559770,province_state,ID,East Kalimantan,,,134,0.66,modeled_estimate
+17902562330559770,province_state,SG,Singapore,,,633,3.1,modeled_estimate
+17902562330559770,province_state,MY,Kuala Lumpur,,,340,1.67,modeled_estimate
+17902562330559770,province_state,MY,Selangor,,,185,0.91,modeled_estimate
+17902562330559770,province_state,AU,Victoria,,,156,0.77,modeled_estimate
+17902562330559770,province_state,AU,New South Wales,,,129,0.63,modeled_estimate
+17902562330559770,province_state,NL,North Holland,,,109,0.53,modeled_estimate
+17902562330559770,province_state,GB,England,,,93,0.46,modeled_estimate
+17902562330559770,region_group,,,,Greater Bandung,3208,15.73,modeled_estimate
+17902562330559770,region_group,,,,Greater Jakarta (Jabodetabek),8078,39.61,modeled_estimate
+17902562330559770,region_group,,,,Other Java,2906,14.25,modeled_estimate
+17902562330559770,region_group,,,,Outside Java,1184,5.81,modeled_estimate
+17902562330559770,region_group,,,,Other West Java (hub regions),732,3.59,modeled_estimate
+17902562330559770,region_group,,,,International - ASEAN,1158,5.68,modeled_estimate
+17902562330559770,region_group,,,,International - Other,487,2.39,modeled_estimate
+17902562330559770,country,ID,,,,17437,85.51,modeled_estimate
+17902562330559770,country,SG,,,,694,3.4,modeled_estimate
+17902562330559770,country,MY,,,,576,2.82,modeled_estimate
+17902562330559770,country,AU,,,,306,1.5,modeled_estimate
+17902562330559770,country,NL,,,,114,0.56,modeled_estimate
+17902562330559770,country,GB,,,,100,0.49,modeled_estimate
+17902562330559770,country,US,,,,186,0.91,modeled_estimate
+17902562330559770,country,JP,,,,89,0.44,modeled_estimate
+17902562330559770,country,SA,,,,51,0.25,modeled_estimate
+17902562330559770,country,DE,,,,28,0.14,modeled_estimate
+17902562330559770,country,KR,,,,38,0.19,modeled_estimate
+17903887245863979,city,ID,West Java,Bandung,Greater Bandung,317,27.73,modeled_estimate
+17903887245863979,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),196,17.15,modeled_estimate
+17903887245863979,city,ID,East Java,Surabaya,Other Java,53,4.64,modeled_estimate
+17903887245863979,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),39,3.41,modeled_estimate
+17903887245863979,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),29,2.54,modeled_estimate
+17903887245863979,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),29,2.54,modeled_estimate
+17903887245863979,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),31,2.71,modeled_estimate
+17903887245863979,city,ID,West Java,Cimahi,Greater Bandung,35,3.06,modeled_estimate
+17903887245863979,city,ID,Yogyakarta,Yogyakarta,Other Java,21,1.84,modeled_estimate
+17903887245863979,city,ID,Central Java,Semarang,Other Java,18,1.57,modeled_estimate
+17903887245863979,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),25,2.19,modeled_estimate
+17903887245863979,city,ID,Bali,Denpasar,Outside Java,14,1.22,modeled_estimate
+17903887245863979,city,ID,North Sumatra,Medan,Outside Java,13,1.14,modeled_estimate
+17903887245863979,city,ID,East Java,Malang,Other Java,13,1.14,modeled_estimate
+17903887245863979,city,ID,West Java,Cirebon,Other West Java (hub regions),24,2.1,modeled_estimate
+17903887245863979,city,ID,West Java,Garut,Other West Java (hub regions),23,2.01,modeled_estimate
+17903887245863979,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),22,1.92,modeled_estimate
+17903887245863979,city,ID,West Java,Sukabumi,Other West Java (hub regions),23,2.01,modeled_estimate
+17903887245863979,city,ID,South Sulawesi,Makassar,Outside Java,9,0.79,modeled_estimate
+17903887245863979,city,ID,South Sumatra,Palembang,Outside Java,6,0.52,modeled_estimate
+17903887245863979,city,ID,East Kalimantan,Balikpapan,Outside Java,6,0.52,modeled_estimate
+17903887245863979,city,SG,Singapore,Singapore,International - ASEAN,26,2.27,modeled_estimate
+17903887245863979,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,17,1.49,modeled_estimate
+17903887245863979,city,MY,Selangor,Petaling Jaya,International - ASEAN,7,0.61,modeled_estimate
+17903887245863979,city,AU,Victoria,Melbourne,International - Other,6,0.52,modeled_estimate
+17903887245863979,city,AU,New South Wales,Sydney,International - Other,5,0.44,modeled_estimate
+17903887245863979,city,NL,North Holland,Amsterdam,International - Other,4,0.35,modeled_estimate
+17903887245863979,city,GB,England,London,International - Other,3,0.26,modeled_estimate
+17903887245863979,province_state,ID,West Java,,,543,47.51,modeled_estimate
+17903887245863979,province_state,ID,Jakarta,,,196,17.15,modeled_estimate
+17903887245863979,province_state,ID,East Java,,,66,5.77,modeled_estimate
+17903887245863979,province_state,ID,Banten,,,54,4.72,modeled_estimate
+17903887245863979,province_state,ID,Yogyakarta,,,21,1.84,modeled_estimate
+17903887245863979,province_state,ID,Central Java,,,18,1.57,modeled_estimate
+17903887245863979,province_state,ID,Bali,,,14,1.22,modeled_estimate
+17903887245863979,province_state,ID,North Sumatra,,,13,1.14,modeled_estimate
+17903887245863979,province_state,ID,South Sulawesi,,,9,0.79,modeled_estimate
+17903887245863979,province_state,ID,South Sumatra,,,6,0.52,modeled_estimate
+17903887245863979,province_state,ID,East Kalimantan,,,6,0.52,modeled_estimate
+17903887245863979,province_state,SG,Singapore,,,26,2.27,modeled_estimate
+17903887245863979,province_state,MY,Kuala Lumpur,,,17,1.49,modeled_estimate
+17903887245863979,province_state,MY,Selangor,,,7,0.61,modeled_estimate
+17903887245863979,province_state,AU,Victoria,,,6,0.52,modeled_estimate
+17903887245863979,province_state,AU,New South Wales,,,5,0.44,modeled_estimate
+17903887245863979,province_state,NL,North Holland,,,4,0.35,modeled_estimate
+17903887245863979,province_state,GB,England,,,3,0.26,modeled_estimate
+17903887245863979,region_group,,,,Greater Bandung,352,30.8,modeled_estimate
+17903887245863979,region_group,,,,Greater Jakarta (Jabodetabek),349,30.53,modeled_estimate
+17903887245863979,region_group,,,,Other Java,105,9.19,modeled_estimate
+17903887245863979,region_group,,,,Outside Java,48,4.2,modeled_estimate
+17903887245863979,region_group,,,,Other West Java (hub regions),92,8.05,modeled_estimate
+17903887245863979,region_group,,,,International - ASEAN,50,4.37,modeled_estimate
+17903887245863979,region_group,,,,International - Other,18,1.57,modeled_estimate
+17903887245863979,country,ID,,,,1004,87.84,modeled_estimate
+17903887245863979,country,SG,,,,28,2.45,modeled_estimate
+17903887245863979,country,MY,,,,25,2.19,modeled_estimate
+17903887245863979,country,AU,,,,12,1.05,modeled_estimate
+17903887245863979,country,NL,,,,4,0.35,modeled_estimate
+17903887245863979,country,GB,,,,3,0.26,modeled_estimate
+17903887245863979,country,US,,,,9,0.79,modeled_estimate
+17903887245863979,country,JP,,,,5,0.44,modeled_estimate
+17903887245863979,country,SA,,,,3,0.26,modeled_estimate
+17903887245863979,country,DE,,,,2,0.17,modeled_estimate
+17903887245863979,country,KR,,,,3,0.26,modeled_estimate
+17908305184474765,city,ID,West Java,Bandung,Greater Bandung,766,16.17,modeled_estimate
+17908305184474765,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),932,19.68,modeled_estimate
+17908305184474765,city,ID,East Java,Surabaya,Other Java,348,7.35,modeled_estimate
+17908305184474765,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),193,4.08,modeled_estimate
+17908305184474765,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),142,3.0,modeled_estimate
+17908305184474765,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),167,3.53,modeled_estimate
+17908305184474765,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),130,2.74,modeled_estimate
+17908305184474765,city,ID,West Java,Cimahi,Greater Bandung,83,1.75,modeled_estimate
+17908305184474765,city,ID,Yogyakarta,Yogyakarta,Other Java,184,3.89,modeled_estimate
+17908305184474765,city,ID,Central Java,Semarang,Other Java,136,2.87,modeled_estimate
+17908305184474765,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),118,2.49,modeled_estimate
+17908305184474765,city,ID,Bali,Denpasar,Outside Java,112,2.36,modeled_estimate
+17908305184474765,city,ID,North Sumatra,Medan,Outside Java,88,1.86,modeled_estimate
+17908305184474765,city,ID,East Java,Malang,Other Java,90,1.9,modeled_estimate
+17908305184474765,city,ID,West Java,Cirebon,Other West Java (hub regions),61,1.29,modeled_estimate
+17908305184474765,city,ID,West Java,Garut,Other West Java (hub regions),48,1.01,modeled_estimate
+17908305184474765,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),47,0.99,modeled_estimate
+17908305184474765,city,ID,West Java,Sukabumi,Other West Java (hub regions),38,0.8,modeled_estimate
+17908305184474765,city,ID,South Sulawesi,Makassar,Outside Java,56,1.18,modeled_estimate
+17908305184474765,city,ID,South Sumatra,Palembang,Outside Java,44,0.93,modeled_estimate
+17908305184474765,city,ID,East Kalimantan,Balikpapan,Outside Java,41,0.87,modeled_estimate
+17908305184474765,city,SG,Singapore,Singapore,International - ASEAN,117,2.47,modeled_estimate
+17908305184474765,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,67,1.41,modeled_estimate
+17908305184474765,city,MY,Selangor,Petaling Jaya,International - ASEAN,34,0.72,modeled_estimate
+17908305184474765,city,AU,Victoria,Melbourne,International - Other,30,0.63,modeled_estimate
+17908305184474765,city,AU,New South Wales,Sydney,International - Other,24,0.51,modeled_estimate
+17908305184474765,city,NL,North Holland,Amsterdam,International - Other,19,0.4,modeled_estimate
+17908305184474765,city,GB,England,London,International - Other,15,0.32,modeled_estimate
+17908305184474765,province_state,ID,West Java,,,1508,31.84,modeled_estimate
+17908305184474765,province_state,ID,Jakarta,,,932,19.68,modeled_estimate
+17908305184474765,province_state,ID,East Java,,,438,9.25,modeled_estimate
+17908305184474765,province_state,ID,Banten,,,285,6.02,modeled_estimate
+17908305184474765,province_state,ID,Yogyakarta,,,184,3.89,modeled_estimate
+17908305184474765,province_state,ID,Central Java,,,136,2.87,modeled_estimate
+17908305184474765,province_state,ID,Bali,,,112,2.36,modeled_estimate
+17908305184474765,province_state,ID,North Sumatra,,,88,1.86,modeled_estimate
+17908305184474765,province_state,ID,South Sulawesi,,,56,1.18,modeled_estimate
+17908305184474765,province_state,ID,South Sumatra,,,44,0.93,modeled_estimate
+17908305184474765,province_state,ID,East Kalimantan,,,41,0.87,modeled_estimate
+17908305184474765,province_state,SG,Singapore,,,117,2.47,modeled_estimate
+17908305184474765,province_state,MY,Kuala Lumpur,,,67,1.41,modeled_estimate
+17908305184474765,province_state,MY,Selangor,,,34,0.72,modeled_estimate
+17908305184474765,province_state,AU,Victoria,,,30,0.63,modeled_estimate
+17908305184474765,province_state,AU,New South Wales,,,24,0.51,modeled_estimate
+17908305184474765,province_state,NL,North Holland,,,19,0.4,modeled_estimate
+17908305184474765,province_state,GB,England,,,15,0.32,modeled_estimate
+17908305184474765,region_group,,,,Greater Bandung,849,17.93,modeled_estimate
+17908305184474765,region_group,,,,Greater Jakarta (Jabodetabek),1682,35.52,modeled_estimate
+17908305184474765,region_group,,,,Other Java,758,16.01,modeled_estimate
+17908305184474765,region_group,,,,Outside Java,341,7.2,modeled_estimate
+17908305184474765,region_group,,,,Other West Java (hub regions),194,4.1,modeled_estimate
+17908305184474765,region_group,,,,International - ASEAN,218,4.6,modeled_estimate
+17908305184474765,region_group,,,,International - Other,88,1.86,modeled_estimate
+17908305184474765,country,ID,,,,4192,88.51,modeled_estimate
+17908305184474765,country,SG,,,,126,2.66,modeled_estimate
+17908305184474765,country,MY,,,,108,2.28,modeled_estimate
+17908305184474765,country,AU,,,,59,1.25,modeled_estimate
+17908305184474765,country,NL,,,,20,0.42,modeled_estimate
+17908305184474765,country,GB,,,,16,0.34,modeled_estimate
+17908305184474765,country,US,,,,47,0.99,modeled_estimate
+17908305184474765,country,JP,,,,25,0.53,modeled_estimate
+17908305184474765,country,SA,,,,17,0.36,modeled_estimate
+17908305184474765,country,DE,,,,9,0.19,modeled_estimate
+17908305184474765,country,KR,,,,13,0.27,modeled_estimate
+17909171324675683,city,ID,West Java,Bandung,Greater Bandung,394,19.99,modeled_estimate
+17909171324675683,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),435,22.07,modeled_estimate
+17909171324675683,city,ID,East Java,Surabaya,Other Java,116,5.89,modeled_estimate
+17909171324675683,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),79,4.01,modeled_estimate
+17909171324675683,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),74,3.75,modeled_estimate
+17909171324675683,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),67,3.4,modeled_estimate
+17909171324675683,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),68,3.45,modeled_estimate
+17909171324675683,city,ID,West Java,Cimahi,Greater Bandung,41,2.08,modeled_estimate
+17909171324675683,city,ID,Yogyakarta,Yogyakarta,Other Java,48,2.44,modeled_estimate
+17909171324675683,city,ID,Central Java,Semarang,Other Java,51,2.59,modeled_estimate
+17909171324675683,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),47,2.38,modeled_estimate
+17909171324675683,city,ID,Bali,Denpasar,Outside Java,35,1.78,modeled_estimate
+17909171324675683,city,ID,North Sumatra,Medan,Outside Java,37,1.88,modeled_estimate
+17909171324675683,city,ID,East Java,Malang,Other Java,30,1.52,modeled_estimate
+17909171324675683,city,ID,West Java,Cirebon,Other West Java (hub regions),18,0.91,modeled_estimate
+17909171324675683,city,ID,West Java,Garut,Other West Java (hub regions),21,1.07,modeled_estimate
+17909171324675683,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),19,0.96,modeled_estimate
+17909171324675683,city,ID,West Java,Sukabumi,Other West Java (hub regions),17,0.86,modeled_estimate
+17909171324675683,city,ID,South Sulawesi,Makassar,Outside Java,22,1.12,modeled_estimate
+17909171324675683,city,ID,South Sumatra,Palembang,Outside Java,17,0.86,modeled_estimate
+17909171324675683,city,ID,East Kalimantan,Balikpapan,Outside Java,15,0.76,modeled_estimate
+17909171324675683,city,SG,Singapore,Singapore,International - ASEAN,59,2.99,modeled_estimate
+17909171324675683,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,37,1.88,modeled_estimate
+17909171324675683,city,MY,Selangor,Petaling Jaya,International - ASEAN,15,0.76,modeled_estimate
+17909171324675683,city,AU,Victoria,Melbourne,International - Other,15,0.76,modeled_estimate
+17909171324675683,city,AU,New South Wales,Sydney,International - Other,11,0.56,modeled_estimate
+17909171324675683,city,NL,North Holland,Amsterdam,International - Other,11,0.56,modeled_estimate
+17909171324675683,city,GB,England,London,International - Other,9,0.46,modeled_estimate
+17909171324675683,province_state,ID,West Java,,,731,37.09,modeled_estimate
+17909171324675683,province_state,ID,Jakarta,,,435,22.07,modeled_estimate
+17909171324675683,province_state,ID,East Java,,,146,7.41,modeled_estimate
+17909171324675683,province_state,ID,Banten,,,114,5.78,modeled_estimate
+17909171324675683,province_state,ID,Yogyakarta,,,48,2.44,modeled_estimate
+17909171324675683,province_state,ID,Central Java,,,51,2.59,modeled_estimate
+17909171324675683,province_state,ID,Bali,,,35,1.78,modeled_estimate
+17909171324675683,province_state,ID,North Sumatra,,,37,1.88,modeled_estimate
+17909171324675683,province_state,ID,South Sulawesi,,,22,1.12,modeled_estimate
+17909171324675683,province_state,ID,South Sumatra,,,17,0.86,modeled_estimate
+17909171324675683,province_state,ID,East Kalimantan,,,15,0.76,modeled_estimate
+17909171324675683,province_state,SG,Singapore,,,59,2.99,modeled_estimate
+17909171324675683,province_state,MY,Kuala Lumpur,,,37,1.88,modeled_estimate
+17909171324675683,province_state,MY,Selangor,,,15,0.76,modeled_estimate
+17909171324675683,province_state,AU,Victoria,,,15,0.76,modeled_estimate
+17909171324675683,province_state,AU,New South Wales,,,11,0.56,modeled_estimate
+17909171324675683,province_state,NL,North Holland,,,11,0.56,modeled_estimate
+17909171324675683,province_state,GB,England,,,9,0.46,modeled_estimate
+17909171324675683,region_group,,,,Greater Bandung,435,22.07,modeled_estimate
+17909171324675683,region_group,,,,Greater Jakarta (Jabodetabek),770,39.07,modeled_estimate
+17909171324675683,region_group,,,,Other Java,245,12.43,modeled_estimate
+17909171324675683,region_group,,,,Outside Java,126,6.39,modeled_estimate
+17909171324675683,region_group,,,,Other West Java (hub regions),75,3.81,modeled_estimate
+17909171324675683,region_group,,,,International - ASEAN,111,5.63,modeled_estimate
+17909171324675683,region_group,,,,International - Other,46,2.33,modeled_estimate
+17909171324675683,country,ID,,,,1805,91.58,modeled_estimate
+17909171324675683,country,SG,,,,62,3.15,modeled_estimate
+17909171324675683,country,MY,,,,54,2.74,modeled_estimate
+17909171324675683,country,AU,,,,27,1.37,modeled_estimate
+17909171324675683,country,NL,,,,12,0.61,modeled_estimate
+17909171324675683,country,GB,,,,10,0.51,modeled_estimate
+17909171324675683,country,US,,,,15,0.76,modeled_estimate
+17909171324675683,country,JP,,,,10,0.51,modeled_estimate
+17909171324675683,country,SA,,,,7,0.36,modeled_estimate
+17909171324675683,country,DE,,,,5,0.25,modeled_estimate
+17909171324675683,country,KR,,,,4,0.2,modeled_estimate
+17904060326335275,city,ID,West Java,Bandung,Greater Bandung,578,16.68,modeled_estimate
+17904060326335275,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),532,15.35,modeled_estimate
+17904060326335275,city,ID,East Java,Surabaya,Other Java,140,4.04,modeled_estimate
+17904060326335275,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),106,3.06,modeled_estimate
+17904060326335275,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),93,2.68,modeled_estimate
+17904060326335275,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),79,2.28,modeled_estimate
+17904060326335275,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),85,2.45,modeled_estimate
+17904060326335275,city,ID,West Java,Cimahi,Greater Bandung,67,1.93,modeled_estimate
+17904060326335275,city,ID,Yogyakarta,Yogyakarta,Other Java,69,1.99,modeled_estimate
+17904060326335275,city,ID,Central Java,Semarang,Other Java,62,1.79,modeled_estimate
+17904060326335275,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),57,1.65,modeled_estimate
+17904060326335275,city,ID,Bali,Denpasar,Outside Java,48,1.39,modeled_estimate
+17904060326335275,city,ID,North Sumatra,Medan,Outside Java,43,1.24,modeled_estimate
+17904060326335275,city,ID,East Java,Malang,Other Java,40,1.15,modeled_estimate
+17904060326335275,city,ID,West Java,Cirebon,Other West Java (hub regions),114,3.29,modeled_estimate
+17904060326335275,city,ID,West Java,Garut,Other West Java (hub regions),548,15.82,modeled_estimate
+17904060326335275,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),87,2.51,modeled_estimate
+17904060326335275,city,ID,West Java,Sukabumi,Other West Java (hub regions),76,2.19,modeled_estimate
+17904060326335275,city,ID,South Sulawesi,Makassar,Outside Java,26,0.75,modeled_estimate
+17904060326335275,city,ID,South Sumatra,Palembang,Outside Java,19,0.55,modeled_estimate
+17904060326335275,city,ID,East Kalimantan,Balikpapan,Outside Java,15,0.43,modeled_estimate
+17904060326335275,city,SG,Singapore,Singapore,International - ASEAN,90,2.6,modeled_estimate
+17904060326335275,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,58,1.67,modeled_estimate
+17904060326335275,city,MY,Selangor,Petaling Jaya,International - ASEAN,24,0.69,modeled_estimate
+17904060326335275,city,AU,Victoria,Melbourne,International - Other,21,0.61,modeled_estimate
+17904060326335275,city,AU,New South Wales,Sydney,International - Other,19,0.55,modeled_estimate
+17904060326335275,city,NL,North Holland,Amsterdam,International - Other,16,0.46,modeled_estimate
+17904060326335275,city,GB,England,London,International - Other,12,0.35,modeled_estimate
+17904060326335275,province_state,ID,West Java,,,1754,50.62,modeled_estimate
+17904060326335275,province_state,ID,Jakarta,,,532,15.35,modeled_estimate
+17904060326335275,province_state,ID,East Java,,,180,5.19,modeled_estimate
+17904060326335275,province_state,ID,Banten,,,136,3.92,modeled_estimate
+17904060326335275,province_state,ID,Yogyakarta,,,69,1.99,modeled_estimate
+17904060326335275,province_state,ID,Central Java,,,62,1.79,modeled_estimate
+17904060326335275,province_state,ID,Bali,,,48,1.39,modeled_estimate
+17904060326335275,province_state,ID,North Sumatra,,,43,1.24,modeled_estimate
+17904060326335275,province_state,ID,South Sulawesi,,,26,0.75,modeled_estimate
+17904060326335275,province_state,ID,South Sumatra,,,19,0.55,modeled_estimate
+17904060326335275,province_state,ID,East Kalimantan,,,15,0.43,modeled_estimate
+17904060326335275,province_state,SG,Singapore,,,90,2.6,modeled_estimate
+17904060326335275,province_state,MY,Kuala Lumpur,,,58,1.67,modeled_estimate
+17904060326335275,province_state,MY,Selangor,,,24,0.69,modeled_estimate
+17904060326335275,province_state,AU,Victoria,,,21,0.61,modeled_estimate
+17904060326335275,province_state,AU,New South Wales,,,19,0.55,modeled_estimate
+17904060326335275,province_state,NL,North Holland,,,16,0.46,modeled_estimate
+17904060326335275,province_state,GB,England,,,12,0.35,modeled_estimate
+17904060326335275,region_group,,,,Greater Bandung,645,18.61,modeled_estimate
+17904060326335275,region_group,,,,Greater Jakarta (Jabodetabek),952,27.47,modeled_estimate
+17904060326335275,region_group,,,,Other Java,311,8.98,modeled_estimate
+17904060326335275,region_group,,,,Outside Java,151,4.36,modeled_estimate
+17904060326335275,region_group,,,,Other West Java (hub regions),825,23.81,modeled_estimate
+17904060326335275,region_group,,,,International - ASEAN,172,4.96,modeled_estimate
+17904060326335275,region_group,,,,International - Other,68,1.96,modeled_estimate
+17904060326335275,country,ID,,,,3120,90.04,modeled_estimate
+17904060326335275,country,SG,,,,94,2.71,modeled_estimate
+17904060326335275,country,MY,,,,87,2.51,modeled_estimate
+17904060326335275,country,AU,,,,43,1.24,modeled_estimate
+17904060326335275,country,NL,,,,17,0.49,modeled_estimate
+17904060326335275,country,GB,,,,13,0.38,modeled_estimate
+17904060326335275,country,US,,,,26,0.75,modeled_estimate
+17904060326335275,country,JP,,,,11,0.32,modeled_estimate
+17904060326335275,country,SA,,,,7,0.2,modeled_estimate
+17904060326335275,country,DE,,,,4,0.12,modeled_estimate
+17904060326335275,country,KR,,,,4,0.12,modeled_estimate
+17902418134265098,city,ID,West Java,Bandung,Greater Bandung,10750,14.07,modeled_estimate
+17902418134265098,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),17145,22.44,modeled_estimate
+17902418134265098,city,ID,East Java,Surabaya,Other Java,5516,7.22,modeled_estimate
+17902418134265098,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),3540,4.63,modeled_estimate
+17902418134265098,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),3227,4.22,modeled_estimate
+17902418134265098,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),3084,4.04,modeled_estimate
+17902418134265098,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),2628,3.44,modeled_estimate
+17902418134265098,city,ID,West Java,Cimahi,Greater Bandung,1291,1.69,modeled_estimate
+17902418134265098,city,ID,Yogyakarta,Yogyakarta,Other Java,2328,3.05,modeled_estimate
+17902418134265098,city,ID,Central Java,Semarang,Other Java,2217,2.9,modeled_estimate
+17902418134265098,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),1581,2.07,modeled_estimate
+17902418134265098,city,ID,Bali,Denpasar,Outside Java,1444,1.89,modeled_estimate
+17902418134265098,city,ID,North Sumatra,Medan,Outside Java,1274,1.67,modeled_estimate
+17902418134265098,city,ID,East Java,Malang,Other Java,1181,1.55,modeled_estimate
+17902418134265098,city,ID,West Java,Cirebon,Other West Java (hub regions),784,1.03,modeled_estimate
+17902418134265098,city,ID,West Java,Garut,Other West Java (hub regions),757,0.99,modeled_estimate
+17902418134265098,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),700,0.92,modeled_estimate
+17902418134265098,city,ID,West Java,Sukabumi,Other West Java (hub regions),530,0.69,modeled_estimate
+17902418134265098,city,ID,South Sulawesi,Makassar,Outside Java,770,1.01,modeled_estimate
+17902418134265098,city,ID,South Sumatra,Palembang,Outside Java,561,0.73,modeled_estimate
+17902418134265098,city,ID,East Kalimantan,Balikpapan,Outside Java,511,0.67,modeled_estimate
+17902418134265098,city,SG,Singapore,Singapore,International - ASEAN,2487,3.25,modeled_estimate
+17902418134265098,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,1215,1.59,modeled_estimate
+17902418134265098,city,MY,Selangor,Petaling Jaya,International - ASEAN,526,0.69,modeled_estimate
+17902418134265098,city,AU,Victoria,Melbourne,International - Other,451,0.59,modeled_estimate
+17902418134265098,city,AU,New South Wales,Sydney,International - Other,392,0.51,modeled_estimate
+17902418134265098,city,NL,North Holland,Amsterdam,International - Other,353,0.46,modeled_estimate
+17902418134265098,city,GB,England,London,International - Other,287,0.38,modeled_estimate
+17902418134265098,province_state,ID,West Java,,,24207,31.68,modeled_estimate
+17902418134265098,province_state,ID,Jakarta,,,17145,22.44,modeled_estimate
+17902418134265098,province_state,ID,East Java,,,6697,8.76,modeled_estimate
+17902418134265098,province_state,ID,Banten,,,4665,6.1,modeled_estimate
+17902418134265098,province_state,ID,Yogyakarta,,,2328,3.05,modeled_estimate
+17902418134265098,province_state,ID,Central Java,,,2217,2.9,modeled_estimate
+17902418134265098,province_state,ID,Bali,,,1444,1.89,modeled_estimate
+17902418134265098,province_state,ID,North Sumatra,,,1274,1.67,modeled_estimate
+17902418134265098,province_state,ID,South Sulawesi,,,770,1.01,modeled_estimate
+17902418134265098,province_state,ID,South Sumatra,,,561,0.73,modeled_estimate
+17902418134265098,province_state,ID,East Kalimantan,,,511,0.67,modeled_estimate
+17902418134265098,province_state,SG,Singapore,,,2487,3.25,modeled_estimate
+17902418134265098,province_state,MY,Kuala Lumpur,,,1215,1.59,modeled_estimate
+17902418134265098,province_state,MY,Selangor,,,526,0.69,modeled_estimate
+17902418134265098,province_state,AU,Victoria,,,451,0.59,modeled_estimate
+17902418134265098,province_state,AU,New South Wales,,,392,0.51,modeled_estimate
+17902418134265098,province_state,NL,North Holland,,,353,0.46,modeled_estimate
+17902418134265098,province_state,GB,England,,,287,0.38,modeled_estimate
+17902418134265098,region_group,,,,Greater Bandung,12041,15.76,modeled_estimate
+17902418134265098,region_group,,,,Greater Jakarta (Jabodetabek),31205,40.84,modeled_estimate
+17902418134265098,region_group,,,,Other Java,11242,14.71,modeled_estimate
+17902418134265098,region_group,,,,Outside Java,4560,5.97,modeled_estimate
+17902418134265098,region_group,,,,Other West Java (hub regions),2771,3.63,modeled_estimate
+17902418134265098,region_group,,,,International - ASEAN,4228,5.53,modeled_estimate
+17902418134265098,region_group,,,,International - Other,1483,1.94,modeled_estimate
+17902418134265098,country,ID,,,,67878,88.83,modeled_estimate
+17902418134265098,country,SG,,,,2708,3.54,modeled_estimate
+17902418134265098,country,MY,,,,1821,2.38,modeled_estimate
+17902418134265098,country,AU,,,,902,1.18,modeled_estimate
+17902418134265098,country,NL,,,,384,0.5,modeled_estimate
+17902418134265098,country,GB,,,,307,0.4,modeled_estimate
+17902418134265098,country,US,,,,956,1.25,modeled_estimate
+17902418134265098,country,JP,,,,382,0.5,modeled_estimate
+17902418134265098,country,SA,,,,244,0.32,modeled_estimate
+17902418134265098,country,DE,,,,116,0.15,modeled_estimate
+17902418134265098,country,KR,,,,159,0.21,modeled_estimate
+17904387674666942,city,ID,West Java,Bandung,Greater Bandung,245,16.31,modeled_estimate
+17904387674666942,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),361,24.03,modeled_estimate
+17904387674666942,city,ID,East Java,Surabaya,Other Java,70,4.66,modeled_estimate
+17904387674666942,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),63,4.19,modeled_estimate
+17904387674666942,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),57,3.79,modeled_estimate
+17904387674666942,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),53,3.53,modeled_estimate
+17904387674666942,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),67,4.46,modeled_estimate
+17904387674666942,city,ID,West Java,Cimahi,Greater Bandung,28,1.86,modeled_estimate
+17904387674666942,city,ID,Yogyakarta,Yogyakarta,Other Java,40,2.66,modeled_estimate
+17904387674666942,city,ID,Central Java,Semarang,Other Java,36,2.4,modeled_estimate
+17904387674666942,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),37,2.46,modeled_estimate
+17904387674666942,city,ID,Bali,Denpasar,Outside Java,15,1.0,modeled_estimate
+17904387674666942,city,ID,North Sumatra,Medan,Outside Java,15,1.0,modeled_estimate
+17904387674666942,city,ID,East Java,Malang,Other Java,20,1.33,modeled_estimate
+17904387674666942,city,ID,West Java,Cirebon,Other West Java (hub regions),10,0.67,modeled_estimate
+17904387674666942,city,ID,West Java,Garut,Other West Java (hub regions),9,0.6,modeled_estimate
+17904387674666942,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),9,0.6,modeled_estimate
+17904387674666942,city,ID,West Java,Sukabumi,Other West Java (hub regions),7,0.47,modeled_estimate
+17904387674666942,city,ID,South Sulawesi,Makassar,Outside Java,9,0.6,modeled_estimate
+17904387674666942,city,ID,South Sumatra,Palembang,Outside Java,8,0.53,modeled_estimate
+17904387674666942,city,ID,East Kalimantan,Balikpapan,Outside Java,6,0.4,modeled_estimate
+17904387674666942,city,SG,Singapore,Singapore,International - ASEAN,94,6.26,modeled_estimate
+17904387674666942,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,47,3.13,modeled_estimate
+17904387674666942,city,MY,Selangor,Petaling Jaya,International - ASEAN,22,1.46,modeled_estimate
+17904387674666942,city,AU,Victoria,Melbourne,International - Other,13,0.87,modeled_estimate
+17904387674666942,city,AU,New South Wales,Sydney,International - Other,14,0.93,modeled_estimate
+17904387674666942,city,NL,North Holland,Amsterdam,International - Other,12,0.8,modeled_estimate
+17904387674666942,city,GB,England,London,International - Other,9,0.6,modeled_estimate
+17904387674666942,province_state,ID,West Java,,,495,32.96,modeled_estimate
+17904387674666942,province_state,ID,Jakarta,,,361,24.03,modeled_estimate
+17904387674666942,province_state,ID,East Java,,,90,5.99,modeled_estimate
+17904387674666942,province_state,ID,Banten,,,90,5.99,modeled_estimate
+17904387674666942,province_state,ID,Yogyakarta,,,40,2.66,modeled_estimate
+17904387674666942,province_state,ID,Central Java,,,36,2.4,modeled_estimate
+17904387674666942,province_state,ID,Bali,,,15,1.0,modeled_estimate
+17904387674666942,province_state,ID,North Sumatra,,,15,1.0,modeled_estimate
+17904387674666942,province_state,ID,South Sulawesi,,,9,0.6,modeled_estimate
+17904387674666942,province_state,ID,South Sumatra,,,8,0.53,modeled_estimate
+17904387674666942,province_state,ID,East Kalimantan,,,6,0.4,modeled_estimate
+17904387674666942,province_state,SG,Singapore,,,94,6.26,modeled_estimate
+17904387674666942,province_state,MY,Kuala Lumpur,,,47,3.13,modeled_estimate
+17904387674666942,province_state,MY,Selangor,,,22,1.46,modeled_estimate
+17904387674666942,province_state,AU,Victoria,,,13,0.87,modeled_estimate
+17904387674666942,province_state,AU,New South Wales,,,14,0.93,modeled_estimate
+17904387674666942,province_state,NL,North Holland,,,12,0.8,modeled_estimate
+17904387674666942,province_state,GB,England,,,9,0.6,modeled_estimate
+17904387674666942,region_group,,,,Greater Bandung,273,18.18,modeled_estimate
+17904387674666942,region_group,,,,Greater Jakarta (Jabodetabek),638,42.48,modeled_estimate
+17904387674666942,region_group,,,,Other Java,166,11.05,modeled_estimate
+17904387674666942,region_group,,,,Outside Java,53,3.53,modeled_estimate
+17904387674666942,region_group,,,,Other West Java (hub regions),35,2.33,modeled_estimate
+17904387674666942,region_group,,,,International - ASEAN,163,10.85,modeled_estimate
+17904387674666942,region_group,,,,International - Other,48,3.2,modeled_estimate
+17904387674666942,country,ID,,,,1268,84.42,modeled_estimate
+17904387674666942,country,SG,,,,103,6.86,modeled_estimate
+17904387674666942,country,MY,,,,73,4.86,modeled_estimate
+17904387674666942,country,AU,,,,28,1.86,modeled_estimate
+17904387674666942,country,NL,,,,13,0.87,modeled_estimate
+17904387674666942,country,GB,,,,9,0.6,modeled_estimate
+17904387674666942,country,US,,,,17,1.13,modeled_estimate
+17904387674666942,country,JP,,,,6,0.4,modeled_estimate
+17904387674666942,country,SA,,,,3,0.2,modeled_estimate
+17904387674666942,country,DE,,,,2,0.13,modeled_estimate
+17904387674666942,country,KR,,,,3,0.2,modeled_estimate
+17907442398233179,city,ID,West Java,Bandung,Greater Bandung,570,19.38,modeled_estimate
+17907442398233179,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),605,20.57,modeled_estimate
+17907442398233179,city,ID,East Java,Surabaya,Other Java,161,5.47,modeled_estimate
+17907442398233179,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),108,3.67,modeled_estimate
+17907442398233179,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),76,2.58,modeled_estimate
+17907442398233179,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),86,2.92,modeled_estimate
+17907442398233179,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),87,2.96,modeled_estimate
+17907442398233179,city,ID,West Java,Cimahi,Greater Bandung,87,2.96,modeled_estimate
+17907442398233179,city,ID,Yogyakarta,Yogyakarta,Other Java,74,2.52,modeled_estimate
+17907442398233179,city,ID,Central Java,Semarang,Other Java,62,2.11,modeled_estimate
+17907442398233179,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),67,2.28,modeled_estimate
+17907442398233179,city,ID,Bali,Denpasar,Outside Java,41,1.39,modeled_estimate
+17907442398233179,city,ID,North Sumatra,Medan,Outside Java,38,1.29,modeled_estimate
+17907442398233179,city,ID,East Java,Malang,Other Java,37,1.26,modeled_estimate
+17907442398233179,city,ID,West Java,Cirebon,Other West Java (hub regions),66,2.24,modeled_estimate
+17907442398233179,city,ID,West Java,Garut,Other West Java (hub regions),64,2.18,modeled_estimate
+17907442398233179,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),68,2.31,modeled_estimate
+17907442398233179,city,ID,West Java,Sukabumi,Other West Java (hub regions),54,1.84,modeled_estimate
+17907442398233179,city,ID,South Sulawesi,Makassar,Outside Java,25,0.85,modeled_estimate
+17907442398233179,city,ID,South Sumatra,Palembang,Outside Java,23,0.78,modeled_estimate
+17907442398233179,city,ID,East Kalimantan,Balikpapan,Outside Java,16,0.54,modeled_estimate
+17907442398233179,city,SG,Singapore,Singapore,International - ASEAN,77,2.62,modeled_estimate
+17907442398233179,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,47,1.6,modeled_estimate
+17907442398233179,city,MY,Selangor,Petaling Jaya,International - ASEAN,20,0.68,modeled_estimate
+17907442398233179,city,AU,Victoria,Melbourne,International - Other,21,0.71,modeled_estimate
+17907442398233179,city,AU,New South Wales,Sydney,International - Other,17,0.58,modeled_estimate
+17907442398233179,city,NL,North Holland,Amsterdam,International - Other,15,0.51,modeled_estimate
+17907442398233179,city,GB,England,London,International - Other,11,0.37,modeled_estimate
+17907442398233179,province_state,ID,West Java,,,1180,40.12,modeled_estimate
+17907442398233179,province_state,ID,Jakarta,,,605,20.57,modeled_estimate
+17907442398233179,province_state,ID,East Java,,,198,6.73,modeled_estimate
+17907442398233179,province_state,ID,Banten,,,153,5.2,modeled_estimate
+17907442398233179,province_state,ID,Yogyakarta,,,74,2.52,modeled_estimate
+17907442398233179,province_state,ID,Central Java,,,62,2.11,modeled_estimate
+17907442398233179,province_state,ID,Bali,,,41,1.39,modeled_estimate
+17907442398233179,province_state,ID,North Sumatra,,,38,1.29,modeled_estimate
+17907442398233179,province_state,ID,South Sulawesi,,,25,0.85,modeled_estimate
+17907442398233179,province_state,ID,South Sumatra,,,23,0.78,modeled_estimate
+17907442398233179,province_state,ID,East Kalimantan,,,16,0.54,modeled_estimate
+17907442398233179,province_state,SG,Singapore,,,77,2.62,modeled_estimate
+17907442398233179,province_state,MY,Kuala Lumpur,,,47,1.6,modeled_estimate
+17907442398233179,province_state,MY,Selangor,,,20,0.68,modeled_estimate
+17907442398233179,province_state,AU,Victoria,,,21,0.71,modeled_estimate
+17907442398233179,province_state,AU,New South Wales,,,17,0.58,modeled_estimate
+17907442398233179,province_state,NL,North Holland,,,15,0.51,modeled_estimate
+17907442398233179,province_state,GB,England,,,11,0.37,modeled_estimate
+17907442398233179,region_group,,,,Greater Bandung,657,22.34,modeled_estimate
+17907442398233179,region_group,,,,Greater Jakarta (Jabodetabek),1029,34.99,modeled_estimate
+17907442398233179,region_group,,,,Other Java,334,11.36,modeled_estimate
+17907442398233179,region_group,,,,Outside Java,143,4.86,modeled_estimate
+17907442398233179,region_group,,,,Other West Java (hub regions),252,8.57,modeled_estimate
+17907442398233179,region_group,,,,International - ASEAN,144,4.9,modeled_estimate
+17907442398233179,region_group,,,,International - Other,64,2.18,modeled_estimate
+17907442398233179,country,ID,,,,2531,86.06,modeled_estimate
+17907442398233179,country,SG,,,,83,2.82,modeled_estimate
+17907442398233179,country,MY,,,,73,2.48,modeled_estimate
+17907442398233179,country,AU,,,,41,1.39,modeled_estimate
+17907442398233179,country,NL,,,,16,0.54,modeled_estimate
+17907442398233179,country,GB,,,,12,0.41,modeled_estimate
+17907442398233179,country,US,,,,28,0.95,modeled_estimate
+17907442398233179,country,JP,,,,15,0.51,modeled_estimate
+17907442398233179,country,SA,,,,6,0.2,modeled_estimate
+17907442398233179,country,DE,,,,5,0.17,modeled_estimate
+17907442398233179,country,KR,,,,6,0.2,modeled_estimate
+17902701623909724,city,ID,West Java,Bandung,Greater Bandung,454,17.07,modeled_estimate
+17902701623909724,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),561,21.09,modeled_estimate
+17902701623909724,city,ID,East Java,Surabaya,Other Java,164,6.17,modeled_estimate
+17902701623909724,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),103,3.87,modeled_estimate
+17902701623909724,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),72,2.71,modeled_estimate
+17902701623909724,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),69,2.59,modeled_estimate
+17902701623909724,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),67,2.52,modeled_estimate
+17902701623909724,city,ID,West Java,Cimahi,Greater Bandung,59,2.22,modeled_estimate
+17902701623909724,city,ID,Yogyakarta,Yogyakarta,Other Java,66,2.48,modeled_estimate
+17902701623909724,city,ID,Central Java,Semarang,Other Java,68,2.56,modeled_estimate
+17902701623909724,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),55,2.07,modeled_estimate
+17902701623909724,city,ID,Bali,Denpasar,Outside Java,46,1.73,modeled_estimate
+17902701623909724,city,ID,North Sumatra,Medan,Outside Java,44,1.65,modeled_estimate
+17902701623909724,city,ID,East Java,Malang,Other Java,33,1.24,modeled_estimate
+17902701623909724,city,ID,West Java,Cirebon,Other West Java (hub regions),43,1.62,modeled_estimate
+17902701623909724,city,ID,West Java,Garut,Other West Java (hub regions),44,1.65,modeled_estimate
+17902701623909724,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),44,1.65,modeled_estimate
+17902701623909724,city,ID,West Java,Sukabumi,Other West Java (hub regions),41,1.54,modeled_estimate
+17902701623909724,city,ID,South Sulawesi,Makassar,Outside Java,25,0.94,modeled_estimate
+17902701623909724,city,ID,South Sumatra,Palembang,Outside Java,19,0.71,modeled_estimate
+17902701623909724,city,ID,East Kalimantan,Balikpapan,Outside Java,17,0.64,modeled_estimate
+17902701623909724,city,SG,Singapore,Singapore,International - ASEAN,91,3.42,modeled_estimate
+17902701623909724,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,51,1.92,modeled_estimate
+17902701623909724,city,MY,Selangor,Petaling Jaya,International - ASEAN,22,0.83,modeled_estimate
+17902701623909724,city,AU,Victoria,Melbourne,International - Other,19,0.71,modeled_estimate
+17902701623909724,city,AU,New South Wales,Sydney,International - Other,17,0.64,modeled_estimate
+17902701623909724,city,NL,North Holland,Amsterdam,International - Other,14,0.53,modeled_estimate
+17902701623909724,city,GB,England,London,International - Other,12,0.45,modeled_estimate
+17902701623909724,province_state,ID,West Java,,,927,34.85,modeled_estimate
+17902701623909724,province_state,ID,Jakarta,,,561,21.09,modeled_estimate
+17902701623909724,province_state,ID,East Java,,,197,7.41,modeled_estimate
+17902701623909724,province_state,ID,Banten,,,124,4.66,modeled_estimate
+17902701623909724,province_state,ID,Yogyakarta,,,66,2.48,modeled_estimate
+17902701623909724,province_state,ID,Central Java,,,68,2.56,modeled_estimate
+17902701623909724,province_state,ID,Bali,,,46,1.73,modeled_estimate
+17902701623909724,province_state,ID,North Sumatra,,,44,1.65,modeled_estimate
+17902701623909724,province_state,ID,South Sulawesi,,,25,0.94,modeled_estimate
+17902701623909724,province_state,ID,South Sumatra,,,19,0.71,modeled_estimate
+17902701623909724,province_state,ID,East Kalimantan,,,17,0.64,modeled_estimate
+17902701623909724,province_state,SG,Singapore,,,91,3.42,modeled_estimate
+17902701623909724,province_state,MY,Kuala Lumpur,,,51,1.92,modeled_estimate
+17902701623909724,province_state,MY,Selangor,,,22,0.83,modeled_estimate
+17902701623909724,province_state,AU,Victoria,,,19,0.71,modeled_estimate
+17902701623909724,province_state,AU,New South Wales,,,17,0.64,modeled_estimate
+17902701623909724,province_state,NL,North Holland,,,14,0.53,modeled_estimate
+17902701623909724,province_state,GB,England,,,12,0.45,modeled_estimate
+17902701623909724,region_group,,,,Greater Bandung,513,19.29,modeled_estimate
+17902701623909724,region_group,,,,Greater Jakarta (Jabodetabek),927,34.85,modeled_estimate
+17902701623909724,region_group,,,,Other Java,331,12.44,modeled_estimate
+17902701623909724,region_group,,,,Outside Java,151,5.68,modeled_estimate
+17902701623909724,region_group,,,,Other West Java (hub regions),172,6.47,modeled_estimate
+17902701623909724,region_group,,,,International - ASEAN,164,6.17,modeled_estimate
+17902701623909724,region_group,,,,International - Other,62,2.33,modeled_estimate
+17902701623909724,country,ID,,,,2236,84.06,modeled_estimate
+17902701623909724,country,SG,,,,99,3.72,modeled_estimate
+17902701623909724,country,MY,,,,79,2.97,modeled_estimate
+17902701623909724,country,AU,,,,38,1.43,modeled_estimate
+17902701623909724,country,NL,,,,15,0.56,modeled_estimate
+17902701623909724,country,GB,,,,13,0.49,modeled_estimate
+17902701623909724,country,US,,,,16,0.6,modeled_estimate
+17902701623909724,country,JP,,,,12,0.45,modeled_estimate
+17902701623909724,country,SA,,,,11,0.41,modeled_estimate
+17902701623909724,country,DE,,,,5,0.19,modeled_estimate
+17902701623909724,country,KR,,,,4,0.15,modeled_estimate
+17903562482994432,city,ID,West Java,Bandung,Greater Bandung,1005,19.5,modeled_estimate
+17903562482994432,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),1080,20.95,modeled_estimate
+17903562482994432,city,ID,East Java,Surabaya,Other Java,316,6.13,modeled_estimate
+17903562482994432,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),219,4.25,modeled_estimate
+17903562482994432,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),216,4.19,modeled_estimate
+17903562482994432,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),169,3.28,modeled_estimate
+17903562482994432,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),146,2.83,modeled_estimate
+17903562482994432,city,ID,West Java,Cimahi,Greater Bandung,113,2.19,modeled_estimate
+17903562482994432,city,ID,Yogyakarta,Yogyakarta,Other Java,136,2.64,modeled_estimate
+17903562482994432,city,ID,Central Java,Semarang,Other Java,112,2.17,modeled_estimate
+17903562482994432,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),120,2.33,modeled_estimate
+17903562482994432,city,ID,Bali,Denpasar,Outside Java,86,1.67,modeled_estimate
+17903562482994432,city,ID,North Sumatra,Medan,Outside Java,87,1.69,modeled_estimate
+17903562482994432,city,ID,East Java,Malang,Other Java,90,1.75,modeled_estimate
+17903562482994432,city,ID,West Java,Cirebon,Other West Java (hub regions),56,1.09,modeled_estimate
+17903562482994432,city,ID,West Java,Garut,Other West Java (hub regions),53,1.03,modeled_estimate
+17903562482994432,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),49,0.95,modeled_estimate
+17903562482994432,city,ID,West Java,Sukabumi,Other West Java (hub regions),48,0.93,modeled_estimate
+17903562482994432,city,ID,South Sulawesi,Makassar,Outside Java,55,1.07,modeled_estimate
+17903562482994432,city,ID,South Sumatra,Palembang,Outside Java,48,0.93,modeled_estimate
+17903562482994432,city,ID,East Kalimantan,Balikpapan,Outside Java,36,0.7,modeled_estimate
+17903562482994432,city,SG,Singapore,Singapore,International - ASEAN,164,3.18,modeled_estimate
+17903562482994432,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,75,1.45,modeled_estimate
+17903562482994432,city,MY,Selangor,Petaling Jaya,International - ASEAN,44,0.85,modeled_estimate
+17903562482994432,city,AU,Victoria,Melbourne,International - Other,43,0.83,modeled_estimate
+17903562482994432,city,AU,New South Wales,Sydney,International - Other,33,0.64,modeled_estimate
+17903562482994432,city,NL,North Holland,Amsterdam,International - Other,29,0.56,modeled_estimate
+17903562482994432,city,GB,England,London,International - Other,22,0.43,modeled_estimate
+17903562482994432,province_state,ID,West Java,,,1905,36.95,modeled_estimate
+17903562482994432,province_state,ID,Jakarta,,,1080,20.95,modeled_estimate
+17903562482994432,province_state,ID,East Java,,,406,7.88,modeled_estimate
+17903562482994432,province_state,ID,Banten,,,289,5.61,modeled_estimate
+17903562482994432,province_state,ID,Yogyakarta,,,136,2.64,modeled_estimate
+17903562482994432,province_state,ID,Central Java,,,112,2.17,modeled_estimate
+17903562482994432,province_state,ID,Bali,,,86,1.67,modeled_estimate
+17903562482994432,province_state,ID,North Sumatra,,,87,1.69,modeled_estimate
+17903562482994432,province_state,ID,South Sulawesi,,,55,1.07,modeled_estimate
+17903562482994432,province_state,ID,South Sumatra,,,48,0.93,modeled_estimate
+17903562482994432,province_state,ID,East Kalimantan,,,36,0.7,modeled_estimate
+17903562482994432,province_state,SG,Singapore,,,164,3.18,modeled_estimate
+17903562482994432,province_state,MY,Kuala Lumpur,,,75,1.45,modeled_estimate
+17903562482994432,province_state,MY,Selangor,,,44,0.85,modeled_estimate
+17903562482994432,province_state,AU,Victoria,,,43,0.83,modeled_estimate
+17903562482994432,province_state,AU,New South Wales,,,33,0.64,modeled_estimate
+17903562482994432,province_state,NL,North Holland,,,29,0.56,modeled_estimate
+17903562482994432,province_state,GB,England,,,22,0.43,modeled_estimate
+17903562482994432,region_group,,,,Greater Bandung,1118,21.69,modeled_estimate
+17903562482994432,region_group,,,,Greater Jakarta (Jabodetabek),1950,37.83,modeled_estimate
+17903562482994432,region_group,,,,Other Java,654,12.69,modeled_estimate
+17903562482994432,region_group,,,,Outside Java,312,6.05,modeled_estimate
+17903562482994432,region_group,,,,Other West Java (hub regions),206,4.0,modeled_estimate
+17903562482994432,region_group,,,,International - ASEAN,283,5.49,modeled_estimate
+17903562482994432,region_group,,,,International - Other,127,2.46,modeled_estimate
+17903562482994432,country,ID,,,,4596,89.16,modeled_estimate
+17903562482994432,country,SG,,,,179,3.47,modeled_estimate
+17903562482994432,country,MY,,,,126,2.44,modeled_estimate
+17903562482994432,country,AU,,,,80,1.55,modeled_estimate
+17903562482994432,country,NL,,,,30,0.58,modeled_estimate
+17903562482994432,country,GB,,,,23,0.45,modeled_estimate
+17903562482994432,country,US,,,,44,0.85,modeled_estimate
+17903562482994432,country,JP,,,,19,0.37,modeled_estimate
+17903562482994432,country,SA,,,,19,0.37,modeled_estimate
+17903562482994432,country,DE,,,,8,0.16,modeled_estimate
+17903562482994432,country,KR,,,,8,0.16,modeled_estimate
+17902209188844506,city,ID,West Java,Bandung,Greater Bandung,2592,21.25,modeled_estimate
+17902209188844506,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2197,18.01,modeled_estimate
+17902209188844506,city,ID,East Java,Surabaya,Other Java,619,5.07,modeled_estimate
+17902209188844506,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),513,4.21,modeled_estimate
+17902209188844506,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),375,3.07,modeled_estimate
+17902209188844506,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),372,3.05,modeled_estimate
+17902209188844506,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),330,2.71,modeled_estimate
+17902209188844506,city,ID,West Java,Cimahi,Greater Bandung,366,3.0,modeled_estimate
+17902209188844506,city,ID,Yogyakarta,Yogyakarta,Other Java,220,1.8,modeled_estimate
+17902209188844506,city,ID,Central Java,Semarang,Other Java,215,1.76,modeled_estimate
+17902209188844506,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),239,1.96,modeled_estimate
+17902209188844506,city,ID,Bali,Denpasar,Outside Java,172,1.41,modeled_estimate
+17902209188844506,city,ID,North Sumatra,Medan,Outside Java,187,1.53,modeled_estimate
+17902209188844506,city,ID,East Java,Malang,Other Java,151,1.24,modeled_estimate
+17902209188844506,city,ID,West Java,Cirebon,Other West Java (hub regions),290,2.38,modeled_estimate
+17902209188844506,city,ID,West Java,Garut,Other West Java (hub regions),279,2.29,modeled_estimate
+17902209188844506,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),243,1.99,modeled_estimate
+17902209188844506,city,ID,West Java,Sukabumi,Other West Java (hub regions),206,1.69,modeled_estimate
+17902209188844506,city,ID,South Sulawesi,Makassar,Outside Java,101,0.83,modeled_estimate
+17902209188844506,city,ID,South Sumatra,Palembang,Outside Java,82,0.67,modeled_estimate
+17902209188844506,city,ID,East Kalimantan,Balikpapan,Outside Java,69,0.57,modeled_estimate
+17902209188844506,city,SG,Singapore,Singapore,International - ASEAN,367,3.01,modeled_estimate
+17902209188844506,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,195,1.6,modeled_estimate
+17902209188844506,city,MY,Selangor,Petaling Jaya,International - ASEAN,100,0.82,modeled_estimate
+17902209188844506,city,AU,Victoria,Melbourne,International - Other,81,0.66,modeled_estimate
+17902209188844506,city,AU,New South Wales,Sydney,International - Other,69,0.57,modeled_estimate
+17902209188844506,city,NL,North Holland,Amsterdam,International - Other,55,0.45,modeled_estimate
+17902209188844506,city,GB,England,London,International - Other,44,0.36,modeled_estimate
+17902209188844506,province_state,ID,West Java,,,5194,42.58,modeled_estimate
+17902209188844506,province_state,ID,Jakarta,,,2197,18.01,modeled_estimate
+17902209188844506,province_state,ID,East Java,,,770,6.31,modeled_estimate
+17902209188844506,province_state,ID,Banten,,,611,5.01,modeled_estimate
+17902209188844506,province_state,ID,Yogyakarta,,,220,1.8,modeled_estimate
+17902209188844506,province_state,ID,Central Java,,,215,1.76,modeled_estimate
+17902209188844506,province_state,ID,Bali,,,172,1.41,modeled_estimate
+17902209188844506,province_state,ID,North Sumatra,,,187,1.53,modeled_estimate
+17902209188844506,province_state,ID,South Sulawesi,,,101,0.83,modeled_estimate
+17902209188844506,province_state,ID,South Sumatra,,,82,0.67,modeled_estimate
+17902209188844506,province_state,ID,East Kalimantan,,,69,0.57,modeled_estimate
+17902209188844506,province_state,SG,Singapore,,,367,3.01,modeled_estimate
+17902209188844506,province_state,MY,Kuala Lumpur,,,195,1.6,modeled_estimate
+17902209188844506,province_state,MY,Selangor,,,100,0.82,modeled_estimate
+17902209188844506,province_state,AU,Victoria,,,81,0.66,modeled_estimate
+17902209188844506,province_state,AU,New South Wales,,,69,0.57,modeled_estimate
+17902209188844506,province_state,NL,North Holland,,,55,0.45,modeled_estimate
+17902209188844506,province_state,GB,England,,,44,0.36,modeled_estimate
+17902209188844506,region_group,,,,Greater Bandung,2958,24.25,modeled_estimate
+17902209188844506,region_group,,,,Greater Jakarta (Jabodetabek),4026,33.0,modeled_estimate
+17902209188844506,region_group,,,,Other Java,1205,9.88,modeled_estimate
+17902209188844506,region_group,,,,Outside Java,611,5.01,modeled_estimate
+17902209188844506,region_group,,,,Other West Java (hub regions),1018,8.34,modeled_estimate
+17902209188844506,region_group,,,,International - ASEAN,662,5.43,modeled_estimate
+17902209188844506,region_group,,,,International - Other,249,2.04,modeled_estimate
+17902209188844506,country,ID,,,,10464,85.78,modeled_estimate
+17902209188844506,country,SG,,,,399,3.27,modeled_estimate
+17902209188844506,country,MY,,,,319,2.61,modeled_estimate
+17902209188844506,country,AU,,,,164,1.34,modeled_estimate
+17902209188844506,country,NL,,,,58,0.48,modeled_estimate
+17902209188844506,country,GB,,,,46,0.38,modeled_estimate
+17902209188844506,country,US,,,,141,1.16,modeled_estimate
+17902209188844506,country,JP,,,,32,0.26,modeled_estimate
+17902209188844506,country,SA,,,,33,0.27,modeled_estimate
+17902209188844506,country,DE,,,,33,0.27,modeled_estimate
+17902209188844506,country,KR,,,,20,0.16,modeled_estimate
+17903086350274091,city,ID,West Java,Bandung,Greater Bandung,456,18.73,modeled_estimate
+17903086350274091,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),497,20.42,modeled_estimate
+17903086350274091,city,ID,East Java,Surabaya,Other Java,137,5.63,modeled_estimate
+17903086350274091,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),99,4.07,modeled_estimate
+17903086350274091,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),78,3.2,modeled_estimate
+17903086350274091,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),82,3.37,modeled_estimate
+17903086350274091,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),63,2.59,modeled_estimate
+17903086350274091,city,ID,West Java,Cimahi,Greater Bandung,64,2.63,modeled_estimate
+17903086350274091,city,ID,Yogyakarta,Yogyakarta,Other Java,50,2.05,modeled_estimate
+17903086350274091,city,ID,Central Java,Semarang,Other Java,59,2.42,modeled_estimate
+17903086350274091,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),50,2.05,modeled_estimate
+17903086350274091,city,ID,Bali,Denpasar,Outside Java,38,1.56,modeled_estimate
+17903086350274091,city,ID,North Sumatra,Medan,Outside Java,34,1.4,modeled_estimate
+17903086350274091,city,ID,East Java,Malang,Other Java,34,1.4,modeled_estimate
+17903086350274091,city,ID,West Java,Cirebon,Other West Java (hub regions),62,2.55,modeled_estimate
+17903086350274091,city,ID,West Java,Garut,Other West Java (hub regions),55,2.26,modeled_estimate
+17903086350274091,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),51,2.1,modeled_estimate
+17903086350274091,city,ID,West Java,Sukabumi,Other West Java (hub regions),45,1.85,modeled_estimate
+17903086350274091,city,ID,South Sulawesi,Makassar,Outside Java,20,0.82,modeled_estimate
+17903086350274091,city,ID,South Sumatra,Palembang,Outside Java,18,0.74,modeled_estimate
+17903086350274091,city,ID,East Kalimantan,Balikpapan,Outside Java,15,0.62,modeled_estimate
+17903086350274091,city,SG,Singapore,Singapore,International - ASEAN,59,2.42,modeled_estimate
+17903086350274091,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,41,1.68,modeled_estimate
+17903086350274091,city,MY,Selangor,Petaling Jaya,International - ASEAN,17,0.7,modeled_estimate
+17903086350274091,city,AU,Victoria,Melbourne,International - Other,14,0.58,modeled_estimate
+17903086350274091,city,AU,New South Wales,Sydney,International - Other,13,0.53,modeled_estimate
+17903086350274091,city,NL,North Holland,Amsterdam,International - Other,11,0.45,modeled_estimate
+17903086350274091,city,GB,England,London,International - Other,11,0.45,modeled_estimate
+17903086350274091,province_state,ID,West Java,,,973,39.98,modeled_estimate
+17903086350274091,province_state,ID,Jakarta,,,497,20.42,modeled_estimate
+17903086350274091,province_state,ID,East Java,,,171,7.03,modeled_estimate
+17903086350274091,province_state,ID,Banten,,,132,5.42,modeled_estimate
+17903086350274091,province_state,ID,Yogyakarta,,,50,2.05,modeled_estimate
+17903086350274091,province_state,ID,Central Java,,,59,2.42,modeled_estimate
+17903086350274091,province_state,ID,Bali,,,38,1.56,modeled_estimate
+17903086350274091,province_state,ID,North Sumatra,,,34,1.4,modeled_estimate
+17903086350274091,province_state,ID,South Sulawesi,,,20,0.82,modeled_estimate
+17903086350274091,province_state,ID,South Sumatra,,,18,0.74,modeled_estimate
+17903086350274091,province_state,ID,East Kalimantan,,,15,0.62,modeled_estimate
+17903086350274091,province_state,SG,Singapore,,,59,2.42,modeled_estimate
+17903086350274091,province_state,MY,Kuala Lumpur,,,41,1.68,modeled_estimate
+17903086350274091,province_state,MY,Selangor,,,17,0.7,modeled_estimate
+17903086350274091,province_state,AU,Victoria,,,14,0.58,modeled_estimate
+17903086350274091,province_state,AU,New South Wales,,,13,0.53,modeled_estimate
+17903086350274091,province_state,NL,North Holland,,,11,0.45,modeled_estimate
+17903086350274091,province_state,GB,England,,,11,0.45,modeled_estimate
+17903086350274091,region_group,,,,Greater Bandung,520,21.36,modeled_estimate
+17903086350274091,region_group,,,,Greater Jakarta (Jabodetabek),869,35.7,modeled_estimate
+17903086350274091,region_group,,,,Other Java,280,11.5,modeled_estimate
+17903086350274091,region_group,,,,Outside Java,125,5.14,modeled_estimate
+17903086350274091,region_group,,,,Other West Java (hub regions),213,8.75,modeled_estimate
+17903086350274091,region_group,,,,International - ASEAN,117,4.81,modeled_estimate
+17903086350274091,region_group,,,,International - Other,49,2.01,modeled_estimate
+17903086350274091,country,ID,,,,2148,88.25,modeled_estimate
+17903086350274091,country,SG,,,,64,2.63,modeled_estimate
+17903086350274091,country,MY,,,,63,2.59,modeled_estimate
+17903086350274091,country,AU,,,,29,1.19,modeled_estimate
+17903086350274091,country,NL,,,,12,0.49,modeled_estimate
+17903086350274091,country,GB,,,,12,0.49,modeled_estimate
+17903086350274091,country,US,,,,14,0.58,modeled_estimate
+17903086350274091,country,JP,,,,8,0.33,modeled_estimate
+17903086350274091,country,SA,,,,6,0.25,modeled_estimate
+17903086350274091,country,DE,,,,5,0.21,modeled_estimate
+17903086350274091,country,KR,,,,4,0.16,modeled_estimate
+17901372461039642,city,ID,West Java,Bandung,Greater Bandung,1626,15.13,modeled_estimate
+17901372461039642,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2350,21.87,modeled_estimate
+17901372461039642,city,ID,East Java,Surabaya,Other Java,671,6.24,modeled_estimate
+17901372461039642,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),412,3.83,modeled_estimate
+17901372461039642,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),344,3.2,modeled_estimate
+17901372461039642,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),323,3.01,modeled_estimate
+17901372461039642,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),325,3.02,modeled_estimate
+17901372461039642,city,ID,West Java,Cimahi,Greater Bandung,274,2.55,modeled_estimate
+17901372461039642,city,ID,Yogyakarta,Yogyakarta,Other Java,277,2.58,modeled_estimate
+17901372461039642,city,ID,Central Java,Semarang,Other Java,285,2.65,modeled_estimate
+17901372461039642,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),248,2.31,modeled_estimate
+17901372461039642,city,ID,Bali,Denpasar,Outside Java,192,1.79,modeled_estimate
+17901372461039642,city,ID,North Sumatra,Medan,Outside Java,168,1.56,modeled_estimate
+17901372461039642,city,ID,East Java,Malang,Other Java,157,1.46,modeled_estimate
+17901372461039642,city,ID,West Java,Cirebon,Other West Java (hub regions),195,1.81,modeled_estimate
+17901372461039642,city,ID,West Java,Garut,Other West Java (hub regions),193,1.8,modeled_estimate
+17901372461039642,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),189,1.76,modeled_estimate
+17901372461039642,city,ID,West Java,Sukabumi,Other West Java (hub regions),171,1.59,modeled_estimate
+17901372461039642,city,ID,South Sulawesi,Makassar,Outside Java,126,1.17,modeled_estimate
+17901372461039642,city,ID,South Sumatra,Palembang,Outside Java,94,0.87,modeled_estimate
+17901372461039642,city,ID,East Kalimantan,Balikpapan,Outside Java,91,0.85,modeled_estimate
+17901372461039642,city,SG,Singapore,Singapore,International - ASEAN,374,3.48,modeled_estimate
+17901372461039642,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,246,2.29,modeled_estimate
+17901372461039642,city,MY,Selangor,Petaling Jaya,International - ASEAN,111,1.03,modeled_estimate
+17901372461039642,city,AU,Victoria,Melbourne,International - Other,95,0.88,modeled_estimate
+17901372461039642,city,AU,New South Wales,Sydney,International - Other,88,0.82,modeled_estimate
+17901372461039642,city,NL,North Holland,Amsterdam,International - Other,61,0.57,modeled_estimate
+17901372461039642,city,GB,England,London,International - Other,60,0.56,modeled_estimate
+17901372461039642,province_state,ID,West Java,,,3729,34.7,modeled_estimate
+17901372461039642,province_state,ID,Jakarta,,,2350,21.87,modeled_estimate
+17901372461039642,province_state,ID,East Java,,,828,7.71,modeled_estimate
+17901372461039642,province_state,ID,Banten,,,571,5.31,modeled_estimate
+17901372461039642,province_state,ID,Yogyakarta,,,277,2.58,modeled_estimate
+17901372461039642,province_state,ID,Central Java,,,285,2.65,modeled_estimate
+17901372461039642,province_state,ID,Bali,,,192,1.79,modeled_estimate
+17901372461039642,province_state,ID,North Sumatra,,,168,1.56,modeled_estimate
+17901372461039642,province_state,ID,South Sulawesi,,,126,1.17,modeled_estimate
+17901372461039642,province_state,ID,South Sumatra,,,94,0.87,modeled_estimate
+17901372461039642,province_state,ID,East Kalimantan,,,91,0.85,modeled_estimate
+17901372461039642,province_state,SG,Singapore,,,374,3.48,modeled_estimate
+17901372461039642,province_state,MY,Kuala Lumpur,,,246,2.29,modeled_estimate
+17901372461039642,province_state,MY,Selangor,,,111,1.03,modeled_estimate
+17901372461039642,province_state,AU,Victoria,,,95,0.88,modeled_estimate
+17901372461039642,province_state,AU,New South Wales,,,88,0.82,modeled_estimate
+17901372461039642,province_state,NL,North Holland,,,61,0.57,modeled_estimate
+17901372461039642,province_state,GB,England,,,60,0.56,modeled_estimate
+17901372461039642,region_group,,,,Greater Bandung,1900,17.68,modeled_estimate
+17901372461039642,region_group,,,,Greater Jakarta (Jabodetabek),4002,37.24,modeled_estimate
+17901372461039642,region_group,,,,Other Java,1390,12.94,modeled_estimate
+17901372461039642,region_group,,,,Outside Java,671,6.24,modeled_estimate
+17901372461039642,region_group,,,,Other West Java (hub regions),748,6.96,modeled_estimate
+17901372461039642,region_group,,,,International - ASEAN,731,6.8,modeled_estimate
+17901372461039642,region_group,,,,International - Other,304,2.83,modeled_estimate
+17901372461039642,country,ID,,,,9331,86.83,modeled_estimate
+17901372461039642,country,SG,,,,398,3.7,modeled_estimate
+17901372461039642,country,MY,,,,383,3.56,modeled_estimate
+17901372461039642,country,AU,,,,196,1.82,modeled_estimate
+17901372461039642,country,NL,,,,65,0.6,modeled_estimate
+17901372461039642,country,GB,,,,65,0.6,modeled_estimate
+17901372461039642,country,US,,,,112,1.04,modeled_estimate
+17901372461039642,country,JP,,,,28,0.26,modeled_estimate
+17901372461039642,country,SA,,,,30,0.28,modeled_estimate
+17901372461039642,country,DE,,,,14,0.13,modeled_estimate
+17901372461039642,country,KR,,,,27,0.25,modeled_estimate
+17908775681335588,city,ID,West Java,Bandung,Greater Bandung,1375,15.7,modeled_estimate
+17908775681335588,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2078,23.73,modeled_estimate
+17908775681335588,city,ID,East Java,Surabaya,Other Java,465,5.31,modeled_estimate
+17908775681335588,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),421,4.81,modeled_estimate
+17908775681335588,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),350,4.0,modeled_estimate
+17908775681335588,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),284,3.24,modeled_estimate
+17908775681335588,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),257,2.93,modeled_estimate
+17908775681335588,city,ID,West Java,Cimahi,Greater Bandung,181,2.07,modeled_estimate
+17908775681335588,city,ID,Yogyakarta,Yogyakarta,Other Java,234,2.67,modeled_estimate
+17908775681335588,city,ID,Central Java,Semarang,Other Java,182,2.08,modeled_estimate
+17908775681335588,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),187,2.14,modeled_estimate
+17908775681335588,city,ID,Bali,Denpasar,Outside Java,162,1.85,modeled_estimate
+17908775681335588,city,ID,North Sumatra,Medan,Outside Java,131,1.5,modeled_estimate
+17908775681335588,city,ID,East Java,Malang,Other Java,140,1.6,modeled_estimate
+17908775681335588,city,ID,West Java,Cirebon,Other West Java (hub regions),92,1.05,modeled_estimate
+17908775681335588,city,ID,West Java,Garut,Other West Java (hub regions),78,0.89,modeled_estimate
+17908775681335588,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),84,0.96,modeled_estimate
+17908775681335588,city,ID,West Java,Sukabumi,Other West Java (hub regions),71,0.81,modeled_estimate
+17908775681335588,city,ID,South Sulawesi,Makassar,Outside Java,99,1.13,modeled_estimate
+17908775681335588,city,ID,South Sumatra,Palembang,Outside Java,80,0.91,modeled_estimate
+17908775681335588,city,ID,East Kalimantan,Balikpapan,Outside Java,59,0.67,modeled_estimate
+17908775681335588,city,SG,Singapore,Singapore,International - ASEAN,281,3.21,modeled_estimate
+17908775681335588,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,167,1.91,modeled_estimate
+17908775681335588,city,MY,Selangor,Petaling Jaya,International - ASEAN,59,0.67,modeled_estimate
+17908775681335588,city,AU,Victoria,Melbourne,International - Other,65,0.74,modeled_estimate
+17908775681335588,city,AU,New South Wales,Sydney,International - Other,54,0.62,modeled_estimate
+17908775681335588,city,NL,North Holland,Amsterdam,International - Other,51,0.58,modeled_estimate
+17908775681335588,city,GB,England,London,International - Other,39,0.45,modeled_estimate
+17908775681335588,province_state,ID,West Java,,,2909,33.22,modeled_estimate
+17908775681335588,province_state,ID,Jakarta,,,2078,23.73,modeled_estimate
+17908775681335588,province_state,ID,East Java,,,605,6.91,modeled_estimate
+17908775681335588,province_state,ID,Banten,,,471,5.38,modeled_estimate
+17908775681335588,province_state,ID,Yogyakarta,,,234,2.67,modeled_estimate
+17908775681335588,province_state,ID,Central Java,,,182,2.08,modeled_estimate
+17908775681335588,province_state,ID,Bali,,,162,1.85,modeled_estimate
+17908775681335588,province_state,ID,North Sumatra,,,131,1.5,modeled_estimate
+17908775681335588,province_state,ID,South Sulawesi,,,99,1.13,modeled_estimate
+17908775681335588,province_state,ID,South Sumatra,,,80,0.91,modeled_estimate
+17908775681335588,province_state,ID,East Kalimantan,,,59,0.67,modeled_estimate
+17908775681335588,province_state,SG,Singapore,,,281,3.21,modeled_estimate
+17908775681335588,province_state,MY,Kuala Lumpur,,,167,1.91,modeled_estimate
+17908775681335588,province_state,MY,Selangor,,,59,0.67,modeled_estimate
+17908775681335588,province_state,AU,Victoria,,,65,0.74,modeled_estimate
+17908775681335588,province_state,AU,New South Wales,,,54,0.62,modeled_estimate
+17908775681335588,province_state,NL,North Holland,,,51,0.58,modeled_estimate
+17908775681335588,province_state,GB,England,,,39,0.45,modeled_estimate
+17908775681335588,region_group,,,,Greater Bandung,1556,17.77,modeled_estimate
+17908775681335588,region_group,,,,Greater Jakarta (Jabodetabek),3577,40.85,modeled_estimate
+17908775681335588,region_group,,,,Other Java,1021,11.66,modeled_estimate
+17908775681335588,region_group,,,,Outside Java,531,6.06,modeled_estimate
+17908775681335588,region_group,,,,Other West Java (hub regions),325,3.71,modeled_estimate
+17908775681335588,region_group,,,,International - ASEAN,507,5.79,modeled_estimate
+17908775681335588,region_group,,,,International - Other,209,2.39,modeled_estimate
+17908775681335588,country,ID,,,,7696,87.88,modeled_estimate
+17908775681335588,country,SG,,,,297,3.39,modeled_estimate
+17908775681335588,country,MY,,,,242,2.76,modeled_estimate
+17908775681335588,country,AU,,,,130,1.48,modeled_estimate
+17908775681335588,country,NL,,,,55,0.63,modeled_estimate
+17908775681335588,country,GB,,,,42,0.48,modeled_estimate
+17908775681335588,country,US,,,,90,1.03,modeled_estimate
+17908775681335588,country,JP,,,,41,0.47,modeled_estimate
+17908775681335588,country,SA,,,,30,0.34,modeled_estimate
+17908775681335588,country,DE,,,,16,0.18,modeled_estimate
+17908775681335588,country,KR,,,,11,0.13,modeled_estimate
+17901551251058872,city,ID,West Java,Bandung,Greater Bandung,2056,18.52,modeled_estimate
+17901551251058872,city,ID,Jakarta,Jakarta,Greater Jakarta (Jabodetabek),2300,20.72,modeled_estimate
+17901551251058872,city,ID,East Java,Surabaya,Other Java,616,5.55,modeled_estimate
+17901551251058872,city,ID,West Java,Bekasi,Greater Jakarta (Jabodetabek),389,3.5,modeled_estimate
+17901551251058872,city,ID,West Java,Depok,Greater Jakarta (Jabodetabek),338,3.04,modeled_estimate
+17901551251058872,city,ID,Banten,Tangerang,Greater Jakarta (Jabodetabek),291,2.62,modeled_estimate
+17901551251058872,city,ID,West Java,Bogor,Greater Jakarta (Jabodetabek),289,2.6,modeled_estimate
+17901551251058872,city,ID,West Java,Cimahi,Greater Bandung,766,6.9,modeled_estimate
+17901551251058872,city,ID,Yogyakarta,Yogyakarta,Other Java,230,2.07,modeled_estimate
+17901551251058872,city,ID,Central Java,Semarang,Other Java,214,1.93,modeled_estimate
+17901551251058872,city,ID,Banten,South Tangerang,Greater Jakarta (Jabodetabek),231,2.08,modeled_estimate
+17901551251058872,city,ID,Bali,Denpasar,Outside Java,156,1.41,modeled_estimate
+17901551251058872,city,ID,North Sumatra,Medan,Outside Java,116,1.04,modeled_estimate
+17901551251058872,city,ID,East Java,Malang,Other Java,160,1.44,modeled_estimate
+17901551251058872,city,ID,West Java,Cirebon,Other West Java (hub regions),252,2.27,modeled_estimate
+17901551251058872,city,ID,West Java,Garut,Other West Java (hub regions),222,2.0,modeled_estimate
+17901551251058872,city,ID,West Java,Tasikmalaya,Other West Java (hub regions),235,2.12,modeled_estimate
+17901551251058872,city,ID,West Java,Sukabumi,Other West Java (hub regions),154,1.39,modeled_estimate
+17901551251058872,city,ID,South Sulawesi,Makassar,Outside Java,88,0.79,modeled_estimate
+17901551251058872,city,ID,South Sumatra,Palembang,Outside Java,74,0.67,modeled_estimate
+17901551251058872,city,ID,East Kalimantan,Balikpapan,Outside Java,63,0.57,modeled_estimate
+17901551251058872,city,SG,Singapore,Singapore,International - ASEAN,294,2.65,modeled_estimate
+17901551251058872,city,MY,Kuala Lumpur,Kuala Lumpur,International - ASEAN,172,1.55,modeled_estimate
+17901551251058872,city,MY,Selangor,Petaling Jaya,International - ASEAN,83,0.75,modeled_estimate
+17901551251058872,city,AU,Victoria,Melbourne,International - Other,70,0.63,modeled_estimate
+17901551251058872,city,AU,New South Wales,Sydney,International - Other,64,0.58,modeled_estimate
+17901551251058872,city,NL,North Holland,Amsterdam,International - Other,45,0.41,modeled_estimate
+17901551251058872,city,GB,England,London,International - Other,44,0.4,modeled_estimate
+17901551251058872,province_state,ID,West Java,,,4701,42.34,modeled_estimate
+17901551251058872,province_state,ID,Jakarta,,,2300,20.72,modeled_estimate
+17901551251058872,province_state,ID,East Java,,,776,6.99,modeled_estimate
+17901551251058872,province_state,ID,Banten,,,522,4.7,modeled_estimate
+17901551251058872,province_state,ID,Yogyakarta,,,230,2.07,modeled_estimate
+17901551251058872,province_state,ID,Central Java,,,214,1.93,modeled_estimate
+17901551251058872,province_state,ID,Bali,,,156,1.41,modeled_estimate
+17901551251058872,province_state,ID,North Sumatra,,,116,1.04,modeled_estimate
+17901551251058872,province_state,ID,South Sulawesi,,,88,0.79,modeled_estimate
+17901551251058872,province_state,ID,South Sumatra,,,74,0.67,modeled_estimate
+17901551251058872,province_state,ID,East Kalimantan,,,63,0.57,modeled_estimate
+17901551251058872,province_state,SG,Singapore,,,294,2.65,modeled_estimate
+17901551251058872,province_state,MY,Kuala Lumpur,,,172,1.55,modeled_estimate
+17901551251058872,province_state,MY,Selangor,,,83,0.75,modeled_estimate
+17901551251058872,province_state,AU,Victoria,,,70,0.63,modeled_estimate
+17901551251058872,province_state,AU,New South Wales,,,64,0.58,modeled_estimate
+17901551251058872,province_state,NL,North Holland,,,45,0.41,modeled_estimate
+17901551251058872,province_state,GB,England,,,44,0.4,modeled_estimate
+17901551251058872,region_group,,,,Greater Bandung,2822,25.42,modeled_estimate
+17901551251058872,region_group,,,,Greater Jakarta (Jabodetabek),3838,34.57,modeled_estimate
+17901551251058872,region_group,,,,Other Java,1220,10.99,modeled_estimate
+17901551251058872,region_group,,,,Outside Java,497,4.48,modeled_estimate
+17901551251058872,region_group,,,,Other West Java (hub regions),863,7.77,modeled_estimate
+17901551251058872,region_group,,,,International - ASEAN,549,4.94,modeled_estimate
+17901551251058872,region_group,,,,International - Other,223,2.01,modeled_estimate
+17901551251058872,country,ID,,,,9779,88.08,modeled_estimate
+17901551251058872,country,SG,,,,307,2.77,modeled_estimate
+17901551251058872,country,MY,,,,280,2.52,modeled_estimate
+17901551251058872,country,AU,,,,141,1.27,modeled_estimate
+17901551251058872,country,NL,,,,47,0.42,modeled_estimate
+17901551251058872,country,GB,,,,46,0.41,modeled_estimate
+17901551251058872,country,US,,,,120,1.08,modeled_estimate
+17901551251058872,country,JP,,,,40,0.36,modeled_estimate
+17901551251058872,country,SA,,,,46,0.41,modeled_estimate
+17901551251058872,country,DE,,,,30,0.27,modeled_estimate
+17901551251058872,country,KR,,,,29,0.26,modeled_estimate
