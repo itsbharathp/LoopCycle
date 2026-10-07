@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<!--
+  AI for Content Creation — The Basics
+  Workshop slide deck for GitHub Pages
+
+  GitHub Pages setup:
+    1. Push to GitHub:  git push origin main
+    2. In repo Settings → Pages → Source: Deploy from branch
+       Branch: main  /  Folder: /docs
+    3. Site will be live at:  https://itsbharathp.github.io/LoopCycle/
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI for Content Creation — The Basics · LoopCycle Workshop</title>
+<meta name="description" content="A hands-on workshop on AI and prompting for marketing teams and founders of social enterprises. ASEAN Oct 2026.">
+<meta name="theme-color" content="#B5532B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M27 7.9A14 14 0 1 0 34 20' fill='none' stroke='%23B5532B' stroke-width='5' stroke-linecap='round'/%3E%3Cpolygon points='34,12 29,20 39,20' fill='%23B5532B'/%3E%3Ccircle cx='20' cy='20' r='4' fill='%23B5532B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ── Design tokens ─────────────────────────────────────────────────────────── */
+:root {
+  /* PPTX palette */
+  --orange:  #B5532B;
+  --cream:   #FBF3E8;
+  --green:   #1E3A2F;
+  --sand:    #F5F0E6;
+  --tan:     #D9CDB6;
+  --ink:     #1A1A1A;
+  --mute:    #5B6060;
+
+  /* Typography */
+  --d: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --b: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ── Reset ─────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: 100%; }
+body {
+  height: 100%;
+  font: 400 17px/1.55 var(--b);
+  background: #111;
+  color: var(--ink);
+  overflow: hidden;
+}
+:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+
+/* ── Progress bar ───────────────────────────────────────────────────────────── */
+#progress {
+  position: fixed; top: 0; left: 0; height: 3px;
+  background: var(--orange); width: 0%;
+  transition: width .25s ease;
+  z-index: 100;
+}
+
+/* ── Deck container ─────────────────────────────────────────────────────────── */
+#deck {
+  position: fixed; inset: 0; bottom: 52px;
+  display: grid;
+}
+
+/* ── Slide base ─────────────────────────────────────────────────────────────── */
+.slide {
+  grid-area: 1/1;
+  display: none;
+  flex-direction: column;
+  padding: 36px 56px 28px;
+  opacity: 0;
+  transition: opacity .22s ease;
+  overflow: hidden;
+}
+.slide.active { display: flex; }
+.slide.visible { opacity: 1; }
+
+/* ── Section-divider slides (orange bg) ─────────────────────────────────────── */
+.divider {
+  background: var(--orange);
+  color: var(--cream);
+  justify-content: center;
+  align-items: flex-start;
+}
+.divider .s-label {
+  font: 600 11px/1 var(--b);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  opacity: .85;
+  margin-bottom: 20px;
+}
+.divider .s-title {
+  font: 800 clamp(2.8rem, 7vw, 5.4rem)/.95 var(--d);
+  letter-spacing: -.03em;
+  max-width: 14em;
+  margin-bottom: 28px;
+}
+.divider .s-sub {
+  font: 400 clamp(1rem, 2vw, 1.35rem)/1.5 var(--b);
+  opacity: .88;
+  max-width: 46em;
+}
+.divider .s-steps {
+  margin-top: 28px;
+  display: flex; gap: 28px; flex-wrap: wrap;
+}
+.divider .s-steps span {
+  font: 600 15px var(--b);
+  opacity: .85;
+}
+.divider .s-steps span::before {
+  display: inline-block;
+  width: 22px; height: 22px;
+  border: 2px solid var(--cream);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  margin-right: 8px;
+  opacity: .7;
+  content: attr(data-n);
+}
+
+/* ── Content slides (sand bg) ───────────────────────────────────────────────── */
+.content {
+  background: var(--sand);
+  color: var(--ink);
+}
+.c-label {
+  font: 700 11px/1 var(--b);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+.c-title {
+  font: 800 clamp(1.8rem, 3.8vw, 3rem)/1.08 var(--d);
+  letter-spacing: -.03em;
+  color: var(--green);
+  margin-bottom: 14px;
+}
+.c-rule {
+  border: none; border-top: 1.5px solid var(--tan);
+  margin-bottom: 18px;
+}
+.c-body { flex: 1; min-height: 0; overflow: hidden; }
+
+/* ── Two-column layout ──────────────────────────────────────────────────────── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.col-head {
+  font: 700 12px/1 var(--b);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 14px;
+}
+.col-item {
+  margin-bottom: 14px;
+}
+.col-item b {
+  display: block;
+  font: 600 15px/1.3 var(--b);
+  color: var(--green);
+  margin-bottom: 3px;
+}
+.col-item span {
+  font-size: 14px;
+  color: var(--mute);
+  line-height: 1.45;
+}
+
+/* ── Numbered steps (Hands-on / demo) ───────────────────────────────────────── */
+.step-list { list-style: none; }
+.step-list li {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 10px;
+  align-items: start;
+  margin-bottom: 14px;
+}
+.step-num {
+  font: 800 1.5rem/1 var(--d);
+  color: var(--orange);
+  line-height: 1.35;
+}
+.step-text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--green);
+}
+.step-text b { font-weight: 600; }
+
+/* ── Shines/stumbles two-col ─────────────────────────────────────────────────── */
+.shine-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.shine-box h3 {
+  font: 700 13px/1 var(--b);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+.shine-box ul { list-style: none; }
+.shine-box ul li {
+  font-size: 15px;
+  color: var(--green);
+  padding: 5px 0 5px 18px;
+  position: relative;
+  line-height: 1.4;
+  border-top: 1px solid var(--tan);
+}
+.shine-box ul li::before {
+  content: '';
+  position: absolute; left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 6px; height: 6px;
+  background: var(--orange);
+  border-radius: 50%;
+}
+
+/* ── Prompt slide layout ─────────────────────────────────────────────────────── */
+.prompt-layout {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 28px;
+  align-items: start;
+  height: 100%;
+  min-height: 0;
+}
+.prompt-box {
+  background: var(--green);
+  border-radius: 10px;
+  padding: 20px 22px;
+  height: 100%;
+  overflow: auto;
+}
+.prompt-box p, .prompt-box div {
+  font: 400 clamp(13px, 1.35vw, 15px)/1.6 var(--b);
+  color: var(--cream);
+}
+.prompt-box .prompt-label {
+  font: 700 10px/1 var(--b);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 12px;
+  opacity: .9;
+}
+.prompt-steps {
+  padding-left: 0;
+  list-style: none;
+}
+.prompt-steps li {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 8px;
+  align-items: start;
+  margin-bottom: 16px;
+}
+.ps-num {
+  font: 800 1.3rem/1.2 var(--d);
+  color: var(--orange);
+}
+.ps-text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--green);
+}
+.prompt-steps-head {
+  font: 700 11px/1 var(--b);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 14px;
+}
+
+/* ── Answer-key slide layout ─────────────────────────────────────────────────── */
+.answer-layout {
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 28px;
+  height: 100%;
+  min-height: 0;
+}
+.findings-list { list-style: none; }
+.findings-list li {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--green);
+  padding: 6px 0 6px 20px;
+  position: relative;
+  border-top: 1px solid var(--tan);
+}
+.findings-list li::before {
+  content: '•';
+  position: absolute; left: 4px;
+  color: var(--orange);
+  font-weight: 700;
+}
+.findings-list li strong {
+  color: var(--orange);
+  font-weight: 700;
+}
+.tp-box {
+  background: var(--green);
+  border-radius: 10px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+}
+.tp-label {
+  font: 700 10px/1 var(--b);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+.tp-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--cream);
+}
+
+/* ── Full-body text slides ───────────────────────────────────────────────────── */
+.full-body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.full-body-grid .col { }
+.body-head {
+  font: 700 12px/1 var(--b);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+.body-row {
+  margin-bottom: 12px;
+}
+.body-row b { font: 600 15px/1.3 var(--b); color: var(--green); }
+.body-row span { font-size: 14px; color: var(--mute); }
+.ingredient-list { list-style: none; }
+.ingredient-list li {
+  padding: 8px 0;
+  border-top: 1px solid var(--tan);
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.ingredient-list li b { font-weight: 700; color: var(--orange); }
+.ingredient-list li span { color: var(--mute); }
+.honesty-list { list-style: none; }
+.honesty-list li {
+  padding: 9px 0;
+  border-top: 1px solid var(--tan);
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 10px;
+  align-items: start;
+}
+.honesty-list li .hnum {
+  font: 700 1.1rem var(--d);
+  color: var(--orange);
+  line-height: 1.4;
+}
+.honesty-list li .htext {
+  font-size: 15px;
+  color: var(--green);
+  line-height: 1.5;
+}
+.honesty-list li .htext b { font-weight: 700; display: block; }
+.wrap-q {
+  margin-top: 18px;
+  padding: 16px 20px;
+  background: var(--green);
+  border-radius: 8px;
+  font: 600 15px/1.5 var(--b);
+  color: var(--cream);
+  font-style: italic;
+}
+
+/* ── Brief / compare slides ─────────────────────────────────────────────────── */
+.brief-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 32px;
+  align-items: start;
+}
+.brief-items { }
+.brief-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 10px;
+  padding: 7px 0;
+  border-top: 1px solid var(--tan);
+  font-size: 15px;
+}
+.brief-row dt { font-weight: 700; color: var(--orange); }
+.brief-row dd { color: var(--green); }
+.reel-idea {
+  background: var(--green);
+  border-radius: 10px;
+  padding: 18px 20px;
+  color: var(--cream);
+}
+.reel-idea h3 {
+  font: 700 11px/1 var(--b);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+.reel-idea p { font-size: 15px; line-height: 1.6; margin-bottom: 8px; }
+.reel-idea p:last-child { margin-bottom: 0; }
+.reel-idea em {
+  display: block;
+  margin-top: 8px;
+  font-size: 12.5px;
+  opacity: .7;
+  font-style: normal;
+}
+
+/* ── Demo/compare vague-specific ────────────────────────────────────────────── */
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.compare-box {
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.compare-box.vague { background: #EDE0CC; }
+.compare-box.specific { background: var(--green); color: var(--cream); }
+.compare-box h3 {
+  font: 700 11px/1 var(--b);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+.compare-box blockquote {
+  font: 600 16px/1.5 var(--b);
+  margin-bottom: 10px;
+}
+.compare-box p { font-size: 14.5px; line-height: 1.5; opacity: .85; }
+
+/* ── Five-parts brief layout ─────────────────────────────────────────────────── */
+.brief5-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+.brief5-card {
+  border-top: 3px solid var(--orange);
+  padding-top: 12px;
+}
+.brief5-card h3 {
+  font: 800 1.1rem/1.1 var(--d);
+  color: var(--orange);
+  margin-bottom: 6px;
+}
+.brief5-card p, .brief5-card blockquote {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--green);
+}
+
+/* ── Five moves layout ───────────────────────────────────────────────────────── */
+.moves-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+.move-card {
+  border-top: 3px solid var(--orange);
+  padding-top: 10px;
+}
+.move-num {
+  font: 800 1.8rem/1 var(--d);
+  color: var(--orange);
+  margin-bottom: 6px;
+}
+.move-card h3 { font: 700 15px/1.2 var(--d); color: var(--green); margin-bottom: 5px; }
+.move-card blockquote { font-size: 14px; color: var(--mute); font-style: italic; }
+
+/* ── Guardrails layout ───────────────────────────────────────────────────────── */
+.guardrails-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.guardrail {
+  border-radius: 10px;
+  background: #EDE0CC;
+  padding: 16px 18px;
+}
+.guardrail h3 { font: 800 15px/1.2 var(--d); color: var(--orange); margin-bottom: 6px; }
+.guardrail p { font-size: 15px; line-height: 1.5; color: var(--green); }
+
+/* ── Tools layout ────────────────────────────────────────────────────────────── */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.tool-card {
+  border-top: 3px solid var(--orange);
+  padding-top: 10px;
+}
+.tool-card h3 { font: 800 15px/1.2 var(--d); color: var(--orange); margin-bottom: 5px; }
+.tool-card .tool-apps { font: 600 14px var(--b); color: var(--green); margin-bottom: 6px; }
+.tool-card p { font-size: 14.5px; color: var(--mute); line-height: 1.5; }
+
+/* ── Intern layout ───────────────────────────────────────────────────────────── */
+.intern-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.intern-card {
+  border-radius: 10px;
+  background: #EDE0CC;
+  padding: 16px 18px;
+}
+.intern-card h3 { font: 800 15px/1.2 var(--d); color: var(--orange); margin-bottom: 5px; }
+.intern-card p { font-size: 15px; line-height: 1.5; color: var(--green); }
+
+/* ── LLM slide ───────────────────────────────────────────────────────────────── */
+.llm-body {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 32px;
+  align-items: start;
+}
+.llm-desc { font-size: 15px; line-height: 1.6; color: var(--green); margin-bottom: 16px; }
+.next-word {
+  background: var(--green);
+  border-radius: 10px;
+  padding: 18px 20px;
+  color: var(--cream);
+}
+.next-word h3 {
+  font: 700 11px/1 var(--b);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+.next-word p { font-size: 15px; line-height: 1.6; }
+.next-word .completion { margin-top: 10px; }
+.next-word .completion span {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin: 3px 4px 3px 0;
+}
+.c-high { background: var(--orange); color: var(--cream); }
+.c-mid  { background: rgba(255,255,255,.2); }
+.c-low  { background: rgba(255,255,255,.08); opacity: .6; }
+.nw-note { font-size: 11px; opacity: .5; margin-top: 10px; }
+
+/* ── How it learned ──────────────────────────────────────────────────────────── */
+.learned-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 22px;
+}
+.learned-card {
+  border-top: 3px solid var(--orange);
+  padding-top: 12px;
+}
+.learned-num { font: 800 2rem/1 var(--d); color: var(--orange); margin-bottom: 6px; }
+.learned-card h3 { font: 800 16px/1.2 var(--d); color: var(--green); margin-bottom: 6px; }
+.learned-card p { font-size: 14.5px; line-height: 1.5; color: var(--mute); }
+.learned-takeaway {
+  background: var(--green);
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: var(--cream);
+  line-height: 1.5;
+}
+.learned-takeaway b { color: var(--orange); }
+
+/* ── Small teams slide ───────────────────────────────────────────────────────── */
+.teams-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 20px;
+}
+.team-card {
+  border-top: 3px solid var(--orange);
+  padding-top: 10px;
+}
+.team-card h3 { font: 800 16px/1.2 var(--d); color: var(--orange); margin-bottom: 5px; }
+.team-card p { font-size: 15px; line-height: 1.5; color: var(--green); }
+.teams-cta {
+  background: var(--green);
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: var(--cream);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* ── One idea slide ──────────────────────────────────────────────────────────── */
+.one-idea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.one-idea .big-q {
+  font: 800 clamp(1.5rem, 3.5vw, 2.8rem)/1.1 var(--d);
+  color: var(--green);
+  letter-spacing: -.025em;
+  margin-bottom: 20px;
+  max-width: 20em;
+}
+.one-idea .tagline {
+  font: 800 clamp(1rem, 2.2vw, 1.6rem)/1 var(--d);
+  color: var(--orange);
+  margin-bottom: 18px;
+}
+.one-idea .up-next {
+  font-size: 14px;
+  color: var(--mute);
+  border-top: 1px solid var(--tan);
+  padding-top: 14px;
+  margin-top: 10px;
+}
+
+/* ── Compare / what the brand posted ────────────────────────────────────────── */
+.published-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.caption-box {
+  background: var(--green);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.caption-box h3 {
+  font: 700 11px/1 var(--b);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+.caption-box p { font-size: 14.5px; color: var(--cream); line-height: 1.6; }
+.caption-annotations { }
+.annotation {
+  padding: 7px 0 7px 16px;
+  border-top: 1px solid var(--tan);
+  font-size: 14.5px;
+  color: var(--green);
+  position: relative;
+  line-height: 1.4;
+}
+.annotation::before {
+  content: '→';
+  position: absolute; left: 0;
+  color: var(--orange);
+  font-weight: 700;
+}
+.annotation b { font-weight: 700; color: var(--orange); }
+.slip-box {
+  margin-top: 14px;
+  background: #F0D8C8;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #6B2A0E;
+  line-height: 1.5;
+}
+.slip-box b { font-weight: 700; }
+
+/* ── About Us slide ──────────────────────────────────────────────────────────── */
+.about-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+.about-body p { font-size: 15px; line-height: 1.65; color: var(--green); margin-bottom: 12px; }
+.about-kpis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.kpi {
+  background: #EDE0CC;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.kpi b { display: block; font: 800 1.6rem/1.1 var(--d); color: var(--green); margin-bottom: 4px; }
+.kpi span { font-size: 13px; color: var(--mute); }
+
+/* ── Navigation bar ──────────────────────────────────────────────────────────── */
+#nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  height: 52px;
+  background: rgba(250,247,240,.96);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--tan);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 50;
+}
+.nav-btn {
+  background: none; border: none; cursor: pointer;
+  font: 600 14px var(--b);
+  color: var(--green);
+  padding: 8px 14px;
+  border-radius: 6px;
+  display: flex; align-items: center; gap: 8px;
+  transition: background .12s;
+}
+.nav-btn:hover { background: var(--tan); }
+.nav-btn:disabled { opacity: .3; cursor: default; }
+.nav-btn:disabled:hover { background: none; }
+.nav-btn svg { width: 16px; height: 16px; }
+#counter {
+  font: 600 13px var(--b);
+  color: var(--mute);
+  min-width: 80px;
+  text-align: center;
+}
+#slide-title-nav {
+  font-size: 12px;
+  color: var(--mute);
+  max-width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.nav-center {
+  display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+}
+.key-hint { font-size: 11px; color: var(--tan); }
+
+/* ── Responsive ──────────────────────────────────────────────────────────────── */
+@media (max-width: 760px) {
+  .slide { padding: 28px 20px 20px; }
+  .two-col, .answer-layout, .prompt-layout, .compare-grid,
+  .published-grid, .brief-grid, .full-body-grid, .shine-grid,
+  .about-body, .llm-body, .teams-grid, .guardrails-grid,
+  .intern-grid { grid-template-columns: 1fr; }
+  .brief5-grid, .moves-grid { grid-template-columns: 1fr 1fr; }
+  .tools-grid, .learned-grid { grid-template-columns: 1fr 1fr; }
+  .divider .s-title { font-size: 2.4rem; }
+}
+
+@media (max-width: 480px) {
+  .brief5-grid, .moves-grid, .tools-grid, .learned-grid,
+  .guardrails-grid, .intern-grid, .about-kpis { grid-template-columns: 1fr; }
+  #slide-title-nav { display: none; }
+}
+
+/* ── Print ───────────────────────────────────────────────────────────────────── */
+@media print {
+  body { overflow: visible; background: white; }
+  #progress, #nav { display: none; }
+  #deck { position: static; display: block; }
+  .slide { display: flex !important; opacity: 1 !important; page-break-after: always; break-after: page;
+           min-height: 100vh; padding: 40px 48px 40px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide, #progress { transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- SVG symbol for LoopCycle logo icon -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="loop" viewBox="0 0 40 40"><path d="M27 7.9A14 14 0 1 0 34 20" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><polygon points="34,12 29,20 39,20" fill="currentColor"/><circle cx="20" cy="20" r="4" fill="currentColor"/></symbol>
+</defs></svg>
+
+<div id="progress" role="progressbar" aria-label="Presentation progress"></div>
+
+<main id="deck" aria-live="polite">
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 1 — Cover
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s1" aria-label="Slide 1: Title">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:40px">
+    <svg style="width:36px;height:36px;color:var(--cream)" aria-hidden="true"><use href="#loop"/></svg>
+    <span style="font:800 18px/1 var(--d);letter-spacing:-.02em;color:var(--cream)">LoopCycle<span style="display:block;font:500 10px/1.2 var(--b);letter-spacing:.14em;opacity:.75;margin-top:3px">NUSANTARA</span></span>
+  </div>
+  <p class="s-label">MASTERCLASS · AI FOR CONTENT CREATION</p>
+  <h1 class="s-title">Your stories,<br>told faster.</h1>
+  <p class="s-sub">The basics of AI and prompting, before we build.</p>
+  <p style="margin-top:20px;font:600 13px var(--b);opacity:.6">ASEAN · Oct 2026</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 2 — About Us
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s2" aria-label="Slide 2: About Us">
+  <p class="c-label">ABOUT US</p>
+  <h2 class="c-title">LoopCycle Nusantara</h2>
+  <hr class="c-rule">
+  <div class="c-body about-body">
+    <div>
+      <p>LoopCycle Nusantara is a waste-to-value social enterprise based in Bandung, West Java, Indonesia. Founded in 2015, we bring informal waste pickers into a recycling supply chain where every kilo is registered, weighed openly and traceable.</p>
+      <p>We buy sorted plastic from 3,500 registered pickers at fair-trade rates, wash and pelletise it, and sell recycled resin to FMCG packaging makers. Our 160-person team runs 12 collection hubs across West Java.</p>
+      <p>The Loop Tote is the part of that supply chain you can hold: one bag, 14 bottles.</p>
+    </div>
+    <div class="about-kpis">
+      <div class="kpi"><b>3,500</b><span>Registered pickers</span></div>
+      <div class="kpi"><b>12</b><span>Collection hubs, West Java</span></div>
+      <div class="kpi"><b>160</b><span>Staff</span></div>
+      <div class="kpi"><b>~$4.2M</b><span>USD turnover</span></div>
+      <div class="kpi"><b>4,015 t</b><span>Plastic collected, Jan–Sep 2026</span></div>
+      <div class="kpi"><b>14 bottles</b><span>in every Loop Tote</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 3 — Small teams, big stories
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s3" aria-label="Slide 3: Small teams, big stories">
+  <p class="c-label">PART ONE · CONTEXT</p>
+  <h2 class="c-title">Small teams. Big stories.</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <p style="font-size:16px;color:var(--green);margin-bottom:20px">You have more impact to share than hands to share it.</p>
+    <div class="teams-grid">
+      <div class="team-card">
+        <h3>Every channel</h3>
+        <p>Instagram, LinkedIn, newsletters, WhatsApp — every single week.</p>
+      </div>
+      <div class="team-card">
+        <h3>Many audiences</h3>
+        <p>Customers, buyers, funders, partners and the communities you serve.</p>
+      </div>
+      <div class="team-card">
+        <h3>Many languages</h3>
+        <p>English for funders, local languages for customers and communities.</p>
+      </div>
+      <div class="team-card">
+        <h3>One team</h3>
+        <p>Often one to three people doing the work of a whole agency.</p>
+      </div>
+    </div>
+    <div class="teams-cta">AI won't replace your storytelling. It can give you back the hours.</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 4 — What is an LLM?
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s4" aria-label="Slide 4: What is a large language model?">
+  <p class="c-label">PART ONE · THE TECHNOLOGY</p>
+  <h2 class="c-title">What is a large language model?</h2>
+  <hr class="c-rule">
+  <div class="c-body llm-body">
+    <div>
+      <p class="llm-desc">A prediction engine that has read more text than any person ever could.</p>
+      <p class="llm-desc">It writes one word at a time, always choosing a likely next word. That's why it sounds fluent — and why <em>fluent</em> is not the same as <em>true</em>.</p>
+    </div>
+    <div>
+      <div class="next-word">
+        <h3>What comes next?</h3>
+        <p>"Our compost turns kitchen waste into ___"</p>
+        <div class="completion">
+          <span class="c-high">rich soil</span>
+          <span class="c-mid">fertiliser</span>
+          <span class="c-low">gold</span>
+        </div>
+        <p class="nw-note">Illustrative, not real probabilities</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 5 — How it learned
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s5" aria-label="Slide 5: How it learned, in three steps">
+  <p class="c-label">PART ONE · THE TECHNOLOGY</p>
+  <h2 class="c-title">How it learned, in three steps</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <div class="learned-grid">
+      <div class="learned-card">
+        <div class="learned-num">01</div>
+        <h3>Read</h3>
+        <p>Trained on a vast library of books, websites and articles.</p>
+      </div>
+      <div class="learned-card">
+        <div class="learned-num">02</div>
+        <h3>Coached</h3>
+        <p>Shown many examples of good answers. Learned to follow instructions.</p>
+      </div>
+      <div class="learned-card">
+        <div class="learned-num">03</div>
+        <h3>Refined</h3>
+        <p>People rated its answers. Learned what "helpful" looks like.</p>
+      </div>
+    </div>
+    <div class="learned-takeaway">
+      <b>What this means for you:</b> It learned from everyone, so it sounds like everyone. <em>Make it sound like you.</em>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 6 — Brilliant intern
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s6" aria-label="Slide 6: Think of it as a brilliant intern">
+  <p class="c-label">PART ONE · THE MENTAL MODEL</p>
+  <h2 class="c-title">Think of it as a brilliant intern on their first day</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <div class="intern-grid">
+      <div class="intern-card">
+        <h3>Widely read</h3>
+        <p>Broad knowledge on almost any topic, available instantly.</p>
+      </div>
+      <div class="intern-card">
+        <h3>Knows nothing about you</h3>
+        <p>Your mission, your protagonists, your brand voice: you have to tell it.</p>
+      </div>
+      <div class="intern-card">
+        <h3>Eager to please</h3>
+        <p>Rarely says "I don't know". It fills gaps with confident guesses.</p>
+      </div>
+      <div class="intern-card">
+        <h3>Needs your direction</h3>
+        <p>Great work comes from a clear brief and your final review.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 7 — Where it shines / stumbles
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s7" aria-label="Slide 7: Where it shines, where it stumbles">
+  <p class="c-label">PART ONE · USING IT WELL</p>
+  <h2 class="c-title">Where it shines, where it stumbles</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <div class="shine-grid">
+      <div class="shine-box">
+        <h3>Shines</h3>
+        <ul>
+          <li>First drafts in seconds</li>
+          <li>Ten headline options instead of one</li>
+          <li>Rewriting one story for many audiences</li>
+          <li>Translating and localising across languages</li>
+          <li>Turning long reports into short posts</li>
+        </ul>
+      </div>
+      <div class="shine-box">
+        <h3>Stumbles</h3>
+        <ul>
+          <li>Inventing facts, figures and quotes</li>
+          <li>A generic, over-polished "AI voice"</li>
+          <li>Not knowing your context or community</li>
+          <li>Missing local and cultural nuance</li>
+          <li>Not knowing recent events</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:20px;font:600 14px var(--b);color:var(--green)">Use it for speed and range. Bring the facts, the context and the voice yourself.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 8 — Tools you'll meet
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s8" aria-label="Slide 8: The tools you'll meet">
+  <p class="c-label">PART ONE · THE TOOLS</p>
+  <h2 class="c-title">The tools you'll meet</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <div class="tools-grid">
+      <div class="tool-card">
+        <h3>Chat assistants</h3>
+        <p class="tool-apps">ChatGPT · Claude · Gemini</p>
+        <p>Writing, brainstorming, editing and research.</p>
+      </div>
+      <div class="tool-card">
+        <h3>Inside your apps</h3>
+        <p class="tool-apps">Canva · Google Workspace · Microsoft 365 · Meta</p>
+        <p>AI help right where you already work.</p>
+      </div>
+      <div class="tool-card">
+        <h3>Image and video</h3>
+        <p class="tool-apps">Canva · Adobe Firefly · Google Vids · Gemini Canvas</p>
+        <p>Visual drafts, variations and resizing.</p>
+      </div>
+    </div>
+    <div class="learned-takeaway" style="margin-top:24px">The tool matters less than the brief you give it.</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 9 — Part Two section divider
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s9" aria-label="Slide 9: Part Two — Prompting">
+  <p class="s-label">PART TWO · PROMPTING</p>
+  <h2 class="s-title">A prompt is a<br>creative brief.</h2>
+  <p class="s-sub">If you can brief a designer or an agency, you already know how to prompt.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 10 — Five parts of a good brief
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s10" aria-label="Slide 10: Five parts of a good brief">
+  <p class="c-label">PART TWO · PROMPTING</p>
+  <h2 class="c-title">Five parts of a good brief</h2>
+  <hr class="c-rule">
+  <p style="font-size:13px;color:var(--mute);margin-bottom:14px">Example: an Instagram caption for a rice brand working with smallholder farmers</p>
+  <div class="c-body">
+    <div class="brief5-grid">
+      <div class="brief5-card">
+        <h3>Role</h3>
+        <blockquote>"You are the social media writer for [Brand], an impact brand."</blockquote>
+      </div>
+      <div class="brief5-card">
+        <h3>Task</h3>
+        <blockquote>"Write an Instagram caption announcing our new harvest."</blockquote>
+      </div>
+      <div class="brief5-card">
+        <h3>Context</h3>
+        <blockquote>"We buy organic rice directly from smallholder farmers in [region]. Our followers are young urban families who care where their food comes from."</blockquote>
+      </div>
+      <div class="brief5-card">
+        <h3>Format</h3>
+        <blockquote>"Under 80 words. Warm, not preachy. End with a question. Three hashtags."</blockquote>
+      </div>
+      <div class="brief5-card">
+        <h3>Examples</h3>
+        <blockquote>"Here are two past posts that sound like us: [paste posts]"</blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 11 — Same request, two briefs
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s11" aria-label="Slide 11: Same request, two briefs">
+  <p class="c-label">PART TWO · PROMPTING</p>
+  <h2 class="c-title">Same request, two briefs</h2>
+  <hr class="c-rule">
+  <div class="c-body compare-grid">
+    <div class="compare-box vague">
+      <h3>Vague</h3>
+      <blockquote>"Write a post about our recycling."</blockquote>
+      <p>You get: generic copy that could be any brand, possibly with an invented statistic.</p>
+    </div>
+    <div class="compare-box specific">
+      <h3>Specific</h3>
+      <blockquote>"You are the comms lead at [Brand], which turns discarded fishing nets into [product] in [country]. Write a LinkedIn post for corporate buyers about our new collection. Confident, not preachy. About 120 words. Use only these facts: [facts]. End with a clear call to action."</blockquote>
+      <p>You get: on-brand, factual copy that's nearly ready to publish.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 12 — Five moves
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s12" aria-label="Slide 12: Five moves that make the difference">
+  <p class="c-label">PART TWO · PROMPTING</p>
+  <h2 class="c-title">Five moves that make the difference</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <div class="moves-grid">
+      <div class="move-card">
+        <div class="move-num">1</div>
+        <h3>Show your voice</h3>
+        <blockquote>"Here are three of our past posts. Match this tone."</blockquote>
+      </div>
+      <div class="move-card">
+        <div class="move-num">2</div>
+        <h3>Ask for options</h3>
+        <blockquote>"Give me ten headlines, from playful to serious."</blockquote>
+      </div>
+      <div class="move-card">
+        <div class="move-num">3</div>
+        <h3>Let it interview you</h3>
+        <blockquote>"Before you write, ask me three questions."</blockquote>
+      </div>
+      <div class="move-card">
+        <div class="move-num">4</div>
+        <h3>Edit like an editor</h3>
+        <blockquote>"Shorter. Warmer. Cut the jargon."</blockquote>
+      </div>
+      <div class="move-card">
+        <div class="move-num">5</div>
+        <h3>Ask for a critique</h3>
+        <blockquote>"What would a sceptical buyer question in this post?"</blockquote>
+      </div>
+    </div>
+    <p style="margin-top:18px;font:600 14px var(--b);color:var(--green)">The first answer is a first draft. Keep the conversation going.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 13 — Four guardrails
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s13" aria-label="Slide 13: Four guardrails for impact brands">
+  <p class="c-label">PART TWO · SAFETY</p>
+  <h2 class="c-title">Four guardrails for impact brands</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <div class="guardrails-grid">
+      <div class="guardrail">
+        <h3>Check every number</h3>
+        <p>Your impact claims are your credibility. An invented statistic is greenwashing, even by accident.</p>
+      </div>
+      <div class="guardrail">
+        <h3>Protect people</h3>
+        <p>Keep beneficiary names, photos and donor data out of public AI tools.</p>
+      </div>
+      <div class="guardrail">
+        <h3>Keep your voice</h3>
+        <p>Edit until it sounds like you. Your community will notice if it doesn't.</p>
+      </div>
+      <div class="guardrail">
+        <h3>Be honest with images</h3>
+        <p>Never present AI-made images of people, communities or places as real.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 14 — One idea to take with you
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s14" aria-label="Slide 14: One idea to take with you">
+  <p class="s-label">ONE IDEA TO TAKE WITH YOU</p>
+  <h2 class="s-title">When first drafts are free, judgment becomes the scarce skill.</h2>
+  <p class="s-sub" style="font-weight:700;font-size:1.3rem">AI drafts. You decide.</p>
+  <p class="s-sub" style="margin-top:16px;opacity:.75">Up next: a live demo, then your turn.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 15 — Live Demo intro
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s15" aria-label="Slide 15: Live Demo">
+  <p class="s-label">LIVE DEMO · WATCH FIRST</p>
+  <h2 class="s-title">Picker stories:<br>Ibu Sari.</h2>
+  <p class="s-sub">The same four prompts you'll use next. Watch what I type, and what I check.</p>
+  <div class="s-steps">
+    <span data-n="1">Caption</span>
+    <span data-n="2">Video plan</span>
+    <span data-n="3">Hashtags</span>
+    <span data-n="4">Three variations</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 16 — Demo brief: Ibu Sari
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s16" aria-label="Slide 16: Live Demo — The Brief">
+  <p class="c-label">LIVE DEMO · THE BRIEF</p>
+  <h2 class="c-title">Meet Ibu Sari</h2>
+  <hr class="c-rule">
+  <div class="c-body brief-grid">
+    <dl class="brief-items">
+      <div class="brief-row"><dt>Who</dt><dd>Ibu Sari, waste picker at Hub 2, Cimahi</dd></div>
+      <div class="brief-row"><dt>Her work</dt><dd>Picking since 2018 · sorts 200 kg of plastic a day</dd></div>
+      <div class="brief-row"><dt>Before</dt><dd>"I sold to whoever paid a little more that day."</dd></div>
+      <div class="brief-row"><dt>Now</dt><dd>Registered, weighed on a public scale, paid fair-trade rates the same day</dd></div>
+      <div class="brief-row"><dt>Her words</dt><dd>"My children can plan now. That's the difference."</dd></div>
+      <div class="brief-row"><dt>Network</dt><dd>One of 3,500 pickers registered with LoopCycle Nusantara</dd></div>
+    </dl>
+    <div class="reel-idea">
+      <h3>The reel idea</h3>
+      <p>A portrait interview. Ibu Sari at her sorting table. Natural light, handheld, warm and unhurried. Subtitles on.</p>
+      <em>Instagram Reel · about 10 seconds · Real footage of a real person</em>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 17 — Demo step 1: Caption
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s17" aria-label="Slide 17: Live Demo — Step 1 of 4">
+  <p class="c-label">LIVE DEMO · STEP 1 OF 4</p>
+  <h2 class="c-title">Write the caption and on-screen text</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">The prompt I'm using</p>
+      <p>You are the social media writer for LoopCycle Nusantara, an Indonesian social enterprise that works with registered waste pickers.
+
+Write the text for an Instagram reel about one of our pickers:
+1. A caption: a hook, two short paragraphs, then a question that invites comments. Under 100 words.
+2. Three lines of on-screen text: an opening hook, a middle line and an end card.
+
+Tone: warm and respectful. She is the hero, not us. Use only the facts and quotes below, and never change her words.
+
+[Paste the Ibu Sari brief]</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">New chat. Paste the prompt, then the Ibu Sari brief.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Read the first draft aloud. Does it sound like us?</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Refine: <em>"Less about us, more about her."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: every number and quote matches the brief, word for word.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 18 — Demo step 2: Video plan
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s18" aria-label="Slide 18: Live Demo — Step 2 of 4">
+  <p class="c-label">LIVE DEMO · STEP 2 OF 4</p>
+  <h2 class="c-title">Plan the video around real footage</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">The prompt I'm using</p>
+      <p>Now act as a documentary video editor. This reel uses real interview footage of Ibu Sari, so <strong>do not use real people to generate the reel</strong>.
+
+Write a 10-second edit plan for a vertical (9:16) reel, shot by shot with timings: which clip, on-screen text, subtitles, music mood and transitions.
+
+Clips we have: her interview at the sorting table, weighing at the hub scale, the receipt slip handed over. End card: LoopCycle Nusantara · 3,500 registered pickers.
+
+Also list any extra shots that would strengthen the edit.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt. Note the key line: <em>"do not use real people to generate the reel."</em></span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Hand the plan to whoever edits, or use AI only for text and the end card.</span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: real person, real footage, and her consent to share her story.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 19 — Demo step 3: Hashtags
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s19" aria-label="Slide 19: Live Demo — Step 3 of 4">
+  <p class="c-label">LIVE DEMO · STEP 3 OF 4</p>
+  <h2 class="c-title">Find the right hashtags</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">The prompt I'm using</p>
+      <p>You are back to social media writer for LoopCycle Nusantara.
+
+Suggest 12 Instagram hashtags for this reel:
+– 3 for LoopCycle and a picker stories series
+– 5 on the topic: waste pickers, fair trade, circular economy
+– 4 local: Bandung, Cimahi, West Java, Indonesia
+
+Mix popular and niche tags. Give one line on why each fits, then mark the 5 you would use.
+
+Flag any tag that could feel pity-driven or exploitative.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Refine: <em>"Which of these would our pickers be proud to see?"</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: search each tag on Instagram. Active, on-topic, not spammy?</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 20 — Demo step 4: Three variations
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s20" aria-label="Slide 20: Live Demo — Step 4 of 4">
+  <p class="c-label">LIVE DEMO · STEP 4 OF 4</p>
+  <h2 class="c-title">Create three variations</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">The prompt I'm using</p>
+      <p>Write 3 variations of the caption, each with 5 hashtags:
+
+A. Her voice: open with her own quote
+B. The change: life before and after registering
+C. The bigger picture: one of 3,500 pickers
+
+Keep every fact and quote identical. Under 100 words each. Label them A, B and C.
+
+Then add a short table comparing the hook, tone and best audience for each.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Ask: <em>"Which would you post first, and why?"</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: are her quotes and the facts identical in all three?</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 21 — Demo compare
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s21" aria-label="Slide 21: Live Demo — Compare">
+  <p class="c-label">LIVE DEMO · COMPARE</p>
+  <h2 class="c-title">What the team actually posted</h2>
+  <hr class="c-rule">
+  <div class="c-body published-grid">
+    <div>
+      <div class="caption-box">
+        <h3>The published caption</h3>
+        <p>Meet Ibu Sari.<br><br>She's been a waste picker in Cimahi for years, and a LoopCycle partner since 2018. Before registering, she never knew what her plastic would earn from one day to the next. Today her bales are weighed on a public scale, priced at fair-trade rates and paid for the same day. She's one of 3,500 registered pickers who make our recycling supply chain possible. Their work is the first link, and it deserves to be seen.<br><br>👉 Watch to the end, and tell us: what would you like to ask a picker?<br><br>#wastepickers #socialenterprise #circulareconomy #Bandung #fairtrade</p>
+      </div>
+    </div>
+    <div class="caption-annotations">
+      <div class="annotation"><b>She is the subject, not the brand</b></div>
+      <div class="annotation"><b>A question sets up a follow-up reel</b></div>
+      <div class="annotation"><b>Alt text keeps it accessible</b></div>
+      <div class="slip-box"><b>Spot the slip:</b> Her interview said she started picking in 2018. The caption says "for years" — a small drift. Check every claim against the brief.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 22 — Part Three section divider
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s22" aria-label="Slide 22: Part Three — Hands-on">
+  <p class="s-label">PART THREE · HANDS-ON</p>
+  <h2 class="s-title">Launch the Loop Tote.</h2>
+  <p class="s-sub">Four prompts, one launch reel. Work at your own pace in ChatGPT, Claude or Gemini.</p>
+  <div class="s-steps">
+    <span data-n="1">Caption</span>
+    <span data-n="2">Video prompt</span>
+    <span data-n="3">Hashtags</span>
+    <span data-n="4">Three variations</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 23 — Hands-on brief
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s23" aria-label="Slide 23: Hands-on — The Brief">
+  <p class="c-label">HANDS-ON · THE BRIEF</p>
+  <h2 class="c-title">Meet the Loop Tote</h2>
+  <hr class="c-rule">
+  <div class="c-body brief-grid">
+    <dl class="brief-items">
+      <div class="brief-row"><dt>Product</dt><dd>A sturdy everyday tote bag</dd></div>
+      <div class="brief-row"><dt>Made from</dt><dd>14 plastic bottles per tote</dd></div>
+      <div class="brief-row"><dt>Sourced</dt><dd>Collected by registered pickers across West Java</dd></div>
+      <div class="brief-row"><dt>Made</dt><dd>Washed at our Bandung plant, then woven</dd></div>
+      <div class="brief-row"><dt>Colours</dt><dd>Sea-green, indigo, sand</dd></div>
+      <div class="brief-row"><dt>Impact</dt><dd>Every purchase pays pickers fair-trade rates</dd></div>
+      <div class="brief-row"><dt>Launch</dt><dd><a href="https://looptote.netlify.app/" style="color:var(--orange)">looptote.netlify.app</a></dd></div>
+    </dl>
+    <div class="reel-idea">
+      <h3>The reel idea</h3>
+      <p>Fast, tactile product reveal. A pile of 14 clean bottles on a table, then cut to the finished tote in three colours against a Bandung street.</p>
+      <em>Instagram Reel · about 10 seconds · Launch: Sat 10 Oct 2026</em>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 24 — Hands-on step 1
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s24" aria-label="Slide 24: Hands-on — Step 1 of 4">
+  <p class="c-label">HANDS-ON · STEP 1 OF 4</p>
+  <h2 class="c-title">Write the caption and on-screen text</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Copy this prompt</p>
+      <p>You are the social media writer for Loop Tote, an Indonesian impact brand that makes bags from recycled plastic bottles.
+
+Write the text for our Instagram launch reel:
+1. A caption: a hook under 8 words, two short paragraphs, then a call to action. Under 90 words.
+2. Three lines of on-screen text: a hook, a middle line and a closing line.
+
+Audience: [who you want to reach]. Tone: warm and proud, not preachy. Use only the facts below and add no new numbers.
+
+[Paste the Loop Tote brief]</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Open a new chat in ChatGPT, Claude or Gemini.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Copy the prompt, fill in the [brackets] and paste the Loop Tote brief at the end.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Refine once: <em>"Make the hook more surprising"</em> or <em>"Ask me 3 questions first."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: 14 bottles, West Java, Bandung, three colours. Nothing invented?</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 25 — Hands-on step 2
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s25" aria-label="Slide 25: Hands-on — Step 2 of 4">
+  <p class="c-label">HANDS-ON · STEP 2 OF 4</p>
+  <h2 class="c-title">Turn it into a video prompt</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Copy this prompt</p>
+      <p>Now act as a video director. Write a prompt for an AI video tool to create a 10-second vertical (9:16) Instagram reel for this launch.
+
+Describe it shot by shot with timings: what we see, camera movement, lighting, on-screen text and mood.
+
+Story: a pile of 14 clean plastic bottles on a table → washing, shredding, yarn, weaving → the finished tote in sea-green, indigo and sand, carried on a Bandung street.
+
+Fast, tactile, bright daylight. Use the on-screen text you wrote. Under 200 words.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat, so it remembers your caption.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt. Adjust the scenes if you have a better idea.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Copy the result into your team's AI video tool and generate.</span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: never show AI-made "pickers" as real people. Real faces need real footage.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 26 — Hands-on step 3
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s26" aria-label="Slide 26: Hands-on — Step 3 of 4">
+  <p class="c-label">HANDS-ON · STEP 3 OF 4</p>
+  <h2 class="c-title">Find the right hashtags</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Copy this prompt</p>
+      <p>Suggest 12 Instagram hashtags for this post:
+– 3 for the brand and campaign (always include #LoopTote)
+– 5 on the topic: recycled fashion, plastic, sustainability
+– 4 local ones for Indonesia and Bandung
+
+Mix popular and niche tags. Give one line on why each fits, then mark the 5 you would use.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Refine: <em>"Which of these are overused or too broad?"</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: search each hashtag on Instagram. Is it active and on-topic?</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 27 — Hands-on step 4
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s27" aria-label="Slide 27: Hands-on — Step 4 of 4">
+  <p class="c-label">HANDS-ON · STEP 4 OF 4</p>
+  <h2 class="c-title">Create three variations</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Copy this prompt</p>
+      <p>Write 3 variations of the caption, each with 5 hashtags, from three angles:
+
+A. The people: the pickers of West Java and fair-trade pay
+B. The style: three colours for everyday life
+C. The number: 14 bottles, 1 bag
+
+Keep every fact the same. Under 90 words each. Label them A, B and C.
+
+Then add a short table comparing the hook, tone and best audience for each.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Ask: <em>"Which would you post first, and why?"</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Check: are the facts identical in all three? Pick the one you would publish.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 28 — Hands-on compare
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s28" aria-label="Slide 28: Hands-on — Compare">
+  <p class="c-label">HANDS-ON · COMPARE</p>
+  <h2 class="c-title">How does yours compare?</h2>
+  <hr class="c-rule">
+  <div class="c-body published-grid">
+    <div>
+      <div class="caption-box">
+        <h3>The brand's launch caption</h3>
+        <p>14 bottles. 1 bag. Meet the Loop Tote ♻️<br><br>Every tote is made from 14 plastic bottles collected by registered pickers across West Java, washed at our Bandung plant and woven into a sturdy everyday bag. Now available in three colours. Every purchase pays pickers fair-trade rates, for real. Tap the link in bio to get yours.<br><br>#LoopTote #recycledfashion #sustainablestyle #plasticfree #madeinindonesia</p>
+      </div>
+      <p style="margin-top:12px;font-size:13px;color:var(--mute);font-style:italic">Engagement question: "Which colour are you? Sea-green, indigo or sand?"</p>
+    </div>
+    <div class="caption-annotations">
+      <div class="annotation">What did your version do better?</div>
+      <div class="annotation">What did the brand include that yours missed?</div>
+      <div class="annotation">Which of your variations would you publish?</div>
+      <div class="annotation"><b>Bonus prompt:</b> "Write alt text for this reel for people using screen readers, and one question to spark comments."</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 29 — Part Four section divider
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s29" aria-label="Slide 29: Part Four — Analyse">
+  <p class="s-label">PART FOUR · ANALYSE</p>
+  <h2 class="s-title">Analyse your Instagram data.</h2>
+  <p class="s-sub">Five questions, five prompts. Work at your own pace in ChatGPT, Claude or Gemini.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 30 — Analyse setup: files needed
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s30" aria-label="Slide 30: Analyse — Setup">
+  <p class="c-label">ANALYSE · SETUP</p>
+  <h2 class="c-title">What participants need</h2>
+  <hr class="c-rule">
+  <div class="c-body two-col">
+    <div>
+      <p class="col-head">Files you need</p>
+      <div class="col-item">
+        <b>loopcycle_post_kpis.csv</b>
+        <span>Main file. One row per post: format, pillar, time, reach, engagement and rates.</span>
+      </div>
+      <div class="col-item">
+        <b>loopcycle_instagram_posts_flat.csv</b>
+        <span>Caption text. Join <code>id</code> here to <code>post_id</code> in the KPI file.</span>
+      </div>
+      <div class="col-item">
+        <b>Audience files (optional, Question 4)</b>
+        <span>loopcycle_post_audience_age_gender.csv<br>loopcycle_post_audience_location.csv<br>loopcycle_post_views_time.csv</span>
+      </div>
+    </div>
+    <div>
+      <p class="col-head">Three things to tell participants</p>
+      <div class="col-item">
+        <b>1 — The data is synthetic.</b>
+        <span>Do not treat any number as real.</span>
+      </div>
+      <div class="col-item">
+        <b>2 — Columns starting <code>modeled_</code> are estimates.</b>
+        <span>Instagram does not report audience, location or viewing time per post.</span>
+      </div>
+      <div class="col-item">
+        <b>3 — Reels have blank follow columns.</b>
+        <span><code>follows</code>, <code>profile_visits</code> and their rate columns are blank for VIDEO (Reel) posts.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 31 — Shared context block
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s31" aria-label="Slide 31: Shared context to paste first">
+  <p class="c-label">ANALYSE · SHARED CONTEXT</p>
+  <h2 class="c-title">Paste this first — before any question</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Context block</p>
+      <p>You are a marketing analyst helping a small social enterprise.
+
+Context: LoopCycle Nusantara is a waste-to-value social enterprise in Bandung, Indonesia. We buy sorted plastic from 3,500 registered waste pickers, recycle it, and sell the Loop Tote, a tote bag made from 14 recycled bottles. Instagram (@loopcycle.nusantara, about 21,000 followers) is how we build trust and drive sales.
+
+Data: the attached CSV has one row per Instagram post (30 posts, 30 Jul to 27 Sep 2026). media_type is VIDEO (Reel), CAROUSEL_ALBUM or IMAGE. content_pillar is our content theme. Columns starting with modeled_ are estimates, not Instagram data. follows and profile_visits are blank for Reels.
+
+Rules: use only the data I give you. Show how many posts are behind every figure. Say clearly when a sample is too small to conclude anything. Never invent data. Keep what the data shows separate from your interpretation.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Open a new chat in ChatGPT, Claude or Gemini.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste this context block first.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Attach <code>loopcycle_post_kpis.csv</code>.</span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Then paste your question prompt.</span></li>
+        <li><span class="ps-num">5</span><span class="ps-text">Keep the same chat open for all 5 questions.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 32 — Q1 prompt
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s32" aria-label="Slide 32: Question 1 — What worked?">
+  <p class="c-label">ANALYSE · QUESTION 1 OF 5</p>
+  <h2 class="c-title">What worked? Which formats and themes deserve more of our time?</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Prompt</p>
+      <p>Using the attached post data: which formats (media_type) and content pillars should we invest more in, and which should we do less of?
+
+Compare reach, engagement_rate_by_reach_pct, save_rate_pct and share_rate_pct.
+
+1. Build one table by format and one by pillar showing the number of posts and the average and median of each metric.
+2. Tell me which metric matters most for each goal: awareness, engagement, and purchase intent (saves).
+3. Check whether any average is being distorted by one unusual post. If so, show the result without that post.
+4. Give me a 5-line recommendation for a founder who has 10 minutes.
+
+Flag any comparison based on fewer than 5 posts.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Attach <code>loopcycle_post_kpis.csv</code>.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt. Read the tables.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Follow-up: <em>"Explain in 3 sentences for a non-technical board member."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Follow-up: <em>"Redo the pillar comparison for Reels only."</em></span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 33 — Q1 answer key
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s33" aria-label="Slide 33: Q1 Answer Key">
+  <p class="c-label">ANALYSE · Q1 ANSWER KEY</p>
+  <h2 class="c-title">What worked? Facilitator findings</h2>
+  <hr class="c-rule">
+  <div class="c-body answer-layout">
+    <ul class="findings-list">
+      <li>Reels: avg reach ~16.5K (median 10.7K). Carousels 4.9K. Images 2.0K.</li>
+      <li>Engagement rate: Reels 8.9%, carousels 8.8%, images 5.8% — formats are close on engagement.</li>
+      <li>Carousels win on save rate (3.5% vs 1.3% for Reels). Reels win on share rate (2.4% vs 0.7%).</li>
+      <li>By pillar: Loop Tote best engagement (8.7%) and save rate (2.9%). Picker stories best share rate (1.8%).</li>
+      <li>Behind the scenes weakest overall (6.8% engagement).</li>
+      <li><strong>TRAP:</strong> Education looks top for reach (28.2K avg) but has only 3 posts. One Reel hit 76K. Without it avg ≈ 4.2K.</li>
+      <li>B2B has only 2 posts — no conclusions possible.</li>
+    </ul>
+    <div class="tp-box">
+      <p class="tp-label">Teaching point</p>
+      <p class="tp-text">Averages mislead on small samples. Always ask the AI to check for outliers before drawing conclusions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 34 — Q2 prompt
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s34" aria-label="Slide 34: Question 2 — Why did our best posts break out?">
+  <p class="c-label">ANALYSE · QUESTION 2 OF 5</p>
+  <h2 class="c-title">Why did our best posts break out?</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Prompt</p>
+      <p>I attached two files: the post KPI file and a flat post file with captions. Join post_id in the KPI file to id in the flat file to get the caption.
+
+Look at posts where performance_flag is "breakout" and compare them with "underperformer" posts and typical posts.
+
+1. List the breakout and underperformer posts with: caption start, format, pillar, weekday, hour, caption length, hashtag count and reach.
+2. What do the breakouts have in common and how do they differ from underperformers? Consider format, caption topic, posting time and caption length.
+3. For each factor, say whether the data can support a conclusion. Consider how few breakouts there are and whether the factor varies at all.
+4. Suggest 3 hypotheses we could test next month. For each: the change we make and the metric that would show it worked.
+
+Do not claim that any factor caused the result.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Attach both CSV files.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Follow-up: <em>"Rank the factors from most to least trustworthy."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Follow-up: <em>"Write 5 caption ideas that apply the hypotheses."</em></span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 35 — Q2 answer key
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s35" aria-label="Slide 35: Q2 Answer Key">
+  <p class="c-label">ANALYSE · Q2 ANSWER KEY</p>
+  <h2 class="c-title">Why did our best posts break out? Facilitator findings</h2>
+  <hr class="c-rule">
+  <div class="c-body answer-layout">
+    <ul class="findings-list">
+      <li><code>performance_flag</code> is relative to format median reach (~2× = breakout, ~0.6× = underperformer).</li>
+      <li>Breakouts (3): "bottle journey" Reel Tue 08:00 76K; "1 tonne recycled PET" carousel Fri 20:00 10.6K; river clean-up image Wed 20:00 4.1K.</li>
+      <li>Underperformers (2): Pak Asep story Reel Sat 09:00 4.4K; "fair-trade payment" carousel Wed 20:00 2.4K.</li>
+      <li>Possible pattern: explainers + concrete numbers + community action outperformed personal stories. Only 5 posts — hypothesis only.</li>
+      <li>Hashtag count: 2 for 28 of 30 posts — <strong>cannot be tested</strong>.</li>
+      <li>Caption length: ~0 correlation with engagement, ~0.23 with reach — barely useful.</li>
+    </ul>
+    <div class="tp-box">
+      <p class="tp-label">Teaching point</p>
+      <p class="tp-text">Good analysis tells you what it <em>cannot</em> conclude. "Hashtags don't vary — can't test" is more honest than "hashtags don't matter".</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 36 — Q3 prompt
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s36" aria-label="Slide 36: Question 3 — When should we post?">
+  <p class="c-label">ANALYSE · QUESTION 3 OF 5</p>
+  <h2 class="c-title">When should we post?</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Prompt</p>
+      <p>Using the attached post data, analyse whether posting time affects results. Use post_weekday_wib, post_hour_wib, reach and engagement_rate_by_reach_pct.
+
+1. Show the average and median reach and engagement rate by hour and by weekday, with the number of posts in each group.
+2. Check whether posting time is tangled up with format — for example which formats we tend to post at which hours. Repeat the comparison within a single format.
+3. Compare mean and median and identify any single post that creates an apparent "best time".
+4. Tell me what we can and cannot conclude. Then design a simple 4-week posting experiment: what to vary, what to keep fixed, how many posts, and how we will decide the result.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Attach <code>loopcycle_post_kpis.csv</code>.</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Follow-up: <em>"Draw a chart of median reach by weekday and format, and mark groups with fewer than 3 posts."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Ask: what would a fair experiment look like?</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 37 — Q3 answer key
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s37" aria-label="Slide 37: Q3 Answer Key">
+  <p class="c-label">ANALYSE · Q3 ANSWER KEY</p>
+  <h2 class="c-title">When should we post? Facilitator findings</h2>
+  <hr class="c-rule">
+  <div class="c-body answer-layout">
+    <ul class="findings-list">
+      <li>08:00 WIB looks best (avg reach ~20.8K vs 3–5K for lunchtime/evening). Tuesday looks best (23.6K avg).</li>
+      <li><strong>THE CATCH:</strong> nearly all Reels were at 08:00–09:00; most carousels/images at 12:00–20:00. Time is confounded with format.</li>
+      <li>One viral Reel inflates the 08:00 and Tuesday averages.</li>
+      <li>Among Reels only: median reach 10.4K at 08:00 vs 10.8K at 09:00 — no real difference.</li>
+      <li>Engagement rate barely changes by weekday (~7.7% to 8.8%).</li>
+      <li><code>modeled_peak_view_hour_wib</code> mostly mirrors posting hour — says little about when audience is active.</li>
+      <li>A good experiment posts the <strong>same format</strong> at two different times over several weeks.</li>
+    </ul>
+    <div class="tp-box">
+      <p class="tp-label">Teaching point</p>
+      <p class="tp-text">Confounding variables. Always ask the AI to check whether time mixes with format before claiming a "best time".</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 38 — Q4 prompt
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s38" aria-label="Slide 38: Question 4 — Who are we reaching?">
+  <p class="c-label">ANALYSE · QUESTION 4 OF 5</p>
+  <h2 class="c-title">Who are we reaching, and are they the right people?</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Prompt</p>
+      <p>Using the attached post data. Note: columns starting modeled_ are estimates — Instagram does not give audience data per post.
+
+Our goals: grow beyond Bandung, reach working adults aged 25–44, attract packaging buyers.
+
+1. Show how much of each format's and pillar's reach is estimated to come from followers vs non-followers (modeled_follower_reach_pct).
+2. Show estimated audience by content pillar: top age group, female share, top region. Which pillars reach a different audience from our usual one?
+3. For feed posts only (carousels and images), compare follows_per_1k_reach and profile_visit_rate_pct by format and pillar. Reels do not report these — say what that limits.
+4. Explain what the modeled columns can responsibly be used for, and what we would need to measure for real.
+5. Give me two audience recommendations and one risk.</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Attach <code>loopcycle_post_kpis.csv</code> (plus audience CSVs if time allows).</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Follow-up: <em>"Turn this into a one-page audience summary my team can use when planning content."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Ask: what is the difference between estimated and measured data?</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 39 — Q4 answer key
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s39" aria-label="Slide 39: Q4 Answer Key">
+  <p class="c-label">ANALYSE · Q4 ANSWER KEY</p>
+  <h2 class="c-title">Who are we reaching? Facilitator findings</h2>
+  <hr class="c-rule">
+  <div class="c-body answer-layout">
+    <ul class="findings-list">
+      <li>Estimated follower share: images ~70%, carousels ~50%, Reels ~28% — Reels mostly reach new audiences.</li>
+      <li>Follows per 1K reach (feed only): carousels 3.4, images 1.8. Reels cannot be compared — real measurement gap.</li>
+      <li>Estimated top age group: 25–34 for 26 of 30 posts. Education posts skew 18–24.</li>
+      <li>Female share: highest Loop Tote posts (~62%), lowest B2B posts (~42%).</li>
+      <li>Greater Jakarta top estimated region for most posts. Behind-the-scenes posts skew to Bandung.</li>
+      <li><strong>TRAP:</strong> modeled audience is largely the follower base blended with general reach — not independent evidence.</li>
+    </ul>
+    <div class="tp-box">
+      <p class="tp-label">Teaching point</p>
+      <p class="tp-text">Ask the AI to separate real from estimated data, and to say what it would take to measure the gap for real.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 40 — Q5 prompt
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s40" aria-label="Slide 40: Question 5 — What should we post next month?">
+  <p class="c-label">ANALYSE · QUESTION 5 OF 5</p>
+  <h2 class="c-title">What should we post next month?</h2>
+  <hr class="c-rule">
+  <div class="c-body prompt-layout">
+    <div class="prompt-box">
+      <p class="prompt-label">Prompt</p>
+      <p>Based on everything we found in this conversation, create a 4-week Instagram plan for @loopcycle.nusantara with 12 posts.
+
+Constraints: we post ~3 times a week and have one person making content. Goals in order: (1) sell more Loop Totes, (2) build trust through waste-picker stories, (3) attract packaging buyers.
+
+Output:
+1. A table: week, day, time (WIB), format, pillar, topic idea, goal, metric.
+2. For each row, one line starting "Because the data showed…" that points to a specific finding. If there is no evidence, say "test".
+3. Two experiments, each with a decision rule.
+4. The three biggest limits of this data.
+5. Finally, argue against your own plan: what could make it wrong?</p>
+    </div>
+    <div>
+      <p class="prompt-steps-head">Steps</p>
+      <ol class="prompt-steps">
+        <li><span class="ps-num">1</span><span class="ps-text">Stay in the same chat (all 5 questions in context).</span></li>
+        <li><span class="ps-num">2</span><span class="ps-text">Paste the prompt.</span></li>
+        <li><span class="ps-num">3</span><span class="ps-text">Follow-up: <em>"Turn the plan into a CSV I can import into a content calendar."</em></span></li>
+        <li><span class="ps-num">4</span><span class="ps-text">Follow-up: <em>"Write caption drafts for week 1 in our brand voice: warm, direct, no jargon."</em></span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 41 — Q5 answer key
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s41" aria-label="Slide 41: Q5 Answer Key">
+  <p class="c-label">ANALYSE · Q5 ANSWER KEY</p>
+  <h2 class="c-title">What should we post next month? What good looks like</h2>
+  <hr class="c-rule">
+  <div class="c-body answer-layout">
+    <ul class="findings-list">
+      <li>Mixes Reels (reach, new audiences) with carousels (saves, purchase intent).</li>
+      <li>Uses Loop Tote content for purchase goal; picker stories for trust-building.</li>
+      <li>Links every choice to a real Q1–Q4 finding; marks the rest as "test".</li>
+      <li>Includes a fair experiment: same format, different time, defined success metric.</li>
+      <li>Does <strong>not</strong> invent numbers such as sales targets or follower projections.</li>
+      <li>Argues against its own plan: e.g. "sample patterns from 30 posts may not hold".</li>
+    </ul>
+    <div class="tp-box">
+      <p class="tp-label">Teaching point</p>
+      <p class="tp-text">Ask the AI to critique itself. The data tells you what happened. You decide what it means for next month.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 42 — Wrap-up: what makes prompts work
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s42" aria-label="Slide 42: What makes these prompts work">
+  <p class="c-label">ANALYSE · WRAP-UP</p>
+  <h2 class="c-title">What makes these prompts work</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <p style="margin-bottom:16px;font:600 14px var(--b);color:var(--green)">Six ingredients of a useful data prompt</p>
+    <ul class="ingredient-list">
+      <li><b>Business question first</b><span>"Which formats should we invest more in?"</span></li>
+      <li><b>Context</b><span>Who you are, what you sell, what Instagram does for you</span></li>
+      <li><b>Data described</b><span>What each column means, what is blank and why</span></li>
+      <li><b>Specific steps</b><span>Numbered tasks with named columns</span></li>
+      <li><b>Checks built in</b><span>Sample sizes, outliers, confounds, what cannot be concluded</span></li>
+      <li><b>A decision at the end</b><span>Recommendation, content plan, or experiment design</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 43 — Wrap-up: keeping yourself honest
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide content" id="s43" aria-label="Slide 43: Keeping yourself honest">
+  <p class="c-label">ANALYSE · WRAP-UP</p>
+  <h2 class="c-title">Keeping yourself honest</h2>
+  <hr class="c-rule">
+  <div class="c-body">
+    <ul class="honesty-list">
+      <li>
+        <span class="hnum">1</span>
+        <span class="htext"><b>Spot-check a number</b>Pick one figure and recompute it in Excel or Sheets.</span>
+      </li>
+      <li>
+        <span class="hnum">2</span>
+        <span class="htext"><b>Ask for the working</b>"Show the calculation and the posts you used."</span>
+      </li>
+      <li>
+        <span class="hnum">3</span>
+        <span class="htext"><b>Ask for the opposite view</b>"What would someone who disagrees with this recommendation say?"</span>
+      </li>
+      <li>
+        <span class="hnum">4</span>
+        <span class="htext"><b>Watch for confident language on small samples</b>Words like "proves" or "clearly shows" on fewer than 5 posts are red flags.</span>
+      </li>
+    </ul>
+    <div class="wrap-q">"Which of the five answers would you act on tomorrow, which would you test first, and which would you ignore because the data cannot support it?"</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     SLIDE 44 — Thank You
+════════════════════════════════════════════════════════════════════════════ -->
+<section class="slide divider" id="s44" aria-label="Slide 44: Thank You">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:40px">
+    <svg style="width:36px;height:36px;color:var(--cream)" aria-hidden="true"><use href="#loop"/></svg>
+    <span style="font:800 18px/1 var(--d);letter-spacing:-.02em;color:var(--cream)">LoopCycle<span style="display:block;font:500 10px/1.2 var(--b);letter-spacing:.14em;opacity:.75;margin-top:3px">NUSANTARA</span></span>
+  </div>
+  <p class="s-label">MASTERCLASS · AI FOR CONTENT CREATION</p>
+  <h2 class="s-title">Thank You</h2>
+  <p class="s-sub">ASEAN · Oct 2026</p>
+</section>
+
+</main>
+
+<!-- ── Navigation bar ─────────────────────────────────────────────────────────── -->
+<nav id="nav" aria-label="Slide navigation">
+  <button class="nav-btn" id="btn-prev" aria-label="Previous slide" disabled>
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="10,4 6,8 10,12"/></svg>
+    Prev
+  </button>
+  <div class="nav-center">
+    <span id="counter">1 / 44</span>
+    <span id="slide-title-nav"></span>
+    <span class="key-hint">← → keys or swipe</span>
+  </div>
+  <button class="nav-btn" id="btn-next" aria-label="Next slide">
+    Next
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6,4 10,8 6,12"/></svg>
+  </button>
+</nav>
+
+<script>
+(function () {
+  const TOTAL = 44;
+  let cur = 1;
+
+  const slides    = Array.from(document.querySelectorAll('.slide'));
+  const progress  = document.getElementById('progress');
+  const counter   = document.getElementById('counter');
+  const titleNav  = document.getElementById('slide-title-nav');
+  const btnPrev   = document.getElementById('btn-prev');
+  const btnNext   = document.getElementById('btn-next');
+
+  function goTo(n) {
+    n = Math.max(1, Math.min(TOTAL, n));
+    if (n === cur) return;
+
+    // Hide current
+    const prev = slides[cur - 1];
+    prev.classList.remove('visible');
+    setTimeout(() => prev.classList.remove('active'), 230);
+
+    cur = n;
+
+    // Show new
+    const next = slides[cur - 1];
+    next.classList.add('active');
+    requestAnimationFrame(() => next.classList.add('visible'));
+
+    // Update UI
+    progress.style.width = ((cur - 1) / (TOTAL - 1) * 100).toFixed(1) + '%';
+    counter.textContent  = cur + ' / ' + TOTAL;
+    titleNav.textContent = next.getAttribute('aria-label') || '';
+    btnPrev.disabled = cur === 1;
+    btnNext.disabled = cur === TOTAL;
+
+    // Update URL hash without scroll
+    history.replaceState(null, '', '#slide-' + cur);
+    document.title = 'Slide ' + cur + ' / ' + TOTAL + ' · AI for Content Creation';
+  }
+
+  function init() {
+    // Read hash or default to 1
+    const hash = location.hash.match(/slide-(\d+)/);
+    const start = hash ? Math.max(1, Math.min(TOTAL, parseInt(hash[1]))) : 1;
+
+    // Activate first slide (no animation)
+    slides[start - 1].classList.add('active', 'visible');
+    cur = start;
+    progress.style.width = ((cur - 1) / (TOTAL - 1) * 100).toFixed(1) + '%';
+    counter.textContent  = cur + ' / ' + TOTAL;
+    titleNav.textContent = slides[cur - 1].getAttribute('aria-label') || '';
+    btnPrev.disabled = cur === 1;
+    btnNext.disabled = cur === TOTAL;
+  }
+
+  // Buttons
+  btnPrev.addEventListener('click', () => goTo(cur - 1));
+  btnNext.addEventListener('click', () => goTo(cur + 1));
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' '  ) { e.preventDefault(); goTo(cur + 1); }
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp'                     ) { e.preventDefault(); goTo(cur - 1); }
+    if (e.key === 'Home') { e.preventDefault(); goTo(1); }
+    if (e.key === 'End' ) { e.preventDefault(); goTo(TOTAL); }
+  });
+
+  // Touch / swipe
+  let tx = 0;
+  document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend',   e => {
+    const dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 50) goTo(dx < 0 ? cur + 1 : cur - 1);
+  }, { passive: true });
+
+  // Handle browser back/forward
+  window.addEventListener('hashchange', () => {
+    const hash = location.hash.match(/slide-(\d+)/);
+    if (hash) goTo(parseInt(hash[1]));
+  });
+
+  init();
+})();
+</script>
+</body>
+</html>
