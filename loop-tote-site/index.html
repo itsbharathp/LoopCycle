@@ -119,4 +119,337 @@ if(!matchMedia("(prefers-reduced-motion: reduce)").matches){const bs=[...bots.ch
 const H=[{"n": 1, "c": "Bandung", "lat": -6.9175, "lng": 107.6191, "p": 520, "t": 694}, {"n": 2, "c": "Cimahi", "lat": -6.8722, "lng": 107.5425, "p": 340, "t": 394}, {"n": 3, "c": "Tasikmalaya", "lat": -7.3274, "lng": 108.2207, "p": 280, "t": 309}, {"n": 4, "c": "Bogor", "lat": -6.595, "lng": 106.8166, "p": 330, "t": 402}, {"n": 5, "c": "Bekasi", "lat": -6.2383, "lng": 106.9756, "p": 360, "t": 459}, {"n": 6, "c": "Cirebon", "lat": -6.7063, "lng": 108.557, "p": 300, "t": 331}, {"n": 7, "c": "Garut", "lat": -7.2279, "lng": 107.9087, "p": 190, "t": 132}, {"n": 8, "c": "Sukabumi", "lat": -6.9277, "lng": 106.93, "p": 240, "t": 251}, {"n": 9, "c": "Depok", "lat": -6.4025, "lng": 106.7942, "p": 270, "t": 313}, {"n": 10, "c": "Karawang", "lat": -6.3015, "lng": 107.3376, "p": 250, "t": 304}, {"n": 11, "c": "Subang", "lat": -6.57, "lng": 107.76, "p": 210, "t": 219}, {"n": 12, "c": "Cianjur", "lat": -6.82, "lng": 107.1425, "p": 210, "t": 207}];
 if(window.L){const m=L.map("map",{scrollWheelZoom:false});const A='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',T=[["https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{subdomains:"abcd",maxZoom:19,attribution:A+' &copy; <a href="https://carto.com/attributions">CARTO</a>'}],["https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:A}]];let ti=0,lay;function tiles(){if(lay)m.removeLayer(lay);lay=L.tileLayer(T[ti][0],T[ti][1]).addTo(m);let e=0;lay.on("tileerror",()=>{if(++e!==4)return;if(ti<T.length-1){ti++;tiles()}else document.getElementById("mapnote").hidden=false})}tiles();const mk=H.map(x=>L.marker([x.lat,x.lng],{title:"Hub "+x.n+", "+x.c,icon:L.divIcon({className:"",html:'<div class="pin'+(x.n==1?' hq':'')+'">'+x.n+"</div>",iconSize:[28,28],iconAnchor:[14,14]})}).addTo(m).bindPopup("<b>Hub "+x.n+", "+x.c+"</b><br>"+x.p.toLocaleString()+" registered pickers<br>"+x.t.toLocaleString()+" t collected in 2026"));m.fitBounds(L.latLngBounds(H.map(x=>[x.lat,x.lng])).pad(.15));document.querySelectorAll(".hl button").forEach((b,i)=>b.onclick=()=>{m.flyTo([H[i].lat,H[i].lng],10);mk[i].openPopup()})}
 </script>
+
+<!-- ══════════════════════════════════════════════════════
+     BIMO – LoopCycle's recycling gecko chatbot
+     ══════════════════════════════════════════════════════ -->
+<style>
+/* ── Launcher ── */
+#bimo-btn{position:fixed;bottom:28px;right:28px;z-index:9000;width:64px;height:64px;border-radius:50%;background:var(--brand);border:0;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s}
+#bimo-btn:hover{transform:scale(1.08);box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#bimo-btn svg{width:40px;height:40px}
+#bimo-badge{position:absolute;top:2px;right:2px;background:#E74C3C;color:#fff;border-radius:50%;width:18px;height:18px;font:700 11px/18px "Instrument Sans",sans-serif;text-align:center;display:none}
+
+/* ── Chat window ── */
+#bimo-win{position:fixed;bottom:104px;right:28px;z-index:9000;width:min(380px,calc(100vw - 40px));height:min(560px,calc(100vh - 140px));background:#fff;border-radius:20px;box-shadow:0 8px 40px rgba(0,0,0,.22);display:flex;flex-direction:column;overflow:hidden;transform-origin:bottom right;transition:transform .22s,opacity .22s}
+#bimo-win.hide{transform:scale(.85) translateY(12px);opacity:0;pointer-events:none}
+
+/* ── Header ── */
+#bimo-hdr{background:var(--brand);color:#fff;padding:14px 16px;display:flex;align-items:center;gap:12px;flex-shrink:0}
+#bimo-hdr svg{width:38px;height:38px;flex-shrink:0}
+#bimo-hdr-txt{flex:1}
+#bimo-hdr-txt b{display:block;font:700 16px/1.1 "Bricolage Grotesque","Arial Narrow",sans-serif}
+#bimo-hdr-txt span{font-size:12.5px;opacity:.85}
+#bimo-close{background:none;border:0;color:#fff;font-size:22px;cursor:pointer;padding:4px;line-height:1;opacity:.8}
+#bimo-close:hover{opacity:1}
+
+/* ── Messages ── */
+#bimo-msgs{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;background:#F7F9F8}
+.bimo-msg{max-width:82%;padding:10px 14px;border-radius:16px;font-size:14.5px;line-height:1.5;word-break:break-word}
+.bimo-msg.bot{background:#fff;border:1px solid #DFE9E5;border-bottom-left-radius:4px;align-self:flex-start;color:#15221E}
+.bimo-msg.usr{background:var(--brand);color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+.bimo-msg a{color:inherit;text-decoration:underline}
+.bimo-typing{display:flex;gap:5px;align-items:center;padding:12px 14px}
+.bimo-typing i{width:7px;height:7px;background:#A8C4BD;border-radius:50%;animation:bimo-blink 1.2s infinite}
+.bimo-typing i:nth-child(2){animation-delay:.2s}
+.bimo-typing i:nth-child(3){animation-delay:.4s}
+@keyframes bimo-blink{0%,80%,100%{transform:scale(1);opacity:.6}40%{transform:scale(1.3);opacity:1}}
+
+/* ── Quick replies ── */
+#bimo-quick{padding:8px 16px;display:flex;flex-wrap:wrap;gap:7px;background:#F7F9F8;border-top:1px solid #E4EBE8}
+.bimo-chip{background:#fff;border:1.5px solid var(--brand);color:var(--brand);border-radius:999px;padding:5px 13px;font:500 13px "Instrument Sans",sans-serif;cursor:pointer;transition:background .15s}
+.bimo-chip:hover{background:var(--brand);color:#fff}
+
+/* ── Input bar ── */
+#bimo-form{display:flex;gap:8px;padding:12px 14px;border-top:1px solid #E4EBE8;background:#fff;flex-shrink:0}
+#bimo-inp{flex:1;border:1.5px solid #DDE5E2;border-radius:999px;padding:9px 16px;font:15px "Instrument Sans",sans-serif;outline:none;background:#F7F9F8}
+#bimo-inp:focus{border-color:var(--brand)}
+#bimo-send{background:var(--brand);border:0;border-radius:50%;width:40px;height:40px;cursor:pointer;color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+#bimo-send:hover{background:var(--bag-dark)}
+#bimo-send svg{width:18px;height:18px}
+</style>
+
+<!-- Launcher button – Bimo the gecko -->
+<button id="bimo-btn" aria-label="Chat with Bimo, our support gecko">
+  <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- Body -->
+    <ellipse cx="32" cy="36" rx="16" ry="18" fill="#fff" opacity=".95"/>
+    <!-- Head -->
+    <ellipse cx="32" cy="20" rx="13" ry="11" fill="#fff" opacity=".95"/>
+    <!-- Eyes -->
+    <circle cx="27" cy="17" r="4.5" fill="#1F8F6E"/>
+    <circle cx="37" cy="17" r="4.5" fill="#1F8F6E"/>
+    <circle cx="27.8" cy="16.5" r="2" fill="#fff"/>
+    <circle cx="37.8" cy="16.5" r="2" fill="#fff"/>
+    <circle cx="27.2" cy="17.2" r="1.2" fill="#0E4A3A"/>
+    <circle cx="37.2" cy="17.2" r="1.2" fill="#0E4A3A"/>
+    <!-- Smile -->
+    <path d="M26 23 Q32 27 38 23" stroke="#1F8F6E" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <!-- Tail -->
+    <path d="M46 44 Q56 50 54 58 Q50 62 46 56" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".9"/>
+    <!-- Feet -->
+    <path d="M20 50 L14 54 M16 52 L12 58" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M44 50 L50 54 M48 52 L52 58" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Recycle arrow (small, belly) -->
+    <path d="M30 35 A5 5 0 1 1 34 39" stroke="#1F8F6E" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <polygon points="34,36 30,39 36,40" fill="#1F8F6E"/>
+  </svg>
+  <span id="bimo-badge">1</span>
+</button>
+
+<!-- Chat window -->
+<div id="bimo-win" class="hide" role="dialog" aria-label="Bimo chat" aria-modal="true">
+  <div id="bimo-hdr">
+    <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+      <ellipse cx="32" cy="36" rx="16" ry="18" fill="rgba(255,255,255,.25)"/>
+      <ellipse cx="32" cy="20" rx="13" ry="11" fill="rgba(255,255,255,.25)"/>
+      <circle cx="27" cy="17" r="4.5" fill="#fff"/>
+      <circle cx="37" cy="17" r="4.5" fill="#fff"/>
+      <circle cx="27.5" cy="17" r="1.5" fill="#1F8F6E"/>
+      <circle cx="37.5" cy="17" r="1.5" fill="#1F8F6E"/>
+      <path d="M26 23 Q32 27 38 23" stroke="#fff" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+      <path d="M46 44 Q56 50 54 58 Q50 62 46 56" stroke="rgba(255,255,255,.6)" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </svg>
+    <div id="bimo-hdr-txt"><b>Bimo 🦎</b><span>LoopCycle support gecko • usually instant</span></div>
+    <button id="bimo-close" aria-label="Close chat">✕</button>
+  </div>
+  <div id="bimo-msgs" aria-live="polite"></div>
+  <div id="bimo-quick"></div>
+  <form id="bimo-form" autocomplete="off">
+    <input id="bimo-inp" type="text" placeholder="Ask Bimo anything…" aria-label="Your message" maxlength="300"/>
+    <button type="submit" id="bimo-send" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg>
+    </button>
+  </form>
+</div>
+
+<script>
+(function(){
+// ── Data embedded from CSVs ────────────────────────────────────────────
+const ORDERS = [
+  {id:"#LT10001",date:"2026-06-01",colour:"Sand",qty:2,total:"Rp 378,000",status:"completed",courier:"J&T Express",delivered:"2026-06-06",platform:"Website (Shopify)"},
+  {id:"#LT10002",date:"2026-06-01",colour:"Sea-green",qty:2,total:"Rp 359,000",status:"completed",courier:"SiCepat",delivered:"2026-06-04",platform:"Website (Shopify)"},
+  {id:"#LT10003",date:"2026-06-01",colour:"Sea-green",qty:1,total:"Rp 229,000",status:"completed",courier:"J&T Express",delivered:"2026-06-03",platform:"Website (Shopify)"},
+  {id:"#LT10004",date:"2026-06-02",colour:"Sea-green",qty:1,total:"Rp 221,000",status:"completed",courier:"JNE",delivered:"2026-06-05",platform:"Website (Shopify)"},
+  {id:"#LT10005",date:"2026-06-02",colour:"Sea-green",qty:1,total:"Rp 221,000",status:"completed",courier:"JNE",delivered:"2026-06-04",platform:"Website (Shopify)"},
+  {id:"#LT10094",date:"2026-07-11",colour:"Sea-green",qty:1,total:"Rp 189,000",status:"cancelled",courier:"",delivered:"",platform:"Website (Shopify)"},
+  {id:"#LT10166",date:"2026-07-30",colour:"Sea-green",qty:1,total:"Rp 189,000",status:"completed",courier:"J&T Express",delivered:"2026-08-03",platform:"Website (Shopify)"},
+  {id:"#LT10247",date:"2026-08-17",colour:"Sea-green",qty:1,total:"Rp 221,000",status:"completed",courier:"JNE",delivered:"2026-08-21",platform:"Website (Shopify)"},
+  {id:"#LT10270",date:"2026-08-13",colour:"Indigo",qty:1,total:"Rp 189,000",status:"completed",courier:"J&T Express",delivered:"2026-08-18",platform:"Website (Shopify)"},
+  {id:"#LT10280",date:"2026-08-17",colour:"Sea-green",qty:80,total:"Rp 15,120,000",status:"completed",courier:"Express",delivered:"2026-08-19",platform:"Website (Shopify)"},
+  {id:"#LT10311",date:"2026-08-24",colour:"Indigo",qty:1,total:"Rp 189,000",status:"completed",courier:"JNE",delivered:"2026-08-27",platform:"Website (Shopify)"},
+  {id:"#LT10607",date:"2026-09-04",colour:"Sea-green",qty:1,total:"Rp 189,000",status:"completed",courier:"JNE",delivered:"2026-09-08",platform:"Website (Shopify)"},
+  {id:"#LT10672",date:"2026-09-09",colour:"Sand",qty:1,total:"Rp 189,000",status:"returned",courier:"J&T Express",delivered:"2026-09-14",platform:"Website (Shopify)"},
+  {id:"26060163422706B",date:"2026-06-01",colour:"Indigo",qty:1,total:"Rp 195,500",status:"completed",courier:"SiCepat",delivered:"2026-06-04",platform:"Shopee"},
+  {id:"26060251970217B",date:"2026-06-02",colour:"Indigo",qty:1,total:"Rp 201,000",status:"returned",courier:"SiCepat",delivered:"2026-06-06",platform:"Shopee"},
+  {id:"26060297320663C",date:"2026-06-02",colour:"Sea-green",qty:1,total:"Rp 160,500",status:"completed",courier:"SiCepat",delivered:"2026-06-05",platform:"Shopee"},
+  {id:"26060276775700D",date:"2026-06-02",colour:"Sea-green",qty:1,total:"Rp 201,000",status:"completed",courier:"AnterAja",delivered:"2026-06-06",platform:"Shopee"},
+  {id:"26061441028577B",date:"2026-06-14",colour:"Sea-green",qty:1,total:"Rp 195,500",status:"completed",courier:"SiCepat",delivered:"2026-06-18",platform:"Shopee"},
+  {id:"26061976114795C",date:"2026-06-19",colour:"Sand",qty:1,total:"Rp 195,500",status:"completed",courier:"SiCepat",delivered:"2026-06-23",platform:"Shopee"},
+  {id:"26070820394028D",date:"2026-07-08",colour:"Indigo",qty:1,total:"Rp 201,000",status:"completed",courier:"SiCepat",delivered:"2026-07-14",platform:"Shopee"},
+  {id:"26071720544158C",date:"2026-07-17",colour:"Sea-green",qty:1,total:"Rp 195,500",status:"completed",courier:"SiCepat",delivered:"2026-07-27",platform:"Shopee"},
+  {id:"26080135766877D",date:"2026-08-01",colour:"Sand",qty:4,total:"Rp 768,000",status:"returned",courier:"SiCepat",delivered:"2026-08-05",platform:"Shopee"},
+  {id:"26080772369730D",date:"2026-08-07",colour:"Sea-green",qty:1,total:"Rp 195,500",status:"completed",courier:"SiCepat",delivered:"2026-08-14",platform:"Shopee"},
+  {id:"26080821250724",date:"2026-08-21",colour:"Indigo",qty:1,total:"Rp 195,500",status:"shipped",courier:"SiCepat",delivered:"",platform:"Blibli"},
+  {id:"BLI-20260603-653432",date:"2026-06-03",colour:"Sea-green",qty:1,total:"Rp 195,500",status:"completed",courier:"JNE",delivered:"2026-06-10",platform:"Blibli"},
+  {id:"BLI-20260821-250724",date:"2026-08-21",colour:"Indigo",qty:1,total:"Rp 195,500",status:"pending",courier:"",delivered:"",platform:"Blibli"},
+  {id:"INV/20260601/MPL/278574163",date:"2026-06-01",colour:"Indigo",qty:3,total:"Rp 563,500",status:"completed",courier:"J&T Express",delivered:"2026-06-05",platform:"Tokopedia"},
+  {id:"INV/20260830/MPL/433681582",date:"2026-08-30",colour:"Sand",qty:1,total:"Rp 189,000",status:"completed",courier:"JNE",delivered:"2026-09-04",platform:"Tokopedia"},
+  {id:"IG-20260601-0001",date:"2026-06-01",colour:"Sea-green",qty:1,total:"Rp 204,000",status:"completed",courier:"JNE",delivered:"2026-06-05",platform:"Instagram"},
+  {id:"IG-20260602-0001",date:"2026-06-02",colour:"Sand",qty:1,total:"Rp 189,000",status:"cancelled",courier:"",delivered:"",platform:"Instagram"},
+  {id:"IG-20260602-0002",date:"2026-06-02",colour:"Indigo",qty:1,total:"Rp 207,000",status:"completed",courier:"J&T Express",delivered:"2026-06-06",platform:"Instagram"},
+  {id:"IG-20260811-0002",date:"2026-08-11",colour:"Sea-green",qty:1,total:"Rp 204,000",status:"completed",courier:"JNE",delivered:"2026-08-16",platform:"Instagram"},
+  {id:"IG-20260812-0001",date:"2026-08-12",colour:"Sand",qty:1,total:"Rp 204,000",status:"completed",courier:"JNE",delivered:"2026-08-17",platform:"Instagram"},
+  {id:"IG-20260904-0103",date:"2026-09-04",colour:"Sea-green",qty:1,total:"Rp 204,000",status:"completed",courier:"JNE",delivered:"2026-09-09",platform:"Instagram"},
+  {id:"113-3264477-1144406",date:"2026-08-20",colour:"Indigo",qty:1,total:"Rp 189,000",status:"completed",courier:"International",delivered:"2026-09-07",platform:"Amazon"},
+  {id:"5117752211390775752",date:"2026-06-01",colour:"Sand",qty:1,total:"Rp 179,000",status:"completed",courier:"JNE",delivered:"2026-06-04",platform:"TikTok Shop"}
+];
+
+// ── Knowledge base ────────────────────────────────────────────────────
+const KB = {
+  greeting: ["Halo! 👋 Saya Bimo, gecko daur ulang LoopCycle! How can I help you today? You can ask me about:\n• Your order status\n• Delivery & shipping\n• Product info & colours\n• Returns & refunds\n• QR traceability tag\n• Care instructions"],
+
+  product: `The **Loop Tote** is woven from recycled PET — that's 14 plastic bottles per bag, collected by registered pickers across West Java 🌿\n\n**Available colours:** Sea-green, Indigo, Sand\n**Size:** 40 × 38 × 12 cm\n**Handle drop:** 28 cm\n**Capacity:** ~16 litres\n**Price:** Rp 189,000\n**Made in:** Bandung, Indonesia`,
+
+  care: `Care is easy:\n• Wash cold with mild soap\n• Dry in the shade\n• No bleach, no tumble dryer\n\nTreat it right and your Loop Tote will last for years! ♻️`,
+
+  shipping: `Shipping times vary by platform:\n• **Shopee / TikTok Shop / Tokopedia:** 2–5 working days\n• **Website (Shopify):** 2–6 working days\n• **Blibli:** 3–7 working days\n• **Instagram order:** 3–7 working days\n• **International (Amazon):** up to 18 days\n\nCouriers we use: JNE, J&T Express, SiCepat, AnterAja.\n\nIf tracking hasn't moved in 5+ days, our team will chase the courier for you! 🦎`,
+
+  returns: `**Returns & refunds** 📦\n\nYou can request a return within 7 days of delivery if:\n• Wrong colour received\n• Bag arrived damaged\n• Item not as described\n\nOnce approved, refunds are processed within 1–3 business days. To request, just message us on the platform you ordered from, or WhatsApp our team.\n\nFor damaged items, we usually send a replacement + a Rp 25,000 voucher too! 🎁`,
+
+  qr: `Every Loop Tote has a **QR traceability tag** inside the bag 🔍\n\nScan it to see:\n• Which of our 12 hubs your 14 bottles came through\n• The picker community behind your bag\n\nIf your QR won't scan, it may be a contrast issue on the print. Message us and we'll send you the direct traceability link for your batch!`,
+
+  channels: `You can buy the Loop Tote from:\n• 🌐 **Website:** loopcycle.id (Shopify)\n• 🛒 **Shopee, Tokopedia, TikTok Shop, Blibli, Lazada**\n• 📱 **Instagram** (@loopcyclenusantara)\n• 🏪 **Bandung store** (walk-in, Bandung city)\n• 🌏 **Amazon** (international)`,
+
+  contact: `Need to reach a real human? Here's how:\n• 💬 **WhatsApp:** message our team directly\n• 📱 **Marketplace chat:** on Shopee, Tokopedia, etc.\n• 📧 **Email:** for B2B or quality complaints\n• 📸 **Instagram DM:** @loopcyclenusantara\n\nOur team usually replies within a few hours (Mon–Sat). For urgent issues, phone is fastest!`,
+
+  payment: `**Payment issues** 💳\n\nDouble-charged? Our finance team can reverse a duplicate charge within 1–2 business days.\n\nPayment methods we accept:\n• QRIS, OVO, ShopeePay, GoPay\n• Credit/debit card\n• Bank transfer (VA or manual)\n• COD (on Shopee)\n\nIf you sent payment proof on Instagram but haven't heard back, please resend — our DMs can get busy! 📬`,
+
+  about: `**LoopCycle Nusantara** is a waste-to-value social enterprise based in Bandung, founded in 2015 🌏\n\nWe bring **3,500 registered pickers** into a fair-trade recycling supply chain across **12 hubs in West Java**. Every kilo is weighed openly and paid same-day.\n\nThe Loop Tote is the part of that chain you can hold: one bag, 14 bottles. A share of every sale funds scholarships for pickers' children 🎓`,
+
+  wholesale: `Interested in bulk or B2B orders? Great! 🏢\n\nWe handle corporate event orders (80+ totes), retailer wholesale, and B2B resin purchases. Reach out via email or phone for pricing and lead times. Our B2B team usually responds within 1 business day.`
+};
+
+// ── Intent matching ────────────────────────────────────────────────────
+function findOrder(text){
+  const t = text.trim();
+  // try exact match first (normalise spaces)
+  for(const o of ORDERS){
+    if(t.toLowerCase().includes(o.id.toLowerCase())) return o;
+  }
+  return null;
+}
+
+const STATUS_LABELS = {
+  completed:"✅ Delivered",shipped:"🚚 On its way",pending:"⏳ Processing",
+  cancelled:"❌ Cancelled",returned:"↩️ Returned / refunded"
+};
+
+function orderReply(o){
+  const status = STATUS_LABELS[o.status] || o.status;
+  let msg = `**Order ${o.id}** (${o.platform})\n\n📦 **Status:** ${status}\n🎨 **Colour:** ${o.colour}\n🛍️ **Qty:** ${o.qty} tote${o.qty>1?"s":""}\n💰 **Total:** ${o.total}`;
+  if(o.courier) msg += `\n🚚 **Courier:** ${o.courier}`;
+  if(o.delivered) msg += `\n📅 **Delivered:** ${o.delivered}`;
+  if(o.status==="cancelled") msg += `\n\nIf you were charged, our team will arrange a full refund. Message us on ${o.platform} or WhatsApp! 📱`;
+  if(o.status==="returned") msg += `\n\nYour return/refund should be processed within 1–3 business days.`;
+  if(o.status==="pending"||o.status==="shipped") msg += `\n\nIf it's been over 5 days, I'd recommend contacting us so we can chase the courier for you! 🦎`;
+  return msg;
+}
+
+function classify(text){
+  const t = text.toLowerCase();
+  // order lookup
+  const order = findOrder(text);
+  if(order) return {type:"order", order};
+  // order lookup intent
+  if(/order|#lt|beli|pesanan|resi|inv\/|ig-\d|blibli|shopee|tokopedia|tiktok|amazon|number|nomor|status/i.test(t)) return {type:"order_ask"};
+  if(/halo|hello|hi |hey |apa kabar|how are|assalamualaikum|selamat/i.test(t)) return {type:"greeting"};
+  if(/return|refund|kembalikan|balikin|ganti|replace|damaged|rusak|wrong.col|salah.warna|beda.warna/i.test(t)) return {type:"returns"};
+  if(/qr|scan|traceable|trace|tag|hub|pickers/i.test(t)) return {type:"qr"};
+  if(/care|wash|clean|laundry|cuci|pakai|how.to.clean/i.test(t)) return {type:"care"};
+  if(/deliv|shipp|courier|kurir|pengiriman|how.long|berapa.lama|eta|track/i.test(t)) return {type:"shipping"};
+  if(/payment|bayar|charge|double|duplicate|bukti|proof|transfer/i.test(t)) return {type:"payment"};
+  if(/colour|color|warna|green|indigo|sand|size|ukuran|material|bahan|bottle|botol|price|harga|product|detail|spec/i.test(t)) return {type:"product"};
+  if(/buy|where|beli|shop|platform|tokopedia|lazada|shopee|tiktok|blibli|instagram|store|toko|website/i.test(t)) return {type:"channels"};
+  if(/contact|human|agent|cs|customer.service|whatsapp|email|phone|telepon|hubungi/i.test(t)) return {type:"contact"};
+  if(/about|company|loopcycle|siapa|who|founded|berdiri|social|enterprise|misi|mission/i.test(t)) return {type:"about"};
+  if(/bulk|wholesale|corporate|b2b|event|grosir|reseller|banyak|partner/i.test(t)) return {type:"wholesale"};
+  return {type:"unknown"};
+}
+
+function respond(text){
+  const intent = classify(text);
+  switch(intent.type){
+    case "order": return orderReply(intent.order);
+    case "order_ask": return "Sure! Just paste your order number and I'll look it up right away 🔍\n\nOrder numbers look like:\n• `#LT10001` (website)\n• `26060163422706B` (Shopee)\n• `INV/20260601/MPL/...` (Tokopedia)\n• `IG-20260601-0001` (Instagram)\n• `BLI-20260603-653432` (Blibli)";
+    case "greeting": return KB.greeting[0];
+    case "returns": return KB.returns;
+    case "qr": return KB.qr;
+    case "care": return KB.care;
+    case "shipping": return KB.shipping;
+    case "payment": return KB.payment;
+    case "product": return KB.product;
+    case "channels": return KB.channels;
+    case "contact": return KB.contact;
+    case "about": return KB.about;
+    case "wholesale": return KB.wholesale;
+    default:
+      return "Hmm, I didn't quite catch that! 🦎 I can help with:\n\n• **Order status** – paste your order number\n• **Shipping & delivery**\n• **Returns & refunds**\n• **Product details**\n• **QR traceability tag**\n• **Contacting the team**\n\nWhat can I help you with?";
+  }
+}
+
+// ── Quick reply chips ──────────────────────────────────────────────────
+const CHIPS = [
+  {label:"Track my order 📦", msg:"What is my order status?"},
+  {label:"Shipping times 🚚", msg:"How long does delivery take?"},
+  {label:"Returns & refunds ↩️", msg:"How do I return or get a refund?"},
+  {label:"Product details 🛍️", msg:"Tell me about the Loop Tote"},
+  {label:"Contact team 💬", msg:"How do I contact your team?"}
+];
+
+// ── UI helpers ─────────────────────────────────────────────────────────
+const win = document.getElementById("bimo-win");
+const msgs = document.getElementById("bimo-msgs");
+const inp = document.getElementById("bimo-inp");
+const quick = document.getElementById("bimo-quick");
+const badge = document.getElementById("bimo-badge");
+let opened = false;
+
+function renderMarkdown(text){
+  return text
+    .replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>")
+    .replace(/`([^`]+)`/g,"<code>$1</code>")
+    .replace(/\n/g,"<br>");
+}
+
+function addMsg(text, who){
+  const dot = msgs.querySelector(".bimo-typing");
+  if(dot) dot.remove();
+  const el = document.createElement("div");
+  el.className = "bimo-msg " + who;
+  el.innerHTML = renderMarkdown(text);
+  msgs.appendChild(el);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showTyping(){
+  const el = document.createElement("div");
+  el.className = "bimo-msg bot bimo-typing";
+  el.innerHTML = "<i></i><i></i><i></i>";
+  msgs.appendChild(el);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function send(text){
+  if(!text.trim()) return;
+  addMsg(text, "usr");
+  inp.value = "";
+  quick.innerHTML = "";
+  showTyping();
+  setTimeout(()=>{
+    addMsg(respond(text), "bot");
+    renderChips();
+  }, 600 + Math.random()*400);
+}
+
+function renderChips(){
+  quick.innerHTML = "";
+  CHIPS.slice(0,4).forEach(c=>{
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "bimo-chip";
+    b.textContent = c.label;
+    b.onclick = () => send(c.msg);
+    quick.appendChild(b);
+  });
+}
+
+// ── Open / close ───────────────────────────────────────────────────────
+document.getElementById("bimo-btn").onclick = ()=>{
+  win.classList.toggle("hide");
+  badge.style.display = "none";
+  if(!opened){
+    opened = true;
+    setTimeout(()=>{
+      addMsg(KB.greeting[0], "bot");
+      renderChips();
+    }, 300);
+  }
+  if(!win.classList.contains("hide")) inp.focus();
+};
+
+document.getElementById("bimo-close").onclick = ()=> win.classList.add("hide");
+
+document.getElementById("bimo-form").onsubmit = e=>{
+  e.preventDefault();
+  send(inp.value);
+};
+
+// Show badge after 4 s to nudge new visitors
+setTimeout(()=>{
+  if(!opened){ badge.style.display="block"; }
+}, 4000);
+
+})();
+</script>
 </body></html>
