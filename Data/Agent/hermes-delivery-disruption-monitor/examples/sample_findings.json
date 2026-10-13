@@ -1,0 +1,545 @@
+{
+  "as_of": "2026-10-13",
+  "note": "Pre-filled example findings for an offline dry run. In a live run the Hermes agent writes this file after searching.",
+  "findings": [
+    {
+      "id": "D01",
+      "type": "flood",
+      "severity": "high",
+      "affects_logistics": "yes",
+      "delay_days_low": 3,
+      "delay_days_high": 6,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Floods inundated 18 villages in 9 subdistricts after heavy rain and embankment collapses; hundreds evacuated; BMKG forecast more heavy rain for 2 days",
+      "customer_message": "Heavy rain has caused flooding in the Aceh Tamiang area and some roads are affected.",
+      "confidence": "high",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Kuala Simpang|ID"
+      ],
+      "sources": [
+        {
+          "title": "Floods Hit 18 Villages in Aceh as BMKG Warns of More Heavy Rain (Tempo, 12 Oct 2026)",
+          "url": "https://en.tempo.co/read/2121425/floods-hit-18-villages-in-aceh-as-bmkg-warns-of-more-heavy-rain",
+          "publisher": "Tempo",
+          "published": "2026-10-12"
+        },
+        {
+          "title": "Aceh Tamiang and Langkat floods displaced at least 675 residents",
+          "url": "https://kompas.id/artikel/aceh-tamiang-and-langkat-were-hit-by-floods-at-least-675-residents-were-evacuated",
+          "publisher": "Kompas",
+          "published": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "type": "heavy_rain",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 1,
+      "delay_days_high": 3,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "BMKG warned of moderate to very heavy rain in North Sumatra and Aceh 12 to 19 Oct; floods in neighbouring Langkat displaced residents",
+      "customer_message": "Heavy rain is forecast in North Sumatra this week and nearby areas have flooded, which can slow deliveries.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Medan|ID"
+      ],
+      "sources": [
+        {
+          "title": "Aceh Tamiang and Langkat floods displaced at least 675 (Kompas, 12 Oct 2026)",
+          "url": "https://kompas.id/artikel/aceh-tamiang-and-langkat-were-hit-by-floods-at-least-675-residents-were-evacuated",
+          "publisher": "Kompas",
+          "published": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "type": "flood",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 1,
+      "delay_days_high": 3,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Floods in Padang; more than 50 residents evacuated (headline-level evidence only)",
+      "customer_message": "Flooding in Padang may slow local deliveries.",
+      "confidence": "low",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Padang|ID"
+      ],
+      "sources": [
+        {
+          "title": "More Than 50 Residents Evacuated as Floods Hit Padang, West Sumatra (Tempo, ~12 Oct 2026)",
+          "url": "https://en.tempo.co/read/2121332/more-than-50-residents-evacuated-as-floods-hit-padang-west-sumatra",
+          "publisher": "Tempo",
+          "published": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "type": "fire_haze",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 1,
+      "delay_days_high": 3,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "1,673 domestic flights affected by forest fires 11 Aug to 9 Oct; South Sumatra had 71 hotspots on 7 Oct, fire reported at Banyuasin",
+      "customer_message": "Smoke from fires in South Sumatra is disrupting flights and some transport.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Palembang|ID"
+      ],
+      "sources": [
+        {
+          "title": "Forest Fires Disrupt over 1,600 Indonesian Flights Since August (Tempo, 12 Oct 2026)",
+          "url": "https://en.tempo.co/read/2121429/forest-fires-disrupt-over-1600-indonesian-flights-since-august",
+          "publisher": "Tempo",
+          "published": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "type": "fire_haze",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 2,
+      "delay_days_high": 4,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Highest hotspot count among priority provinces (182 on 7 Oct); flight disruption from low visibility",
+      "customer_message": "Smoke from fires in Central Kalimantan is disrupting flights and transport.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Palangkaraya|ID"
+      ],
+      "sources": [
+        {
+          "title": "Indonesia hotspots remain high as haze persists in Malaysia (Bernama via The Star, 7 Oct 2026)",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/07/indonesia-hotspots-remain-high-as-haze-persists-in-malaysia",
+          "publisher": "The Star (Bernama)",
+          "published": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "D06",
+      "type": "fire_haze",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 1,
+      "delay_days_high": 3,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "34 hotspots on 7 Oct; smoke drifting toward Singapore; residents sued over fire handling",
+      "customer_message": "Smoke from fires in West Kalimantan is disrupting flights and transport.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Pontianak|ID"
+      ],
+      "sources": [
+        {
+          "title": "Indonesia hotspots remain high as haze persists in Malaysia (The Star, 7 Oct 2026)",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/07/indonesia-hotspots-remain-high-as-haze-persists-in-malaysia",
+          "publisher": "The Star (Bernama)",
+          "published": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "D07",
+      "type": "fire_haze",
+      "severity": "low",
+      "affects_logistics": "unclear",
+      "delay_days_low": 0,
+      "delay_days_high": 2,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "18 hotspots on 7 Oct",
+      "customer_message": "Smoke from fires in parts of Kalimantan may cause some delays.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Banjarmasin|ID"
+      ],
+      "sources": [
+        {
+          "title": "Indonesia hotspots remain high as haze persists in Malaysia (The Star, 7 Oct 2026)",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/07/indonesia-hotspots-remain-high-as-haze-persists-in-malaysia",
+          "publisher": "The Star (Bernama)",
+          "published": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "D08",
+      "type": "volcano",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 2,
+      "delay_days_high": 4,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Mount Semeru erupted 13 times in a week (latest 13 Oct), Level 3 alert, PVMBG zone restrictions",
+      "customer_message": "Mount Semeru has been erupting and safety zones around it are affecting routes in the Lumajang area.",
+      "confidence": "high",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Lumajang|ID"
+      ],
+      "sources": [
+        {
+          "title": "Alert! Mount Semeru Erupts Again Tonight (Databoks Katadata, 13 Oct 2026)",
+          "url": "https://databoks.katadata.co.id/en/demographics/statistics/ea7ecd270e152e7/alert-mount-semeru-erupts-again-tonight-tuesday-13-october-2026",
+          "publisher": "Databoks Katadata",
+          "published": "2026-10-13"
+        },
+        {
+          "title": "Mount Semeru Erupts Continuously, Ash Plumes Reach 1 Km",
+          "url": "https://en.tempo.co/read/2121450/mount-semeru-erupts-continuously-ash-plumes-reach-1-km",
+          "publisher": "Tempo",
+          "published": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "D09",
+      "type": "volcano",
+      "severity": "low",
+      "affects_logistics": "unclear",
+      "delay_days_low": 0,
+      "delay_days_high": 2,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Anak Krakatau raised to Level III on 9 Oct after 13 eruptions; 5 km exclusion zone around the crater. Parcel impact unclear",
+      "customer_message": "A volcano in the Sunda Strait has a raised alert. We are checking whether it affects your route.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Bandar Lampung|ID"
+      ],
+      "sources": [
+        {
+          "title": "Mount Anak Krakatau Eruptions Intensify, Alert Level Raised to Watch (Tempo, 10 Oct 2026)",
+          "url": "https://en.tempo.co/read/2121281/mount-anak-krakatau-eruptions-intensify-alert-level-raised-to-watch",
+          "publisher": "Tempo",
+          "published": "2026-10-10"
+        },
+        {
+          "title": "Indonesia raises Anak Krakatau alert to Level III after 13 eruptions recorded in a day",
+          "url": "https://www.malaymail.com/news/money/2026/10/10/indonesia-raises-anak-krakatau-alert-to-level-iii-after-13-eruptions-recorded-in-a-day/238515",
+          "publisher": "Malay Mail",
+          "published": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "D10",
+      "type": "high_waves",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 1,
+      "delay_days_high": 3,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "BMKG: high waves in the Lombok Strait for the coming week, up to 1.25-2.5 m north and 2.5-4 m south",
+      "customer_message": "Rough seas are forecast around the Lombok Strait this week, which can delay ferry crossings.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Mataram|ID"
+      ],
+      "sources": [
+        {
+          "title": "BMKG Warns of High Waves in Lombok Strait Over the Next Week (Tempo, 9 Oct 2026)",
+          "url": "https://en.tempo.co/read/2121263/bmkg-warns-of-high-waves-in-lombok-strait-over-the-next-week",
+          "publisher": "Tempo",
+          "published": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "D11",
+      "type": "haze_air_quality",
+      "severity": "low",
+      "affects_logistics": "unclear",
+      "delay_days_low": 0,
+      "delay_days_high": 1,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "24-hour PSI reached 181-192 (2026 high) on 9 Oct from Sumatra and Kalimantan fires; no confirmed parcel disruption",
+      "customer_message": "Haze is affecting air quality in Singapore. We have no sign of delivery delays yet.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Singapore|SG"
+      ],
+      "sources": [
+        {
+          "title": "Singapore Haze Hits 2026 High as PSI Reaches 192 (Tempo, 9 Oct 2026)",
+          "url": "https://en.tempo.co/read/2121261/singapore-haze-hits-2026-high-as-psi-reaches-192",
+          "publisher": "Tempo",
+          "published": "2026-10-09"
+        },
+        {
+          "title": "Indonesia's Wildfire Haze Shuts Malaysian Schools, Pushes Singapore Pollution To 2026 High",
+          "url": "https://www.outlookindia.com/international/indonesias-wildfire-haze-shuts-malaysian-schools-pushes-singapore-pollution-to-2026-high",
+          "publisher": "Outlook India",
+          "published": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "D12",
+      "type": "haze_air_quality",
+      "severity": "low",
+      "affects_logistics": "unclear",
+      "delay_days_low": 0,
+      "delay_days_high": 1,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Unhealthy API readings; schools in Johor closed (7 Oct) and in several states (9 Oct); no confirmed parcel disruption",
+      "customer_message": "Haze is affecting air quality in Johor. We have no sign of delivery delays yet.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Johor Bahru|MY"
+      ],
+      "sources": [
+        {
+          "title": "Indonesia's Wildfire Haze Shuts Malaysian Schools (Outlook India, 9 Oct 2026)",
+          "url": "https://www.outlookindia.com/international/indonesias-wildfire-haze-shuts-malaysian-schools-pushes-singapore-pollution-to-2026-high",
+          "publisher": "Outlook India",
+          "published": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "D13",
+      "type": "strike",
+      "severity": "medium",
+      "affects_logistics": "yes",
+      "delay_days_low": 1,
+      "delay_days_high": 3,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "ACOD national strike on 12 Oct disrupted transport and postal services; bpost expected delays; 9 Oct strike caused about 100 flight cancellations at Brussels Airport",
+      "customer_message": "A nationwide public-sector strike in Belgium is affecting postal and transport services.",
+      "confidence": "high",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Brussels|BE",
+        "Antwerp|BE"
+      ],
+      "sources": [
+        {
+          "title": "Strike in Belgium disrupts transport and services (Anadolu via UA.NEWS, 12 Oct 2026)",
+          "url": "https://ua.news/en/world/straik-u-belgiyi-porushiv-robotu-transportu-ta-sluzhb-anadolu-agency",
+          "publisher": "Anadolu via UA.NEWS",
+          "published": "2026-10-12"
+        },
+        {
+          "title": "Belgian transport strike threatens airport access on 12 October",
+          "url": "https://aviation24.be/airports/brussels-airport-bru/belgian-transport-strike-threatens-airport-access-on-12-october",
+          "publisher": "Aviation24.be",
+          "published": "2026-10-11"
+        },
+        {
+          "title": "Nationwide strike disrupts public transport, services across Belgium",
+          "url": "https://anews.com.tr/world/2026/10/12/nationwide-strike-disrupts-public-transport-services-across-belgium",
+          "publisher": "A News",
+          "published": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "D14",
+      "type": "strike",
+      "severity": "low",
+      "affects_logistics": "unclear",
+      "delay_days_low": 0,
+      "delay_days_high": 2,
+      "delay_basis": "estimate from event type and severity (see rubric); not stated by the source",
+      "summary": "Indefinite Groundforce ground-handling strike at Barcelona-El Prat since 4 Aug 2026 (listed active 12 Oct)",
+      "customer_message": "A ground-handling strike at Barcelona airport may affect some deliveries.",
+      "confidence": "medium",
+      "verified": true,
+      "observed_at": "2026-10-13",
+      "affected_destinations": [
+        "Barcelona|ES"
+      ],
+      "sources": [
+        {
+          "title": "Spain transport strikes, October 2026 (Strike Tracker)",
+          "url": "https://striketracker.app/strikes-in-spain",
+          "publisher": "Strike Tracker",
+          "published": "2026-10-12"
+        }
+      ]
+    }
+  ],
+  "destinations_checked": [
+    {
+      "key": "Antwerp|BE",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Bandar Lampung|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Bandung|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Banjarmasin|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Barcelona|ES",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Bekasi|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Bogor|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Brussels|BE",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Cimahi|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Depok|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Jakarta|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Johor Bahru|MY",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Kuala Simpang|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Lumajang|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Makassar|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Mataram|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Medan|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Melbourne|AU",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Padang|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Palangkaraya|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Palembang|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Pontianak|ID",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Semarang|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Singapore|SG",
+      "result": "disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Solo|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Surabaya|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Sydney|AU",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Tangerang|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Tokyo|JP",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    },
+    {
+      "key": "Yogyakarta|ID",
+      "result": "no_disruption_found",
+      "queries_tried": 4
+    }
+  ]
+}

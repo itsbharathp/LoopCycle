@@ -1,0 +1,1911 @@
+{
+  "as_of": "2026-10-13",
+  "orders_total": 100,
+  "orders_in_scope": 100,
+  "statuses_in_scope": [
+    "in-transit",
+    "ordered",
+    "packed"
+  ],
+  "destinations": [
+    {
+      "key": "Bandung|ID",
+      "city": "Bandung",
+      "province_state": "West Java",
+      "country": "ID",
+      "latitude": "-6.9175",
+      "longitude": "107.6191",
+      "orders": 9,
+      "order_ids": [
+        "#LT10930",
+        "26101232739684D",
+        "26101239238461G",
+        "26101326344805Y",
+        "#LT10931",
+        "INV/20261013/MPL/002093444",
+        "IG-20261013-0005",
+        "#LT10929",
+        "512020790176875272"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Packed": 4,
+        "Ordered": 4
+      },
+      "couriers": [
+        "J&T Express",
+        "JNE",
+        "Shopee Xpress / platform courier",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "TikTok Shop",
+        "Tokopedia",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Medan|ID",
+      "city": "Medan",
+      "province_state": "North Sumatra",
+      "country": "ID",
+      "latitude": "3.5952",
+      "longitude": "98.6722",
+      "orders": 3,
+      "order_ids": [
+        "INV/20261012/MPL/443598629",
+        "26101258789516E",
+        "#LT10918"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Packed": 2
+      },
+      "couriers": [
+        "J&T Express"
+      ],
+      "platforms": [
+        "Shopee",
+        "Tokopedia",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Brussels|BE",
+      "city": "Brussels",
+      "province_state": "Brussels-Capital",
+      "country": "BE",
+      "latitude": "50.8503",
+      "longitude": "4.3517",
+      "orders": 2,
+      "order_ids": [
+        "113-4592369-4359877",
+        "113-3157265-1597178"
+      ],
+      "status_counts": {
+        "In-Transit": 2
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-20"
+    },
+    {
+      "key": "Tangerang|ID",
+      "city": "Tangerang",
+      "province_state": "Banten",
+      "country": "ID",
+      "latitude": "-6.1783",
+      "longitude": "106.6319",
+      "orders": 4,
+      "order_ids": [
+        "#LT10937",
+        "#LT10936",
+        "#LT10935",
+        "INV/20261013/MPL/829538573"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 2,
+        "Packed": 1
+      },
+      "couriers": [
+        "AnterAja",
+        "JNE",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Tokopedia",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Bekasi|ID",
+      "city": "Bekasi",
+      "province_state": "West Java",
+      "country": "ID",
+      "latitude": "-6.2383",
+      "longitude": "106.9756",
+      "orders": 6,
+      "order_ids": [
+        "IG-20261012-0006",
+        "INV/20261012/MPL/802504991",
+        "26101246630369Q",
+        "IG-20261012-0007",
+        "IG-20261012-0008",
+        "#LT10932"
+      ],
+      "status_counts": {
+        "In-Transit": 3,
+        "Packed": 2,
+        "Ordered": 1
+      },
+      "couriers": [
+        "J&T Express",
+        "JNE",
+        "Shopee Xpress / platform courier",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "Tokopedia",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Jakarta|ID",
+      "city": "Jakarta",
+      "province_state": "DKI Jakarta",
+      "country": "ID",
+      "latitude": "-6.2088",
+      "longitude": "106.8456",
+      "orders": 18,
+      "order_ids": [
+        "IG-20261012-0005",
+        "26101277077705Y",
+        "#LT10928",
+        "26101239165420A",
+        "IG-20261012-0004",
+        "IG-20261012-0003",
+        "26101347872021P",
+        "26101371142804S",
+        "26101322401540S",
+        "IG-20261013-0002",
+        "26101310861321N",
+        "#LT10925",
+        "IG-20261013-0003",
+        "IG-20261013-0004",
+        "#LT10927",
+        "26101385194421W",
+        "544798870951983826",
+        "#LT10926"
+      ],
+      "status_counts": {
+        "In-Transit": 4,
+        "Packed": 8,
+        "Ordered": 6
+      },
+      "couriers": [
+        "AnterAja",
+        "J&T Express",
+        "JNE",
+        "Shopee Xpress / platform courier",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "TikTok Shop",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Singapore|SG",
+      "city": "Singapore",
+      "province_state": "Singapore",
+      "country": "SG",
+      "latitude": "1.3521",
+      "longitude": "103.8198",
+      "orders": 3,
+      "order_ids": [
+        "113-6796263-5741273",
+        "113-2442103-1885373",
+        "113-0911540-5607476"
+      ],
+      "status_counts": {
+        "In-Transit": 2,
+        "Ordered": 1
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Padang|ID",
+      "city": "Padang",
+      "province_state": "West Sumatra",
+      "country": "ID",
+      "latitude": "-0.9471",
+      "longitude": "100.4172",
+      "orders": 2,
+      "order_ids": [
+        "929108731301744",
+        "014215274634648"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "AnterAja",
+        "J&T Express"
+      ],
+      "platforms": [
+        "Lazada"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Melbourne|AU",
+      "city": "Melbourne",
+      "province_state": "Victoria",
+      "country": "AU",
+      "latitude": "-37.8136",
+      "longitude": "144.9631",
+      "orders": 1,
+      "order_ids": [
+        "113-2590041-4377305"
+      ],
+      "status_counts": {
+        "In-Transit": 1
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-20"
+    },
+    {
+      "key": "Depok|ID",
+      "city": "Depok",
+      "province_state": "West Java",
+      "country": "ID",
+      "latitude": "-6.4025",
+      "longitude": "106.7942",
+      "orders": 4,
+      "order_ids": [
+        "26101219969342A",
+        "IG-20261012-0009",
+        "#LT10934",
+        "#LT10933"
+      ],
+      "status_counts": {
+        "In-Transit": 2,
+        "Packed": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "AnterAja",
+        "J&T Express",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Surabaya|ID",
+      "city": "Surabaya",
+      "province_state": "East Java",
+      "country": "ID",
+      "latitude": "-7.2575",
+      "longitude": "112.7521",
+      "orders": 6,
+      "order_ids": [
+        "#LT10940",
+        "596096950924601796",
+        "IG-20261013-0006",
+        "26101329144646Q",
+        "#LT10941",
+        "26101301429575G"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Packed": 1,
+        "Ordered": 4
+      },
+      "couriers": [
+        "J&T Express",
+        "JNE",
+        "Shopee Xpress / platform courier",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "TikTok Shop",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Mataram|ID",
+      "city": "Mataram",
+      "province_state": "West Nusa Tenggara",
+      "country": "ID",
+      "latitude": "-8.5833",
+      "longitude": "116.1167",
+      "orders": 2,
+      "order_ids": [
+        "IG-20261012-0002",
+        "INV/20261013/MPL/386672610"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Packed": 1
+      },
+      "couriers": [
+        "AnterAja",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Tokopedia"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Pontianak|ID",
+      "city": "Pontianak",
+      "province_state": "West Kalimantan",
+      "country": "ID",
+      "latitude": "-0.0263",
+      "longitude": "109.3425",
+      "orders": 2,
+      "order_ids": [
+        "#LT10922",
+        "570439995282543"
+      ],
+      "status_counts": {
+        "Packed": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "AnterAja",
+        "JNE"
+      ],
+      "platforms": [
+        "Lazada",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Bogor|ID",
+      "city": "Bogor",
+      "province_state": "West Java",
+      "country": "ID",
+      "latitude": "-6.595",
+      "longitude": "106.8166",
+      "orders": 4,
+      "order_ids": [
+        "INV/20261012/MPL/883528919",
+        "#LT10938",
+        "BLI-20261012-500944",
+        "#LT10939"
+      ],
+      "status_counts": {
+        "Packed": 3,
+        "In-Transit": 1
+      },
+      "couriers": [
+        "SiCepat"
+      ],
+      "platforms": [
+        "Blibli",
+        "Tokopedia",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Cimahi|ID",
+      "city": "Cimahi",
+      "province_state": "West Java",
+      "country": "ID",
+      "latitude": "-6.8722",
+      "longitude": "107.5425",
+      "orders": 3,
+      "order_ids": [
+        "26101230096413P",
+        "IG-20261012-0010",
+        "INV/20261013/MPL/454664734"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 2
+      },
+      "couriers": [
+        "AnterAja",
+        "JNE"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "Tokopedia"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Yogyakarta|ID",
+      "city": "Yogyakarta",
+      "province_state": "DI Yogyakarta",
+      "country": "ID",
+      "latitude": "-7.7956",
+      "longitude": "110.3695",
+      "orders": 3,
+      "order_ids": [
+        "26101272563830T",
+        "IG-20261012-0011",
+        "IG-20261013-0008"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 2
+      },
+      "couriers": [
+        "J&T Express",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Johor Bahru|MY",
+      "city": "Johor Bahru",
+      "province_state": "Johor",
+      "country": "MY",
+      "latitude": "1.4927",
+      "longitude": "103.7414",
+      "orders": 2,
+      "order_ids": [
+        "113-0795064-4457725",
+        "113-1794115-5996508"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Bandar Lampung|ID",
+      "city": "Bandar Lampung",
+      "province_state": "Lampung",
+      "country": "ID",
+      "latitude": "-5.45",
+      "longitude": "105.2667",
+      "orders": 2,
+      "order_ids": [
+        "#LT10924",
+        "INV/20261013/MPL/025779008"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "JNE",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Tokopedia",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Lumajang|ID",
+      "city": "Lumajang",
+      "province_state": "East Java",
+      "country": "ID",
+      "latitude": "-8.1335",
+      "longitude": "113.2246",
+      "orders": 2,
+      "order_ids": [
+        "26101248464378N",
+        "26101277340650Q"
+      ],
+      "status_counts": {
+        "In-Transit": 2
+      },
+      "couriers": [
+        "J&T Express"
+      ],
+      "platforms": [
+        "Shopee"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-20"
+    },
+    {
+      "key": "Palangkaraya|ID",
+      "city": "Palangkaraya",
+      "province_state": "Central Kalimantan",
+      "country": "ID",
+      "latitude": "-2.21",
+      "longitude": "113.913",
+      "orders": 2,
+      "order_ids": [
+        "#LT10921",
+        "#LT10920"
+      ],
+      "status_counts": {
+        "Packed": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "J&T Express",
+        "JNE"
+      ],
+      "platforms": [
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Semarang|ID",
+      "city": "Semarang",
+      "province_state": "Central Java",
+      "country": "ID",
+      "latitude": "-6.9667",
+      "longitude": "110.4167",
+      "orders": 4,
+      "order_ids": [
+        "26101265085396U",
+        "#LT10942",
+        "530193959838387779",
+        "IG-20261013-0007"
+      ],
+      "status_counts": {
+        "In-Transit": 2,
+        "Packed": 2
+      },
+      "couriers": [
+        "JNE",
+        "Shopee Xpress / platform courier",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Shopee",
+        "TikTok Shop",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Palembang|ID",
+      "city": "Palembang",
+      "province_state": "South Sumatra",
+      "country": "ID",
+      "latitude": "-2.9761",
+      "longitude": "104.7754",
+      "orders": 3,
+      "order_ids": [
+        "#LT10919",
+        "IG-20261012-0001",
+        "IG-20261013-0001"
+      ],
+      "status_counts": {
+        "In-Transit": 1,
+        "Ordered": 2
+      },
+      "couriers": [
+        "J&T Express",
+        "SiCepat"
+      ],
+      "platforms": [
+        "Instagram (DM/WhatsApp)",
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Tokyo|JP",
+      "city": "Tokyo",
+      "province_state": "Tokyo",
+      "country": "JP",
+      "latitude": "35.6762",
+      "longitude": "139.6503",
+      "orders": 2,
+      "order_ids": [
+        "113-5383429-9106386",
+        "113-0546850-2482636"
+      ],
+      "status_counts": {
+        "Packed": 2
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-20",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Sydney|AU",
+      "city": "Sydney",
+      "province_state": "New South Wales",
+      "country": "AU",
+      "latitude": "-33.8688",
+      "longitude": "151.2093",
+      "orders": 2,
+      "order_ids": [
+        "113-8947716-4537667",
+        "113-8677973-4327872"
+      ],
+      "status_counts": {
+        "Packed": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Antwerp|BE",
+      "city": "Antwerp",
+      "province_state": "Flanders",
+      "country": "BE",
+      "latitude": "51.2194",
+      "longitude": "4.4025",
+      "orders": 1,
+      "order_ids": [
+        "113-4211263-1613655"
+      ],
+      "status_counts": {
+        "Packed": 1
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Barcelona|ES",
+      "city": "Barcelona",
+      "province_state": "Catalonia",
+      "country": "ES",
+      "latitude": "41.3874",
+      "longitude": "2.1686",
+      "orders": 2,
+      "order_ids": [
+        "113-3654662-5319947",
+        "113-7237704-9801107"
+      ],
+      "status_counts": {
+        "Ordered": 1,
+        "Packed": 1
+      },
+      "couriers": [
+        "DHL eCommerce"
+      ],
+      "platforms": [
+        "Amazon"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Kuala Simpang|ID",
+      "city": "Kuala Simpang",
+      "province_state": "Aceh",
+      "country": "ID",
+      "latitude": "4.2679",
+      "longitude": "98.0486",
+      "orders": 2,
+      "order_ids": [
+        "#LT10917",
+        "#LT10916"
+      ],
+      "status_counts": {
+        "Packed": 2
+      },
+      "couriers": [
+        "J&T Express"
+      ],
+      "platforms": [
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Solo|ID",
+      "city": "Solo",
+      "province_state": "Central Java",
+      "country": "ID",
+      "latitude": "-7.5755",
+      "longitude": "110.8243",
+      "orders": 2,
+      "order_ids": [
+        "INV/20261013/MPL/315769640",
+        "553221646172009842"
+      ],
+      "status_counts": {
+        "Packed": 1,
+        "Ordered": 1
+      },
+      "couriers": [
+        "AnterAja",
+        "SiCepat"
+      ],
+      "platforms": [
+        "TikTok Shop",
+        "Tokopedia"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Makassar|ID",
+      "city": "Makassar",
+      "province_state": "South Sulawesi",
+      "country": "ID",
+      "latitude": "-5.1477",
+      "longitude": "119.4327",
+      "orders": 1,
+      "order_ids": [
+        "#LT10943"
+      ],
+      "status_counts": {
+        "Packed": 1
+      },
+      "couriers": [
+        "JNE"
+      ],
+      "platforms": [
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    },
+    {
+      "key": "Banjarmasin|ID",
+      "city": "Banjarmasin",
+      "province_state": "South Kalimantan",
+      "country": "ID",
+      "latitude": "-3.3194",
+      "longitude": "114.5908",
+      "orders": 1,
+      "order_ids": [
+        "#LT10923"
+      ],
+      "status_counts": {
+        "Ordered": 1
+      },
+      "couriers": [
+        "SiCepat"
+      ],
+      "platforms": [
+        "Website (Shopify)"
+      ],
+      "earliest_expected_delivery": "2026-10-21",
+      "latest_expected_delivery": "2026-10-21"
+    }
+  ],
+  "search_groups": [
+    {
+      "group": "West Java",
+      "country": "ID",
+      "destination_keys": [
+        "Bandung|ID",
+        "Bekasi|ID",
+        "Depok|ID",
+        "Bogor|ID",
+        "Cimahi|ID"
+      ],
+      "orders": 26,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "West Java Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "West Java Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "West Java Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini West Java hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan West Java hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay West Java October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay West Java October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "North Sumatra",
+      "country": "ID",
+      "destination_keys": [
+        "Medan|ID"
+      ],
+      "orders": 3,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "North Sumatra Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "North Sumatra Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "North Sumatra Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini North Sumatra hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan North Sumatra hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay North Sumatra October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Brussels-Capital",
+      "country": "BE",
+      "destination_keys": [
+        "Brussels|BE"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Brussels-Capital Belgium flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Brussels-Capital Belgium strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Brussels-Capital Belgium haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Belgium postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Brussels-Capital October 2026"
+        }
+      ],
+      "source_hints": [
+        "bpost service notices",
+        "Brussels Airport advisories",
+        "national unions' strike calendars via credible news"
+      ]
+    },
+    {
+      "group": "Banten",
+      "country": "ID",
+      "destination_keys": [
+        "Tangerang|ID"
+      ],
+      "orders": 4,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Banten Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Banten Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Banten Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini Banten hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan Banten hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay Banten October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay Banten October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "DKI Jakarta",
+      "country": "ID",
+      "destination_keys": [
+        "Jakarta|ID"
+      ],
+      "orders": 18,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "DKI Jakarta Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "DKI Jakarta Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "DKI Jakarta Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini DKI Jakarta hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan DKI Jakarta hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay DKI Jakarta October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay DKI Jakarta October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Singapore",
+      "country": "SG",
+      "destination_keys": [
+        "Singapore|SG"
+      ],
+      "orders": 3,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Singapore Singapore flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Singapore Singapore strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Singapore Singapore haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Singapore postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Singapore October 2026"
+        }
+      ],
+      "source_hints": [
+        "NEA (air quality, PSI)",
+        "Changi Airport and Singapore Post notices"
+      ]
+    },
+    {
+      "group": "West Sumatra",
+      "country": "ID",
+      "destination_keys": [
+        "Padang|ID"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "West Sumatra Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "West Sumatra Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "West Sumatra Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini West Sumatra hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan West Sumatra hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay West Sumatra October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay West Sumatra October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Victoria",
+      "country": "AU",
+      "destination_keys": [
+        "Melbourne|AU"
+      ],
+      "orders": 1,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Victoria Australia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Victoria Australia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Victoria Australia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Australia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Victoria October 2026"
+        }
+      ],
+      "source_hints": [
+        "Bureau of Meteorology warnings",
+        "Australia Post service alerts"
+      ]
+    },
+    {
+      "group": "East Java",
+      "country": "ID",
+      "destination_keys": [
+        "Surabaya|ID",
+        "Lumajang|ID"
+      ],
+      "orders": 8,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "East Java Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "East Java Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "East Java Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini East Java hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan East Java hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay East Java October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay East Java October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "West Nusa Tenggara",
+      "country": "ID",
+      "destination_keys": [
+        "Mataram|ID"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "West Nusa Tenggara Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "West Nusa Tenggara Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "West Nusa Tenggara Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini West Nusa Tenggara hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan West Nusa Tenggara hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay West Nusa Tenggara October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "SiCepat delivery delay West Nusa Tenggara October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "West Kalimantan",
+      "country": "ID",
+      "destination_keys": [
+        "Pontianak|ID"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "West Kalimantan Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "West Kalimantan Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "West Kalimantan Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini West Kalimantan hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan West Kalimantan hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay West Kalimantan October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay West Kalimantan October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "DI Yogyakarta",
+      "country": "ID",
+      "destination_keys": [
+        "Yogyakarta|ID"
+      ],
+      "orders": 3,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "DI Yogyakarta Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "DI Yogyakarta Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "DI Yogyakarta Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini DI Yogyakarta hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan DI Yogyakarta hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay DI Yogyakarta October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "SiCepat delivery delay DI Yogyakarta October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Johor",
+      "country": "MY",
+      "destination_keys": [
+        "Johor Bahru|MY"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Johor Malaysia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Johor Malaysia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Johor Malaysia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Malaysia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Johor October 2026"
+        }
+      ],
+      "source_hints": [
+        "MetMalaysia",
+        "Department of Environment (API)",
+        "Pos Malaysia notices"
+      ]
+    },
+    {
+      "group": "Lampung",
+      "country": "ID",
+      "destination_keys": [
+        "Bandar Lampung|ID"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Lampung Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Lampung Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Lampung Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini Lampung hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan Lampung hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay Lampung October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "SiCepat delivery delay Lampung October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Central Kalimantan",
+      "country": "ID",
+      "destination_keys": [
+        "Palangkaraya|ID"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Central Kalimantan Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Central Kalimantan Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Central Kalimantan Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini Central Kalimantan hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan Central Kalimantan hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay Central Kalimantan October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay Central Kalimantan October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Central Java",
+      "country": "ID",
+      "destination_keys": [
+        "Semarang|ID",
+        "Solo|ID"
+      ],
+      "orders": 6,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Central Java Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Central Java Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Central Java Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini Central Java hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan Central Java hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "AnterAja delivery delay Central Java October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay Central Java October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "South Sumatra",
+      "country": "ID",
+      "destination_keys": [
+        "Palembang|ID"
+      ],
+      "orders": 3,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "South Sumatra Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "South Sumatra Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "South Sumatra Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini South Sumatra hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan South Sumatra hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay South Sumatra October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "SiCepat delivery delay South Sumatra October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "Tokyo",
+      "country": "JP",
+      "destination_keys": [
+        "Tokyo|JP"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Tokyo Japan flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Tokyo Japan strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Tokyo Japan haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Japan postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Tokyo October 2026"
+        }
+      ],
+      "source_hints": [
+        "Japan Meteorological Agency",
+        "Japan Post service notices"
+      ]
+    },
+    {
+      "group": "New South Wales",
+      "country": "AU",
+      "destination_keys": [
+        "Sydney|AU"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "New South Wales Australia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "New South Wales Australia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "New South Wales Australia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Australia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay New South Wales October 2026"
+        }
+      ],
+      "source_hints": [
+        "Bureau of Meteorology warnings",
+        "Australia Post service alerts"
+      ]
+    },
+    {
+      "group": "Flanders",
+      "country": "BE",
+      "destination_keys": [
+        "Antwerp|BE"
+      ],
+      "orders": 1,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Flanders Belgium flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Flanders Belgium strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Flanders Belgium haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Belgium postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Flanders October 2026"
+        }
+      ],
+      "source_hints": [
+        "bpost service notices",
+        "Brussels Airport advisories",
+        "national unions' strike calendars via credible news"
+      ]
+    },
+    {
+      "group": "Catalonia",
+      "country": "ES",
+      "destination_keys": [
+        "Barcelona|ES"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Catalonia Spain flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Catalonia Spain strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Catalonia Spain haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Spain postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "DHL eCommerce delivery delay Catalonia October 2026"
+        }
+      ],
+      "source_hints": [
+        "AENA airport notices",
+        "Correos notices",
+        "strike trackers backed by news reports"
+      ]
+    },
+    {
+      "group": "Aceh",
+      "country": "ID",
+      "destination_keys": [
+        "Kuala Simpang|ID"
+      ],
+      "orders": 2,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "Aceh Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "Aceh Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "Aceh Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini Aceh hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan Aceh hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "J&T Express delivery delay Aceh October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "South Sulawesi",
+      "country": "ID",
+      "destination_keys": [
+        "Makassar|ID"
+      ],
+      "orders": 1,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "South Sulawesi Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "South Sulawesi Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "South Sulawesi Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini South Sulawesi hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan South Sulawesi hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "JNE delivery delay South Sulawesi October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    },
+    {
+      "group": "South Kalimantan",
+      "country": "ID",
+      "destination_keys": [
+        "Banjarmasin|ID"
+      ],
+      "orders": 1,
+      "queries": [
+        {
+          "purpose": "natural hazards",
+          "query": "South Kalimantan Indonesia flood OR storm OR landslide OR earthquake OR volcano warning October 2026"
+        },
+        {
+          "purpose": "strikes and unrest",
+          "query": "South Kalimantan Indonesia strike OR protest OR unrest OR road closure October 2026"
+        },
+        {
+          "purpose": "air quality and fires",
+          "query": "South Kalimantan Indonesia haze OR wildfire OR air quality alert October 2026"
+        },
+        {
+          "purpose": "national logistics",
+          "query": "Indonesia postal OR courier OR airport OR port strike OR delay October 2026"
+        },
+        {
+          "purpose": "official weather (Indonesian)",
+          "query": "BMKG peringatan dini South Kalimantan hari ini"
+        },
+        {
+          "purpose": "local disasters (Indonesian)",
+          "query": "banjir OR longsor OR erupsi OR kebakaran hutan South Kalimantan hari ini"
+        },
+        {
+          "purpose": "courier notices",
+          "query": "SiCepat delivery delay South Kalimantan October 2026"
+        }
+      ],
+      "source_hints": [
+        "BMKG (weather and sea conditions)",
+        "BNPB (disasters)",
+        "PVMBG / MAGMA Indonesia (volcanoes)",
+        "Kemenhub and airport notices",
+        "courier service notices (JNE, J&T, SiCepat, AnterAja)"
+      ]
+    }
+  ]
+}

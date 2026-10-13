@@ -1,0 +1,101 @@
+order_id,destination_city,destination_country,status,expected_delivery_date,disrupted_destination,disruption_id,disruption_type,reference_delay_days_low,reference_delay_days_high,reference_revised_eta_low,reference_revised_eta_high,suggested_action
+#LT10930,Bandung,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+INV/20261012/MPL/443598629,Medan,ID,In-Transit,2026-10-20,yes,D02,Heavy rain warning and nearby floods,1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+113-4592369-4359877,Brussels,BE,In-Transit,2026-10-20,yes,D13,"Nationwide public-sector strike (post, rail, airport ground handling)",1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+#LT10937,Tangerang,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0006,Bekasi,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0005,Jakarta,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101277077705Y,Jakarta,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+INV/20261012/MPL/802504991,Bekasi,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+#LT10928,Jakarta,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+113-6796263-5741273,Singapore,SG,In-Transit,2026-10-20,yes,D11,Transboundary haze (air quality),0,1,2026-10-20,2026-10-21,Monitor only; no customer email needed
+26101246630369Q,Bekasi,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+113-2442103-1885373,Singapore,SG,In-Transit,2026-10-20,yes,D11,Transboundary haze (air quality),0,1,2026-10-20,2026-10-21,Monitor only; no customer email needed
+929108731301744,Padang,ID,In-Transit,2026-10-20,yes,D03,Flood,1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+113-2590041-4377305,Melbourne,AU,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101219969342A,Depok,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+113-3157265-1597178,Brussels,BE,In-Transit,2026-10-20,yes,D13,"Nationwide public-sector strike (post, rail, airport ground handling)",1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+#LT10940,Surabaya,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0002,Mataram,ID,In-Transit,2026-10-20,yes,D10,High waves (sea crossing),1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+#LT10922,Pontianak,ID,Packed,2026-10-20,yes,D06,Forest fires and haze,1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+INV/20261012/MPL/883528919,Bogor,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0009,Depok,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101230096413P,Cimahi,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101239165420A,Jakarta,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101272563830T,Yogyakarta,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+113-0795064-4457725,Johor Bahru,MY,In-Transit,2026-10-20,yes,D12,Transboundary haze (air quality),0,1,2026-10-20,2026-10-21,Monitor only; no customer email needed
+#LT10924,Bandar Lampung,ID,In-Transit,2026-10-20,yes,D09,Volcanic eruption (Sunda Strait),0,2,2026-10-20,2026-10-22,Monitor; email only if tracking stalls
+26101248464378N,Lumajang,ID,In-Transit,2026-10-20,yes,D08,Volcanic eruption,2,4,2026-10-22,2026-10-26,Email customer with revised ETA
+#LT10921,Palangkaraya,ID,Packed,2026-10-20,yes,D05,Forest fires and haze,2,4,2026-10-22,2026-10-26,Email customer with revised ETA
+26101277340650Q,Lumajang,ID,In-Transit,2026-10-20,yes,D08,Volcanic eruption,2,4,2026-10-22,2026-10-26,Email customer with revised ETA
+#LT10938,Bogor,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101265085396U,Semarang,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+#LT10919,Palembang,ID,In-Transit,2026-10-20,yes,D04,Forest fires and haze (air and road disruption),1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+#LT10942,Semarang,ID,In-Transit,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+BLI-20261012-500944,Bogor,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0007,Bekasi,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101232739684D,Bandung,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101258789516E,Medan,ID,Packed,2026-10-20,yes,D02,Heavy rain warning and nearby floods,1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+IG-20261012-0004,Jakarta,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+113-5383429-9106386,Tokyo,JP,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0008,Bekasi,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0003,Jakarta,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+530193959838387779,Semarang,ID,Packed,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0011,Yogyakarta,ID,Ordered,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+IG-20261012-0001,Palembang,ID,Ordered,2026-10-20,yes,D04,Forest fires and haze (air and road disruption),1,3,2026-10-21,2026-10-23,Email customer with revised ETA
+IG-20261012-0010,Cimahi,ID,Ordered,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+26101239238461G,Bandung,ID,Ordered,2026-10-20,no,,,,,,,No disruption identified at build time; no action
+113-0911540-5607476,Singapore,SG,Ordered,2026-10-21,yes,D11,Transboundary haze (air quality),0,1,2026-10-21,2026-10-22,Monitor only; no customer email needed
+113-0546850-2482636,Tokyo,JP,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+113-8947716-4537667,Sydney,AU,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+26101326344805Y,Bandung,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+IG-20261013-0008,Yogyakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+INV/20261013/MPL/386672610,Mataram,ID,Packed,2026-10-21,yes,D10,High waves (sea crossing),1,3,2026-10-22,2026-10-26,Email customer with revised ETA
+#LT10939,Bogor,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+113-4211263-1613655,Antwerp,BE,Packed,2026-10-21,yes,D13,"Nationwide public-sector strike (post, rail, airport ground handling)",1,3,2026-10-22,2026-10-26,Email customer with revised ETA
+#LT10936,Tangerang,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+570439995282543,Pontianak,ID,Ordered,2026-10-21,yes,D06,Forest fires and haze,1,3,2026-10-22,2026-10-26,Email customer with revised ETA
+26101347872021P,Jakarta,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+26101371142804S,Jakarta,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10931,Bandung,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10935,Tangerang,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+113-3654662-5319947,Barcelona,ES,Ordered,2026-10-21,yes,D14,Airport ground-handling strike,0,2,2026-10-21,2026-10-23,Monitor; email if shipment is held
+#LT10917,Kuala Simpang,ID,Packed,2026-10-21,yes,D01,Flood,3,6,2026-10-26,2026-10-29,Email customer with revised ETA
+26101322401540S,Jakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+IG-20261013-0002,Jakarta,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+INV/20261013/MPL/002093444,Bandung,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+596096950924601796,Surabaya,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+113-7237704-9801107,Barcelona,ES,Packed,2026-10-21,yes,D14,Airport ground-handling strike,0,2,2026-10-21,2026-10-23,Monitor; email if shipment is held
+#LT10934,Depok,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+INV/20261013/MPL/315769640,Solo,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+26101310861321N,Jakarta,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10925,Jakarta,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+IG-20261013-0003,Jakarta,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+IG-20261013-0005,Bandung,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10916,Kuala Simpang,ID,Packed,2026-10-21,yes,D01,Flood,3,6,2026-10-26,2026-10-29,Email customer with revised ETA
+#LT10918,Medan,ID,Packed,2026-10-21,yes,D02,Heavy rain warning and nearby floods,1,3,2026-10-22,2026-10-26,Email customer with revised ETA
+IG-20261013-0007,Semarang,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10933,Depok,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10929,Bandung,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10943,Makassar,ID,Packed,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10932,Bekasi,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+INV/20261013/MPL/829538573,Tangerang,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+IG-20261013-0004,Jakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10927,Jakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+014215274634648,Padang,ID,Ordered,2026-10-21,yes,D03,Flood,1,3,2026-10-22,2026-10-26,Email customer with revised ETA
+IG-20261013-0006,Surabaya,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+INV/20261013/MPL/454664734,Cimahi,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+INV/20261013/MPL/025779008,Bandar Lampung,ID,Ordered,2026-10-21,yes,D09,Volcanic eruption (Sunda Strait),0,2,2026-10-21,2026-10-23,Monitor; email only if tracking stalls
+IG-20261013-0001,Palembang,ID,Ordered,2026-10-21,yes,D04,Forest fires and haze (air and road disruption),1,3,2026-10-22,2026-10-26,Email customer with revised ETA
+26101385194421W,Jakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+113-1794115-5996508,Johor Bahru,MY,Ordered,2026-10-21,yes,D12,Transboundary haze (air quality),0,1,2026-10-21,2026-10-22,Monitor only; no customer email needed
+26101329144646Q,Surabaya,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+113-8677973-4327872,Sydney,AU,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+544798870951983826,Jakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+553221646172009842,Solo,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+512020790176875272,Bandung,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10923,Banjarmasin,ID,Ordered,2026-10-21,yes,D07,Forest fires and haze,0,2,2026-10-21,2026-10-23,Monitor; email only if tracking stalls
+#LT10926,Jakarta,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+#LT10920,Palangkaraya,ID,Ordered,2026-10-21,yes,D05,Forest fires and haze,2,4,2026-10-23,2026-10-27,Email customer with revised ETA
+#LT10941,Surabaya,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
+26101301429575G,Surabaya,ID,Ordered,2026-10-21,no,,,,,,,No disruption identified at build time; no action
